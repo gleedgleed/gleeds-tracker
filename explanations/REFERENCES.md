@@ -1,0 +1,1975 @@
+# Per-check references
+
+This file documents the source(s) used to author each explanation in this folder.
+
+## Universal sources (used for every check)
+
+- **TPR Wiki — *List of Randomizer Checks***, fetched as raw wikitext via the `&action=raw` URL parameter to avoid HTML-fetch truncation: <https://wiki.tprandomizer.com/index.php?title=List_of_Randomizer_Checks&action=raw>. The wiki page organises checks into named sections (*Treasure Chests/Event Items*, *Dungeons*, *Items from NPCs*, *Golden Bugs*, *Poes*, *Skybook Characters*, *Shop Items*, *Hidden Skills*, *Freestanding Rupees*, *Hidden Rupees*); each check below is annotated with the section it was sourced from.
+- **Randomizer-Web-Generator world graph** (`Randomizer-Web-Generator-main/Generator/World/Rooms/**/*.jsonc`) — used for the canonical check → room mapping (every check is annotated below with the file it lives in).
+
+## Authored-from-knowledge entries
+
+The following checks were authored from direct gameplay knowledge rather than the wiki (either no wiki entry existed, or the wiki gave only a one-line stub like “Dropped by the boss once it is defeated”):
+
+- Arbiters Grounds Dungeon Reward
+- Arbiters Grounds Stallord
+- Arbiters Grounds Stallord Heart Container
+- Bridge of Eldin Portal
+- Castle Town Portal
+- City in The Sky Argorok
+- City in The Sky Argorok Heart Container
+- City in The Sky Dungeon Reward
+- Death Mountain Portal
+- Forest Temple Diababa
+- Forest Temple Diababa Heart Container
+- Forest Temple Dungeon Reward
+- Gerudo Desert Portal
+- Goron Mines Dungeon Reward
+- Goron Mines Fyrus
+- Goron Mines Fyrus Heart Container
+- Hyrule Castle Ganondorf
+- Kakariko Gorge Portal
+- Kakariko Village Portal
+- Lake Hylia Portal
+- Lakebed Temple Dungeon Reward
+- Lakebed Temple Morpheel
+- Lakebed Temple Morpheel Heart Container
+- Mirror Chamber Portal
+- North Faron Portal
+- Palace of Twilight Zant
+- Palace of Twilight Zant Heart Container
+- Sacred Grove Portal
+- Snowpeak Portal
+- Snowpeak Ruins Blizzeta
+- Snowpeak Ruins Blizzeta Heart Container
+- Snowpeak Ruins Dungeon Reward
+- South Faron Portal
+- Temple of Time Armogohma
+- Temple of Time Armogohma Heart Container
+- Temple of Time Dungeon Reward
+- Upper Zoras River Portal
+- Zoras Domain Portal
+
+## Per-check breakdown (by stage)
+
+### Arbiters Grounds
+
+- **Arbiters Grounds Big Key Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Arbiters Grounds.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Arbiters Grounds Death Sword Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Arbiters Grounds.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Arbiters Grounds Dungeon Reward**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Arbiters Grounds.jsonc`
+  - Authored from direct gameplay knowledge
+- **Arbiters Grounds East Lower Turnable Redead Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Arbiters Grounds.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Arbiters Grounds East Turning Room Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Arbiters Grounds.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Arbiters Grounds East Upper Turnable Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Arbiters Grounds.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Arbiters Grounds East Upper Turnable Redead Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Arbiters Grounds.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Arbiters Grounds Entrance Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Arbiters Grounds.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Arbiters Grounds Ghoul Rat Room Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Arbiters Grounds.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Arbiters Grounds Hidden Wall Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Arbiters Grounds.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Arbiters Grounds North Turning Room Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Arbiters Grounds.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Arbiters Grounds Spinner Room First Small Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Arbiters Grounds.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Arbiters Grounds Spinner Room Lower Central Small Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Arbiters Grounds.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Arbiters Grounds Spinner Room Lower North Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Arbiters Grounds.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Arbiters Grounds Spinner Room Second Small Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Arbiters Grounds.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Arbiters Grounds Spinner Room Stalfos Alcove Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Arbiters Grounds.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Arbiters Grounds Stallord**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Arbiters Grounds.jsonc`
+  - Authored from direct gameplay knowledge
+- **Arbiters Grounds Stallord Heart Container**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Arbiters Grounds.jsonc`
+  - Authored from direct gameplay knowledge
+- **Arbiters Grounds Torch Room East Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Arbiters Grounds.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Arbiters Grounds Torch Room Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Arbiters Grounds.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Arbiters Grounds Torch Room West Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Arbiters Grounds.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Arbiters Grounds West Chandelier Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Arbiters Grounds.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Arbiters Grounds West Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Arbiters Grounds.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Arbiters Grounds West Small Chest Behind Block**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Arbiters Grounds.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Arbiters Grounds West Stalfos Northeast Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Arbiters Grounds.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Arbiters Grounds West Stalfos West Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Arbiters Grounds.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+
+### Bublin Camp
+
+- **Bulblin Camp First Chest Under Tower At Entrance**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Gerudo Desert/Gerudo Desert.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Bulblin Camp Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Gerudo Desert/Gerudo Desert.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Bulblin Camp Roasted Boar**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Gerudo Desert/Gerudo Desert.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Free-Standing Items**
+- **Bulblin Camp Small Chest in Back of Camp**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Gerudo Desert/Gerudo Desert.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Bulblin Guard Key**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Gerudo Desert/Gerudo Desert.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Free-Standing Items**
+- **Outside Arbiters Grounds Lantern Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Gerudo Desert/Gerudo Desert.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Outside Arbiters Grounds Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Gerudo Desert/Gerudo Desert.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+
+### Castle Town
+
+- **Agitha Female Ant Reward**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Castle Town.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Agitha Female Beetle Reward**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Castle Town.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Agitha Female Butterfly Reward**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Castle Town.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Agitha Female Dayfly Reward**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Castle Town.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Agitha Female Dragonfly Reward**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Castle Town.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Agitha Female Grasshopper Reward**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Castle Town.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Agitha Female Ladybug Reward**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Castle Town.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Agitha Female Mantis Reward**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Castle Town.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Agitha Female Phasmid Reward**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Castle Town.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Agitha Female Pill Bug Reward**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Castle Town.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Agitha Female Snail Reward**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Castle Town.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Agitha Female Stag Beetle Reward**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Castle Town.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Agitha Male Ant Reward**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Castle Town.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Agitha Male Beetle Reward**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Castle Town.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Agitha Male Butterfly Reward**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Castle Town.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Agitha Male Dayfly Reward**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Castle Town.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Agitha Male Dragonfly Reward**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Castle Town.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Agitha Male Grasshopper Reward**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Castle Town.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Agitha Male Ladybug Reward**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Castle Town.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Agitha Male Mantis Reward**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Castle Town.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Agitha Male Phasmid Reward**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Castle Town.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Agitha Male Pill Bug Reward**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Castle Town.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Agitha Male Snail Reward**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Castle Town.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Agitha Male Stag Beetle Reward**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Castle Town.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Castle Town Malo Mart Magic Armor**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Castle Town.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Shop Items**
+- **Charlo Donation Blessing**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Castle Town.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Doctors Office Balcony Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Castle Town.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Jovani 20 Poe Soul Reward**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Castle Town.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Jovani 60 Poe Soul Reward**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Castle Town.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Jovani House Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Castle Town.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **North Castle Town Golden Wolf**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Castle Town.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Hidden Skills**
+- **STAR Prize 1**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Castle Town.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **STAR Prize 2**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Castle Town.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Telma Invoice**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Castle Town.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+
+### Cave of Ordeals
+
+- **Cave of Ordeals Floor 17 Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Gerudo Desert/Cave of Ordeals.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Cave of Ordeals Floor 33 Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Gerudo Desert/Cave of Ordeals.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Cave of Ordeals Floor 44 Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Gerudo Desert/Cave of Ordeals.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Cave of Ordeals Great Fairy Reward**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Gerudo Desert/Cave of Ordeals.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+
+### City in The Sky
+
+- **City in The Sky Aeralfos Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/City in the Sky.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **City in The Sky Argorok**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/City in the Sky.jsonc`
+  - Authored from direct gameplay knowledge
+- **City in The Sky Argorok Heart Container**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/City in the Sky.jsonc`
+  - Authored from direct gameplay knowledge
+- **City in The Sky Baba Tower Alcove Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/City in the Sky.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **City in The Sky Baba Tower Narrow Ledge Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/City in the Sky.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **City in The Sky Baba Tower Top Small Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/City in the Sky.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **City in The Sky Big Key Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/City in the Sky.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **City in The Sky Central Outside Ledge Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/City in the Sky.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **City in The Sky Central Outside Poe Island Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/City in the Sky.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **City in The Sky Chest Behind North Fan**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/City in the Sky.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **City in The Sky Chest Below Big Key Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/City in the Sky.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **City in The Sky Dungeon Reward**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/City in the Sky.jsonc`
+  - Authored from direct gameplay knowledge
+- **City in The Sky East First Wing Chest After Fans**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/City in the Sky.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **City in The Sky East Tile Worm Small Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/City in the Sky.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **City in The Sky East Wing After Dinalfos Alcove Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/City in the Sky.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **City in The Sky East Wing After Dinalfos Ledge Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/City in the Sky.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **City in The Sky East Wing Lower Level Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/City in the Sky.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **City in The Sky Garden Island Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/City in the Sky.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **City in The Sky Poe Above Central Fan**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/City in the Sky.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **City in The Sky Underwater East Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/City in the Sky.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **City in The Sky Underwater West Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/City in the Sky.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **City in The Sky West Garden Corner Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/City in the Sky.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **City in The Sky West Garden Ledge Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/City in the Sky.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **City in The Sky West Garden Lone Island Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/City in the Sky.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **City in The Sky West Garden Lower Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/City in the Sky.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **City in The Sky West Wing Baba Balcony Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/City in the Sky.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **City in The Sky West Wing First Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/City in the Sky.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **City in The Sky West Wing Narrow Ledge Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/City in the Sky.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **City in The Sky West Wing Tile Worm Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/City in the Sky.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+
+### Death Mountain
+
+- **Death Mountain Alcove Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Death Mountain.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Death Mountain Trail Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Death Mountain.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+
+### Dungeons (not in locations.json)
+
+- **Temple of Time Guillotine Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Temple of Time.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+
+### Eldin Field
+
+- **Bridge of Eldin Female Phasmid**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Hyrule Field - Eldin.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Golden Bugs**
+- **Bridge of Eldin Male Phasmid**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Hyrule Field - Eldin.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Golden Bugs**
+- **Bridge of Eldin Owl Statue Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Hyrule Field - Eldin.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Bridge of Eldin Owl Statue Sky Character**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Hyrule Field - Eldin.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Skybook Characters**
+- **East Castle Town Bridge Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Hyrule Field - Lanayru.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Eldin Field Bomb Rock Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Hyrule Field - Eldin.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Eldin Field Bomskit Grotto Lantern Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Hyrule Field - Eldin.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Eldin Field Bomskit Grotto Left Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Hyrule Field - Eldin.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Eldin Field Female Grasshopper**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Hyrule Field - Eldin.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Golden Bugs**
+- **Eldin Field Male Grasshopper**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Hyrule Field - Eldin.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Golden Bugs**
+- **Eldin Field Water Bomb Fish Grotto Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Hyrule Field - Eldin.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Goron Springwater Rush**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Hyrule Field - Eldin.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Kakariko Gorge Double Clawshot Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Hyrule Field - Eldin.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Kakariko Gorge Female Pill Bug**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Hyrule Field - Eldin.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Golden Bugs**
+- **Kakariko Gorge Male Pill Bug**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Hyrule Field - Eldin.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Golden Bugs**
+- **Kakariko Gorge Owl Statue Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Hyrule Field - Eldin.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Kakariko Gorge Owl Statue Sky Character**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Hyrule Field - Eldin.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Skybook Characters**
+- **Kakariko Gorge Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Hyrule Field - Eldin.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Kakariko Gorge Spire Heart Piece**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Hyrule Field - Eldin.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Free-Standing Items**
+
+### Eldin Goron Stockcave
+
+- **Eldin Stockcave Lantern Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Hyrule Field - Eldin.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Eldin Stockcave Lowest Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Hyrule Field - Eldin.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Eldin Stockcave Upper Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Hyrule Field - Eldin.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+
+### Eldin Long Cave
+
+- **Eldin Lantern Cave First Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Hyrule Field - Eldin.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Eldin Lantern Cave Lantern Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Hyrule Field - Eldin.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Eldin Lantern Cave Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Hyrule Field - Eldin.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Eldin Lantern Cave Second Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Hyrule Field - Eldin.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+
+### Eldin Province (overworld, not in locations.json)
+
+- **Bridge of Eldin Boulder Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Hyrule Field - Eldin.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Hidden Rupees**
+- **Bridge of Eldin Portal**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Hyrule Field - Eldin.jsonc`
+  - Authored from direct gameplay knowledge
+- **Death Mountain Portal**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Death Mountain.jsonc`
+  - Authored from direct gameplay knowledge
+- **Death Mountain Volcano Ledge Rupee 1**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Death Mountain.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Death Mountain Volcano Ledge Rupee 2**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Death Mountain.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Death Mountain Volcano Ledge Rupee 3**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Death Mountain.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Death Mountain Volcano Pipe Ledge Rock Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Death Mountain.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Hidden Rupees**
+- **Eldin Spring Underwater Boulder Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Kakariko Village.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Hidden Rupees**
+- **Ilia Charm**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Hidden Village.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Kakariko Gorge Owl Statue Boulder Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Hyrule Field - Eldin.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Hidden Rupees**
+- **Kakariko Gorge Portal**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Hyrule Field - Eldin.jsonc`
+  - Authored from direct gameplay knowledge
+- **Kakariko Gorge Spire Boulder Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Hyrule Field - Eldin.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Hidden Rupees**
+- **Kakariko Graveyard Underwater Boulder Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Kakariko Village.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Hidden Rupees**
+- **Kakariko Village Ant House Ledge Box Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Kakariko Village.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Hidden Rupees**
+- **Kakariko Village Bell Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Kakariko Village.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Hidden Rupees**
+- **Kakariko Village Hot Spring Ledge Box Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Kakariko Village.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Hidden Rupees**
+- **Kakariko Village Portal**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Kakariko Village.jsonc`
+  - Authored from direct gameplay knowledge
+- **Kakariko Village Spring Shortcut Box Rupee 1**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Kakariko Village.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Hidden Rupees**
+- **Kakariko Village Spring Shortcut Box Rupee 2**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Kakariko Village.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Hidden Rupees**
+- **Shad Dominion Rod**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Kakariko Village.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+
+### Faron Field
+
+- **Faron Field Bridge Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Faron Province/Hyrule Field - Faron.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Faron Field Corner Grotto Left Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Faron Province/Hyrule Field - Faron.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Faron Field Corner Grotto Rear Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Faron Province/Hyrule Field - Faron.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Faron Field Corner Grotto Right Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Faron Province/Hyrule Field - Faron.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Faron Field Female Beetle**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Faron Province/Hyrule Field - Faron.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Golden Bugs**
+- **Faron Field Male Beetle**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Faron Province/Hyrule Field - Faron.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Golden Bugs**
+- **Faron Field Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Faron Province/Hyrule Field - Faron.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Faron Field Tree Heart Piece**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Faron Province/Hyrule Field - Faron.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Free-Standing Items**
+
+### Faron Province (overworld, not in locations.json)
+
+- **Coro Gate Key**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Faron Province/Faron Woods.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Coro Lantern**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Faron Province/Faron Woods.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Faron Woods Coro Boulder Rupee 1**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Faron Province/Faron Woods.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Hidden Rupees**
+- **Faron Woods Coro Boulder Rupee 2**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Faron Province/Faron Woods.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Hidden Rupees**
+- **Faron Woods Coro Boulder Rupee 3**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Faron Province/Faron Woods.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Hidden Rupees**
+- **Faron Woods Coro Boulder Rupee 4**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Faron Province/Faron Woods.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Hidden Rupees**
+- **North Faron Portal**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Faron Province/Faron Woods.jsonc`
+  - Authored from direct gameplay knowledge
+- **Sacred Grove Portal**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Faron Province/Sacred Grove.jsonc`
+  - Authored from direct gameplay knowledge
+- **South Faron Portal**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Faron Province/Faron Woods.jsonc`
+  - Authored from direct gameplay knowledge
+
+### Faron Woods
+
+- **Coro Bottle**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Faron Province/Faron Woods.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+  - Supplemental: Zelda Fandom — Coro's Store (https://zelda.fandom.com/wiki/Coro%27s_Store)
+- **Faron Mist Cave Lantern Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Faron Province/Faron Woods.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Faron Mist Cave Open Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Faron Province/Faron Woods.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Faron Mist North Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Faron Province/Faron Woods.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Faron Mist Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Faron Province/Faron Woods.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+  - Supplemental: Zelda Dungeon — Twilight Faron Woods walkthrough
+  - Supplemental: Zelda Universe — Poe Souls guide
+- **Faron Mist South Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Faron Province/Faron Woods.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Faron Mist Stump Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Faron Province/Faron Woods.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Faron Woods Golden Wolf**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Faron Province/Faron Woods.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Hidden Skills**
+  - Supplemental: Zelda Universe — Hidden Skills guide (https://zeldauniverse.net/guides/twilight-princess/sidequests/hidden-skills/)
+- **Faron Woods Owl Statue Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Faron Province/Faron Woods.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+  - Supplemental: Zelda Fandom — Ancient Sky Book
+- **Faron Woods Owl Statue Sky Character**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Faron Province/Faron Woods.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Skybook Characters**
+  - Supplemental: Zelda Fandom — Ancient Sky Book (https://zelda.fandom.com/wiki/Ancient_Sky_Book)
+- **North Faron Woods Deku Baba Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Faron Province/Faron Woods.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **South Faron Cave Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Faron Province/Faron Woods.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+
+### Fishing Pond
+
+- **Fishing Hole Bottle**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Zoras Domain.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Fishing Hole Heart Piece**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Zoras Domain.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Free-Standing Items**
+
+### Forest Temple
+
+- **Forest Temple Big Baba Key**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Forest Temple.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Forest Temple Big Key Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Forest Temple.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Forest Temple Central Chest Behind Stairs**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Forest Temple.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Forest Temple Central Chest Hanging From Web**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Forest Temple.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Forest Temple Central North Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Forest Temple.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Forest Temple Diababa**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Forest Temple.jsonc`
+  - Authored from direct gameplay knowledge
+- **Forest Temple Diababa Heart Container**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Forest Temple.jsonc`
+  - Authored from direct gameplay knowledge
+- **Forest Temple Dungeon Reward**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Forest Temple.jsonc`
+  - Authored from direct gameplay knowledge
+- **Forest Temple East Tile Worm Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Forest Temple.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Forest Temple East Water Cave Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Forest Temple.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Forest Temple Entrance Vines Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Forest Temple.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Forest Temple Gale Boomerang**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Forest Temple.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Forest Temple North Deku Like Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Forest Temple.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Forest Temple Second Monkey Under Bridge Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Forest Temple.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Forest Temple Totem Pole Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Forest Temple.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Forest Temple West Deku Like Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Forest Temple.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Forest Temple West Tile Worm Chest Behind Stairs**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Forest Temple.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Forest Temple West Tile Worm Room Vines Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Forest Temple.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Forest Temple Windless Bridge Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Forest Temple.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+
+### Gerudo Desert
+
+- **Gerudo Desert Campfire East Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Gerudo Desert/Gerudo Desert.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Gerudo Desert Campfire North Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Gerudo Desert/Gerudo Desert.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Gerudo Desert Campfire West Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Gerudo Desert/Gerudo Desert.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Gerudo Desert East Canyon Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Gerudo Desert/Gerudo Desert.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Gerudo Desert East Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Gerudo Desert/Gerudo Desert.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Gerudo Desert Female Dayfly**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Gerudo Desert/Gerudo Desert.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Golden Bugs**
+- **Gerudo Desert Golden Wolf**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Gerudo Desert/Gerudo Desert.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Hidden Skills**
+- **Gerudo Desert Lone Small Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Gerudo Desert/Gerudo Desert.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Gerudo Desert Male Dayfly**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Gerudo Desert/Gerudo Desert.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Golden Bugs**
+- **Gerudo Desert North Peahat Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Gerudo Desert/Gerudo Desert.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Gerudo Desert North Small Chest Before Bulblin Camp**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Gerudo Desert/Gerudo Desert.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Gerudo Desert Northeast Chest Behind Gates**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Gerudo Desert/Gerudo Desert.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Gerudo Desert Northwest Chest Behind Gates**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Gerudo Desert/Gerudo Desert.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Gerudo Desert Owl Statue Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Gerudo Desert/Gerudo Desert.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Gerudo Desert Owl Statue Sky Character**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Gerudo Desert/Gerudo Desert.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Skybook Characters**
+- **Gerudo Desert Peahat Ledge Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Gerudo Desert/Gerudo Desert.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Gerudo Desert Poe Above Cave of Ordeals**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Gerudo Desert/Gerudo Desert.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Gerudo Desert Rock Grotto First Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Gerudo Desert/Gerudo Desert.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Gerudo Desert Rock Grotto Lantern Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Gerudo Desert/Gerudo Desert.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Gerudo Desert Rock Grotto Second Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Gerudo Desert/Gerudo Desert.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Gerudo Desert Skulltula Grotto Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Gerudo Desert/Gerudo Desert.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Gerudo Desert South Chest Behind Wooden Gates**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Gerudo Desert/Gerudo Desert.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Gerudo Desert West Canyon Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Gerudo Desert/Gerudo Desert.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Outside Bulblin Camp Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Gerudo Desert/Gerudo Desert.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+
+### Gerudo Desert (overworld, not in locations.json)
+
+- **Gerudo Desert Portal**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Gerudo Desert/Gerudo Desert.jsonc`
+  - Authored from direct gameplay knowledge
+- **Mirror Chamber Portal**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Gerudo Desert/Gerudo Desert.jsonc`
+  - Authored from direct gameplay knowledge
+
+### Goron Mines
+
+- **Goron Mines After Crystal Switch Room Magnet Wall Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Goron Mines.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Goron Mines Beamos Room Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Goron Mines.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Goron Mines Chest Before Dangoro**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Goron Mines.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Goron Mines Crystal Switch Room Small Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Goron Mines.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Goron Mines Crystal Switch Room Underwater Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Goron Mines.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Goron Mines Dangoro Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Goron Mines.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Goron Mines Dungeon Reward**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Goron Mines.jsonc`
+  - Authored from direct gameplay knowledge
+- **Goron Mines Entrance Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Goron Mines.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Goron Mines Fyrus**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Goron Mines.jsonc`
+  - Authored from direct gameplay knowledge
+- **Goron Mines Fyrus Heart Container**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Goron Mines.jsonc`
+  - Authored from direct gameplay knowledge
+- **Goron Mines Gor Amato Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Goron Mines.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Goron Mines Gor Amato Key Shard**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Goron Mines.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Goron Mines Gor Amato Small Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Goron Mines.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Goron Mines Gor Ebizo Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Goron Mines.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Goron Mines Gor Ebizo Key Shard**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Goron Mines.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Goron Mines Gor Liggs Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Goron Mines.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Goron Mines Gor Liggs Key Shard**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Goron Mines.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Goron Mines Magnet Maze Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Goron Mines.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Goron Mines Main Magnet Room Bottom Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Goron Mines.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Goron Mines Main Magnet Room Top Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Goron Mines.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Goron Mines Outside Beamos Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Goron Mines.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Goron Mines Outside Clawshot Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Goron Mines.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Goron Mines Outside Underwater Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Goron Mines.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+
+### Hidden Village
+
+- **Cats Hide and Seek Minigame**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Hidden Village.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Free-Standing Items**
+- **Hidden Village Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Hidden Village.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Ilias Charm**
+  - Authored from direct gameplay knowledge (no wiki entry found)
+- **Skybook From Impaz**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Hidden Village.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+
+### Hyrule Castle
+
+- **Hyrule Castle Big Key Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Hyrule Castle.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Hyrule Castle East Wing Balcony Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Hyrule Castle.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Hyrule Castle East Wing Boomerang Puzzle Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Hyrule Castle.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Hyrule Castle Ganondorf**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Hyrule Castle.jsonc`
+  - Authored from direct gameplay knowledge
+- **Hyrule Castle Graveyard Grave Switch Room Back Left Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Hyrule Castle.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Hyrule Castle Graveyard Grave Switch Room Front Left Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Hyrule Castle.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Hyrule Castle Graveyard Grave Switch Room Right Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Hyrule Castle.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Hyrule Castle Graveyard Owl Statue Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Hyrule Castle.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Hyrule Castle King Bulblin Key**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Hyrule Castle.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Hyrule Castle Lantern Staircase Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Hyrule Castle.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Hyrule Castle Main Hall Northeast Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Hyrule Castle.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Hyrule Castle Main Hall Northwest Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Hyrule Castle.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Hyrule Castle Main Hall Southwest Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Hyrule Castle.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Hyrule Castle Southeast Balcony Tower Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Hyrule Castle.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Hyrule Castle Treasure Room Eighth Small Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Hyrule Castle.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Hyrule Castle Treasure Room Fifth Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Hyrule Castle.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Hyrule Castle Treasure Room Fifth Small Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Hyrule Castle.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Hyrule Castle Treasure Room First Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Hyrule Castle.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Hyrule Castle Treasure Room First Small Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Hyrule Castle.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Hyrule Castle Treasure Room Fourth Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Hyrule Castle.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Hyrule Castle Treasure Room Fourth Small Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Hyrule Castle.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Hyrule Castle Treasure Room Second Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Hyrule Castle.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Hyrule Castle Treasure Room Second Small Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Hyrule Castle.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Hyrule Castle Treasure Room Seventh Small Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Hyrule Castle.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Hyrule Castle Treasure Room Sixth Small Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Hyrule Castle.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Hyrule Castle Treasure Room Third Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Hyrule Castle.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Hyrule Castle Treasure Room Third Small Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Hyrule Castle.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Hyrule Castle West Courtyard Central Small Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Hyrule Castle.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Hyrule Castle West Courtyard North Small Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Hyrule Castle.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+
+### Kakariko Graveyard
+
+- **Gift From Ralis**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Kakariko Village.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Kakariko Graveyard Golden Wolf**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Kakariko Village.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Hidden Skills**
+- **Kakariko Graveyard Grave Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Kakariko Village.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Kakariko Graveyard Lantern Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Kakariko Village.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Kakariko Graveyard Male Ant**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Kakariko Village.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Golden Bugs**
+- **Kakariko Graveyard Open Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Kakariko Village.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Rutelas Blessing**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Kakariko Village.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+
+### Kakariko Village
+
+- **Barnes Bomb Bag**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Kakariko Village.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Eldin Spring Underwater Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Kakariko Village.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Ilia Memory Reward**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Kakariko Village.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Kakariko Inn Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Kakariko Village.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Kakariko Village Bomb Rock Spire Heart Piece**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Kakariko Village.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Free-Standing Items**
+- **Kakariko Village Bomb Shop Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Kakariko Village.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Kakariko Village Female Ant**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Kakariko Village.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Golden Bugs**
+- **Kakariko Village Malo Mart Hawkeye**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Kakariko Village.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Shop Items**
+- **Kakariko Village Malo Mart Hylian Shield**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Kakariko Village.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Shop Items**
+- **Kakariko Village Malo Mart Red Potion**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Kakariko Village.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Shop Items**
+- **Kakariko Village Malo Mart Wooden Shield**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Kakariko Village.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Shop Items**
+- **Kakariko Village Watchtower Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Kakariko Village.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Kakariko Watchtower Alcove Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Kakariko Village.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Kakariko Watchtower Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Kakariko Village.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Renados Letter**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Kakariko Village.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Talo Sharpshooting**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Kakariko Village.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+
+### Lake Hylia
+
+- **Auru Gift To Fyer**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Flight By Fowl Fifth Platform Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Flight By Fowl Fourth Platform Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Flight By Fowl Ledge Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Flight By Fowl Second Platform Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Flight By Fowl Third Platform Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Flight By Fowl Top Platform Reward**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Isle of Riches Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Lake Hylia Alcove Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Lake Hylia Dock Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Lake Hylia Shell Blade Grotto Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Lake Hylia Tower Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Lake Hylia Underwater Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Lake Hylia Water Toadpoli Grotto Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Lanayru Spring Back Room Lantern Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Lanayru Spring Back Room Left Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Lanayru Spring Back Room Right Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Lanayru Spring East Double Clawshot Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Lanayru Spring Underwater Left Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Lanayru Spring Underwater Right Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Lanayru Spring West Double Clawshot Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Outside Lanayru Spring Left Statue Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Outside Lanayru Spring Right Statue Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Plumm Fruit Balloon Minigame**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+
+### Lake Hylia Long Cave
+
+- **Lake Lantern Cave Eighth Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Lake Lantern Cave Eleventh Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Lake Lantern Cave End Lantern Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Lake Lantern Cave Fifth Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Lake Lantern Cave Final Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Lake Lantern Cave First Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Lake Lantern Cave First Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Lake Lantern Cave Fourteenth Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Lake Lantern Cave Fourth Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Lake Lantern Cave Ninth Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Lake Lantern Cave Second Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Lake Lantern Cave Second Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Lake Lantern Cave Seventh Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Lake Lantern Cave Sixth Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Lake Lantern Cave Tenth Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Lake Lantern Cave Third Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Lake Lantern Cave Thirteenth Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Lake Lantern Cave Twelfth Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+
+### Lakebed Temple
+
+- **Lakebed Temple Before Deku Toad Alcove Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Lakebed Temple.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Lakebed Temple Before Deku Toad Underwater Left Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Lakebed Temple.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Lakebed Temple Before Deku Toad Underwater Right Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Lakebed Temple.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Lakebed Temple Big Key Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Lakebed Temple.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Lakebed Temple Central Room Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Lakebed Temple.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Lakebed Temple Central Room Small Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Lakebed Temple.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Lakebed Temple Central Room Spire Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Lakebed Temple.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Lakebed Temple Chandelier Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Lakebed Temple.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Lakebed Temple Deku Toad Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Lakebed Temple.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Lakebed Temple Dungeon Reward**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Lakebed Temple.jsonc`
+  - Authored from direct gameplay knowledge
+- **Lakebed Temple East Lower Waterwheel Bridge Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Lakebed Temple.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Lakebed Temple East Lower Waterwheel Stalactite Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Lakebed Temple.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Lakebed Temple East Second Floor Southeast Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Lakebed Temple.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Lakebed Temple East Second Floor Southwest Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Lakebed Temple.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Lakebed Temple East Water Supply Clawshot Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Lakebed Temple.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Lakebed Temple East Water Supply Small Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Lakebed Temple.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Lakebed Temple Lobby Left Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Lakebed Temple.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Lakebed Temple Lobby Rear Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Lakebed Temple.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Lakebed Temple Morpheel**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Lakebed Temple.jsonc`
+  - Authored from direct gameplay knowledge
+- **Lakebed Temple Morpheel Heart Container**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Lakebed Temple.jsonc`
+  - Authored from direct gameplay knowledge
+- **Lakebed Temple Stalactite Room Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Lakebed Temple.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Lakebed Temple Underwater Maze Small Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Lakebed Temple.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Lakebed Temple West Lower Small Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Lakebed Temple.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Lakebed Temple West Second Floor Central Small Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Lakebed Temple.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Lakebed Temple West Second Floor Northeast Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Lakebed Temple.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Lakebed Temple West Second Floor Southeast Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Lakebed Temple.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Lakebed Temple West Second Floor Southwest Underwater Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Lakebed Temple.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Lakebed Temple West Water Supply Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Lakebed Temple.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Lakebed Temple West Water Supply Small Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Lakebed Temple.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+
+### Lanayru Field
+
+- **Eldin Field Stalfos Grotto Left Small Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Hyrule Field - Eldin.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Eldin Field Stalfos Grotto Right Small Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Hyrule Field - Eldin.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Eldin Field Stalfos Grotto Stalfos Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Eldin Province/Hyrule Field - Eldin.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Hyrule Field Amphitheater Owl Statue Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Hyrule Field - Lanayru.jsonc`
+  - Authored from direct gameplay knowledge (no wiki entry found)
+- **Hyrule Field Amphitheater Owl Statue Sky Character**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Hyrule Field - Lanayru.jsonc`
+  - Authored from direct gameplay knowledge (no wiki entry found)
+- **Hyrule Field Amphitheater Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Hyrule Field - Lanayru.jsonc`
+  - Authored from direct gameplay knowledge (no wiki entry found)
+- **Lake Hylia Bridge Bubble Grotto Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Hyrule Field - Lanayru.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Lake Hylia Bridge Cliff Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Hyrule Field - Lanayru.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Lake Hylia Bridge Cliff Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Hyrule Field - Lanayru.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Lake Hylia Bridge Female Mantis**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Hyrule Field - Lanayru.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Golden Bugs**
+- **Lake Hylia Bridge Male Mantis**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Hyrule Field - Lanayru.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Golden Bugs**
+- **Lake Hylia Bridge Owl Statue Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Hyrule Field - Lanayru.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Lake Hylia Bridge Owl Statue Sky Character**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Hyrule Field - Lanayru.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Skybook Characters**
+- **Lake Hylia Bridge Vines Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Hyrule Field - Lanayru.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Lanayru Field Behind Gate Underwater Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Hyrule Field - Lanayru.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Lanayru Field Bridge Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Hyrule Field - Lanayru.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Lanayru Field Female Stag Beetle**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Hyrule Field - Lanayru.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Golden Bugs**
+- **Lanayru Field Male Stag Beetle**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Hyrule Field - Lanayru.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Golden Bugs**
+- **Lanayru Field Poe Grotto Left Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Hyrule Field - Lanayru.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Lanayru Field Poe Grotto Right Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Hyrule Field - Lanayru.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Lanayru Field Skulltula Grotto Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Hyrule Field - Lanayru.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Lanayru Field Spinner Track Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Hyrule Field - Lanayru.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Lanayru Ice Block Puzzle Cave Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Hyrule Field - Lanayru.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Outside South Castle Town Double Clawshot Chasm Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Hyrule Field - Lanayru.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Outside South Castle Town Female Ladybug**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Hyrule Field - Lanayru.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Golden Bugs**
+- **Outside South Castle Town Fountain Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Hyrule Field - Lanayru.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Outside South Castle Town Golden Wolf**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Hyrule Field - Lanayru.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Hidden Skills**
+- **Outside South Castle Town Male Ladybug**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Hyrule Field - Lanayru.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Golden Bugs**
+- **Outside South Castle Town Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Hyrule Field - Lanayru.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Outside South Castle Town Tektite Grotto Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Hyrule Field - Lanayru.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Outside South Castle Town Tightrope Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Hyrule Field - Lanayru.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **West Hyrule Field Female Butterfly**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Hyrule Field - Lanayru.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Golden Bugs**
+- **West Hyrule Field Golden Wolf**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Hyrule Field - Lanayru.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Hidden Skills**
+- **West Hyrule Field Helmasaur Grotto Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Hyrule Field - Lanayru.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **West Hyrule Field Male Butterfly**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Hyrule Field - Lanayru.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Golden Bugs**
+- **Wooden Statue**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Hyrule Field - Lanayru.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+
+### Lanayru Province (overworld, not in locations.json)
+
+- **Castle Town Goron Shop Arrow Refill**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Castle Town.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Shop Items**
+- **Castle Town Goron Shop Hylian Shield**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Castle Town.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Shop Items**
+- **Castle Town Goron Shop Lantern Oil**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Castle Town.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Shop Items**
+- **Castle Town Goron Shop Red Potion**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Castle Town.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Shop Items**
+- **Castle Town Portal**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Hyrule Field - Lanayru.jsonc`
+  - Authored from direct gameplay knowledge
+- **Lake Hylia Bridge Faron Boulder Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Hyrule Field - Lanayru.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Hidden Rupees**
+- **Lake Hylia Bridge Owl Statue Boulder Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Hyrule Field - Lanayru.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Hidden Rupees**
+- **Lake Hylia Left Underwater Boulder Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Hidden Rupees**
+- **Lake Hylia Left Underwater Pillar Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Lake Hylia Portal**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - Authored from direct gameplay knowledge
+- **Lake Hylia Right Underwater Boulder Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Hidden Rupees**
+- **Lake Hylia Right Underwater Pillar Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Lanayru Field North Spinner Track Boulder Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Hyrule Field - Lanayru.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Hidden Rupees**
+- **Lanayru Field North Underwater Boulder Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Hyrule Field - Lanayru.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Hidden Rupees**
+- **Lanayru Field South Spinner Track Boulder Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Hyrule Field - Lanayru.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Hidden Rupees**
+- **Lanayru Field South Underwater Boulder Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Hyrule Field - Lanayru.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Hidden Rupees**
+- **Lanayru Field Tree Boulder Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Hyrule Field - Lanayru.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Hidden Rupees**
+- **Lanayru Spring Lower Underwater Boulder Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Hidden Rupees**
+- **Lanayru Spring Upper Underwater Boulder Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Lake Hylia.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Hidden Rupees**
+- **Outside South Castle Town Boulder Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Hyrule Field - Lanayru.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Hidden Rupees**
+- **Upper Zoras River Central Underwater Boulder Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Zoras Domain.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Hidden Rupees**
+- **Upper Zoras River East Underwater Boulder Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Zoras Domain.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Hidden Rupees**
+- **Upper Zoras River Ledge Boulder Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Zoras Domain.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Hidden Rupees**
+- **Upper Zoras River Portal**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Zoras Domain.jsonc`
+  - Authored from direct gameplay knowledge
+- **Upper Zoras River West Underwater Boulder Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Zoras Domain.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Hidden Rupees**
+- **West Hyrule Field Northern Boulder Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Hyrule Field - Lanayru.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Hidden Rupees**
+- **West Hyrule Field Southern Boulder Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Hyrule Field - Lanayru.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Hidden Rupees**
+- **Zoras Domain Behind Waterfall Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Zoras Domain.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Zoras Domain Central Underwater Boulder Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Zoras Domain.jsonc`
+  - Authored from direct gameplay knowledge (no wiki entry found)
+- **Zoras Domain North Underwater Boulder Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Zoras Domain.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Hidden Rupees**
+- **Zoras Domain Portal**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Zoras Domain.jsonc`
+  - Authored from direct gameplay knowledge
+- **Zoras Domain Shortcut Ledge Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Zoras Domain.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Zoras Domain Shortcut Lower Boulder Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Zoras Domain.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Hidden Rupees**
+- **Zoras Domain Shortcut Upper Boulder Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Zoras Domain.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Hidden Rupees**
+- **Zoras Domain Throne East Gate Underwater Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Zoras Domain.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Zoras Domain Throne East Underwater Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Zoras Domain.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Zoras Domain Throne Northwest Underwater Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Zoras Domain.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Zoras Domain Throne South Underwater Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Zoras Domain.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Zoras Domain Throne West Gate Underwater Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Zoras Domain.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Zoras Domain Throne West Underwater Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Zoras Domain.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Zoras Domain Top Ledge Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Zoras Domain.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Zoras Domain Vine Ledge Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Zoras Domain.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Zoras Domain Waterfall Ledge Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Zoras Domain.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+
+### Ordon Spring
+
+- **Ordon Spring Golden Wolf**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Ordona Province/Ordon.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Hidden Skills**
+
+### Ordon Village
+
+- **Herding Goats Reward**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Ordona Province/Ordon.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Links Basement Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Ordona Province/Ordon.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Ordon Cat Rescue**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Ordona Province/Ordon.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Ordon Ranch Grotto Lantern Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Ordona Province/Ordon.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Ordon Shield**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Ordona Province/Ordon.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Free-Standing Items**
+- **Ordon Sword**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Ordona Province/Ordon.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Free-Standing Items**
+- **Sera Shop Slingshot**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Ordona Province/Ordon.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Shop Items**
+- **Uli Cradle Delivery**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Ordona Province/Ordon.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Wooden Sword Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Ordona Province/Ordon.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Wrestling With Bo**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Ordona Province/Ordon.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+
+### Ordona (overworld, not in locations.json)
+
+- **Ordon Bo Cliff Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Ordona Province/Ordon.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Ordon Bo Roof Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Ordona Province/Ordon.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Ordon Bo Window Rupee 1**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Ordona Province/Ordon.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Ordon Bo Window Rupee 2**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Ordona Province/Ordon.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Ordon Hidden Rusl House Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Ordona Province/Ordon.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Ordon Rupee In Grass By Bo**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Ordona Province/Ordon.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Ordon Rupee In River 1**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Ordona Province/Ordon.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Ordon Rupee In River 2**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Ordona Province/Ordon.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Ordon Rupee Under Bridge**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Ordona Province/Ordon.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Ordon Rupee Under Tall Tree 1**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Ordona Province/Ordon.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Ordon Rupee Under Tall Tree 2**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Ordona Province/Ordon.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Ordon Rusl House Roof Rupee 1**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Ordona Province/Ordon.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Ordon Rusl House Roof Rupee 2**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Ordona Province/Ordon.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Ordon Shield House Ledge Grass Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Ordona Province/Ordon.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Ordon Tree Long Branch Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Ordona Province/Ordon.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Ordon Tree Short Branch Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Ordona Province/Ordon.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+
+### Palace of Twilight
+
+- **Palace of Twilight Big Key Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Palace of Twilight.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Palace of Twilight Central First Room Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Palace of Twilight.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Palace of Twilight Central Outdoor Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Palace of Twilight.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Palace of Twilight Central Tower Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Palace of Twilight.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Palace of Twilight Collect Both Sols**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Palace of Twilight.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Palace of Twilight East Wing First Room East Alcove Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Palace of Twilight.jsonc`
+  - Authored from direct gameplay knowledge (no wiki entry found)
+- **Palace of Twilight East Wing First Room North Small Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Palace of Twilight.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Palace of Twilight East Wing First Room West Alcove Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Palace of Twilight.jsonc`
+  - Authored from direct gameplay knowledge (no wiki entry found)
+- **Palace of Twilight East Wing First Room Zant Head Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Palace of Twilight.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Palace of Twilight East Wing Second Room Northeast Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Palace of Twilight.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Palace of Twilight East Wing Second Room Northwest Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Palace of Twilight.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Palace of Twilight East Wing Second Room Southeast Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Palace of Twilight.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Palace of Twilight East Wing Second Room Southwest Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Palace of Twilight.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Palace of Twilight West Wing Chest Behind Wall of Darkness**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Palace of Twilight.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Palace of Twilight West Wing First Room Central Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Palace of Twilight.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Palace of Twilight West Wing Second Room Central Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Palace of Twilight.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Palace of Twilight West Wing Second Room Lower South Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Palace of Twilight.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Palace of Twilight West Wing Second Room Southeast Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Palace of Twilight.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Palace of Twilight Zant**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Palace of Twilight.jsonc`
+  - Authored from direct gameplay knowledge
+- **Palace of Twilight Zant Heart Container**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Palace of Twilight.jsonc`
+  - Authored from direct gameplay knowledge
+
+### Sacred Grove
+
+- **Lost Woods Boulder Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Faron Province/Sacred Grove.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Lost Woods Lantern Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Faron Province/Sacred Grove.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Lost Woods Waterfall Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Faron Province/Sacred Grove.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Sacred Grove Baba Serpent Grotto Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Faron Province/Sacred Grove.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Sacred Grove Female Snail**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Faron Province/Sacred Grove.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Golden Bugs**
+- **Sacred Grove Male Snail**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Faron Province/Sacred Grove.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Golden Bugs**
+- **Sacred Grove Master Sword Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Faron Province/Sacred Grove.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Sacred Grove Past Owl Statue Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Faron Province/Sacred Grove.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Sacred Grove Pedestal Master Sword**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Faron Province/Sacred Grove.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Sacred Grove Pedestal Shadow Crystal**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Faron Province/Sacred Grove.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Sacred Grove Spinner Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Faron Province/Sacred Grove.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Sacred Grove Temple of Time Owl Statue Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Faron Province/Sacred Grove.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+
+### Snowpeak
+
+- **Ashei Sketch**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Snowpeak Province/Snowpeak.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Snowboard Racing Prize**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Snowpeak Province/Snowpeak.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Snowpeak Above Freezard Grotto Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Snowpeak Province/Snowpeak.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Snowpeak Blizzard Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Snowpeak Province/Snowpeak.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Snowpeak Cave Ice Lantern Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Snowpeak Province/Snowpeak.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Snowpeak Cave Ice Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Snowpeak Province/Snowpeak.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Snowpeak Freezard Grotto Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Snowpeak Province/Snowpeak.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Snowpeak Icy Summit Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Snowpeak Province/Snowpeak.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Snowpeak Poe Among Trees**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Snowpeak Province/Snowpeak.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+
+### Snowpeak (overworld, not in locations.json)
+
+- **Snowboarding Bridge Ledge Bottom Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Snowpeak Province/Snowpeak.jsonc`
+  - Authored from direct gameplay knowledge (no wiki entry found)
+- **Snowboarding Bridge Ledge Middle Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Snowpeak Province/Snowpeak.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Snowboarding Bridge Ledge Upper Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Snowpeak Province/Snowpeak.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Snowboarding Shortcut Rupee 1**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Snowpeak Province/Snowpeak.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Snowboarding Shortcut Rupee 10**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Snowpeak Province/Snowpeak.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Snowboarding Shortcut Rupee 11**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Snowpeak Province/Snowpeak.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Snowboarding Shortcut Rupee 2**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Snowpeak Province/Snowpeak.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Snowboarding Shortcut Rupee 3**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Snowpeak Province/Snowpeak.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Snowboarding Shortcut Rupee 4**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Snowpeak Province/Snowpeak.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Snowboarding Shortcut Rupee 5**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Snowpeak Province/Snowpeak.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Snowboarding Shortcut Rupee 6**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Snowpeak Province/Snowpeak.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Snowboarding Shortcut Rupee 7**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Snowpeak Province/Snowpeak.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Snowboarding Shortcut Rupee 8**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Snowpeak Province/Snowpeak.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Snowboarding Shortcut Rupee 9**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Snowpeak Province/Snowpeak.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Snowboarding Snowy Tree Top Rupee 1**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Snowpeak Province/Snowpeak.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Snowboarding Snowy Tree Top Rupee 2**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Snowpeak Province/Snowpeak.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Snowboarding Snowy Tree Top Rupee 3**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Snowpeak Province/Snowpeak.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Snowboarding Top Left Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Snowpeak Province/Snowpeak.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Snowboarding Top Right Rupee**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Snowpeak Province/Snowpeak.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Freestanding Rupees**
+- **Snowpeak Portal**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Snowpeak Province/Snowpeak.jsonc`
+  - Authored from direct gameplay knowledge
+
+### Snowpeak Ruins
+
+- **Snowpeak Ruins Ball and Chain**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Snowpeak Ruins.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Snowpeak Ruins Blizzeta**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Snowpeak Ruins.jsonc`
+  - Authored from direct gameplay knowledge
+- **Snowpeak Ruins Blizzeta Heart Container**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Snowpeak Ruins.jsonc`
+  - Authored from direct gameplay knowledge
+- **Snowpeak Ruins Broken Floor Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Snowpeak Ruins.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Snowpeak Ruins Chapel Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Snowpeak Ruins.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Snowpeak Ruins Chest After Darkhammer**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Snowpeak Ruins.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Snowpeak Ruins Courtyard Central Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Snowpeak Ruins.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Snowpeak Ruins Dungeon Reward**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Snowpeak Ruins.jsonc`
+  - Authored from direct gameplay knowledge
+- **Snowpeak Ruins East Courtyard Buried Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Snowpeak Ruins.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Snowpeak Ruins East Courtyard Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Snowpeak Ruins.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Snowpeak Ruins Ice Room Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Snowpeak Ruins.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Snowpeak Ruins Lobby Armor Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Snowpeak Ruins.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Snowpeak Ruins Lobby Chandelier Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Snowpeak Ruins.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Snowpeak Ruins Lobby East Armor Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Snowpeak Ruins.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Snowpeak Ruins Lobby Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Snowpeak Ruins.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Snowpeak Ruins Lobby West Armor Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Snowpeak Ruins.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Snowpeak Ruins Mansion Map**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Snowpeak Ruins.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Snowpeak Ruins Northeast Chandelier Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Snowpeak Ruins.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Snowpeak Ruins Ordon Pumpkin Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Snowpeak Ruins.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Snowpeak Ruins West Cannon Room Central Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Snowpeak Ruins.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Snowpeak Ruins West Cannon Room Corner Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Snowpeak Ruins.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Snowpeak Ruins West Courtyard Buried Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Snowpeak Ruins.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Snowpeak Ruins Wooden Beam Central Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Snowpeak Ruins.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Snowpeak Ruins Wooden Beam Chandelier Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Snowpeak Ruins.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Snowpeak Ruins Wooden Beam Northwest Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Snowpeak Ruins.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+
+### Temple of Time
+
+- **Temple of Time Armogohma**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Temple of Time.jsonc`
+  - Authored from direct gameplay knowledge
+- **Temple of Time Armogohma Heart Container**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Temple of Time.jsonc`
+  - Authored from direct gameplay knowledge
+- **Temple of Time Armos Antechamber East Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Temple of Time.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Temple of Time Armos Antechamber North Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Temple of Time.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Temple of Time Armos Antechamber Statue Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Temple of Time.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Temple of Time Big Key Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Temple of Time.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Temple of Time Chest Before Darknut**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Temple of Time.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Temple of Time Darknut Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Temple of Time.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Temple of Time Dungeon Reward**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Temple of Time.jsonc`
+  - Authored from direct gameplay knowledge
+- **Temple of Time First Staircase Armos Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Temple of Time.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Temple of Time First Staircase Gohma Gate Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Temple of Time.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Temple of Time First Staircase Window Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Temple of Time.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Temple of Time Floor Switch Puzzle Room Upper Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Temple of Time.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Temple of Time Gilloutine Chest**
+  - Authored from direct gameplay knowledge (no wiki entry found)
+- **Temple of Time Lobby Lantern Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Temple of Time.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Temple of Time Moving Wall Beamos Room Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Temple of Time.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Temple of Time Moving Wall Dinalfos Room Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Temple of Time.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Temple of Time Poe Above Scales**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Temple of Time.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Temple of Time Poe Behind Gate**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Temple of Time.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Temple of Time Scales Gohma Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Temple of Time.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+- **Temple of Time Scales Upper Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Dungeons/Temple of Time.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Dungeons**
+
+### Upper Zoras River
+
+- **Iza Helping Hand**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Zoras Domain.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Iza Raging Rapids Minigame**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Zoras Domain.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Upper Zoras River Female Dragonfly**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Zoras Domain.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Golden Bugs**
+- **Upper Zoras River Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Zoras Domain.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+
+### Zoras Domain
+
+- **Zoras Domain Chest Behind Waterfall**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Zoras Domain.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Zoras Domain Chest By Mother and Child Isles**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Zoras Domain.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Zoras Domain Extinguish All Torches Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Zoras Domain.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Zoras Domain Light All Torches Chest**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Zoras Domain.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Treasure Chests/Event Items**
+- **Zoras Domain Male Dragonfly**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Zoras Domain.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Golden Bugs**
+- **Zoras Domain Mother and Child Isle Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Zoras Domain.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+- **Zoras Domain Underwater Goron**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Zoras Domain.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Items from NPCs**
+- **Zoras Domain Waterfall Poe**
+  - World graph: `Randomizer-Web-Generator-main/Generator/World/Rooms/Overworld/Lanayru Province/Zoras Domain.jsonc`
+  - TPR Wiki — *List of Randomizer Checks*, section: **Poes**
+

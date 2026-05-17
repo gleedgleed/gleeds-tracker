@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(*)",
+      "PowerShell(*)",
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:wiki.tprandomizer.com)",
+      "WebFetch(domain:zeldawiki.wiki)",
+      "WebFetch(domain:zelda.fandom.com)",
+      "WebFetch(domain:www.zeldadungeon.net)",
+      "WebFetch(domain:zeldadungeon.net)",
+      "WebFetch(domain:gamefaqs.gamespot.com)",
+      "WebFetch(domain:www.ign.com)",
+      "WebFetch(domain:ign.com)",
+      "WebFetch(domain:strategywiki.org)"
+    ]
+  }
+}

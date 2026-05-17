@@ -1,0 +1,9 @@
+[submodule "vendor/webgen"]
+	path = submodules/webgen
+	url = https://github.com/zsrtp/Randomizer-Web-Generator.git
+	shallow = true
+[submodule "submodules/ootr"]
+	path = submodules/ootr
+	url = https://github.com/OoTRandomizer/OoT-Randomizer.git
+	branch = Dev
+	shallow = true

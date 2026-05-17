@@ -1,0 +1,4554 @@
+{
+  "Arbiters Grounds Big Key Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 5212,
+        "room": 9,
+        "stage": 24,
+        "type": 0
+      }
+    ]
+  },
+  "Arbiters Grounds Death Sword Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2172,
+        "room": 51,
+        "stage": 26,
+        "type": 0
+      }
+    ]
+  },
+  "Arbiters Grounds East Lower Turnable Redead Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2440,
+        "room": 15,
+        "stage": 24,
+        "type": 0
+      }
+    ]
+  },
+  "Arbiters Grounds East Upper Turnable Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3348,
+        "room": 4,
+        "stage": 24,
+        "type": 0
+      }
+    ]
+  },
+  "Arbiters Grounds East Upper Turnable Redead Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3380,
+        "room": 4,
+        "stage": 24,
+        "type": 0
+      }
+    ]
+  },
+  "Arbiters Grounds Entrance Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3964,
+        "room": 0,
+        "stage": 24,
+        "type": 0
+      }
+    ]
+  },
+  "Arbiters Grounds Ghoul Rat Room Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 1740,
+        "room": 14,
+        "stage": 24,
+        "type": 0
+      }
+    ]
+  },
+  "Arbiters Grounds North Turning Room Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 1720,
+        "room": 16,
+        "stage": 24,
+        "type": 0
+      }
+    ]
+  },
+  "Arbiters Grounds Spinner Room First Small Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 5380,
+        "room": 13,
+        "stage": 24,
+        "type": 0
+      }
+    ]
+  },
+  "Arbiters Grounds Spinner Room Lower Central Small Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 5412,
+        "room": 13,
+        "stage": 24,
+        "type": 0
+      }
+    ]
+  },
+  "Arbiters Grounds Spinner Room Lower North Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 5444,
+        "room": 13,
+        "stage": 24,
+        "type": 0
+      }
+    ]
+  },
+  "Arbiters Grounds Spinner Room Second Small Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 5348,
+        "room": 13,
+        "stage": 24,
+        "type": 0
+      }
+    ]
+  },
+  "Arbiters Grounds Spinner Room Stalfos Alcove Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 5316,
+        "room": 13,
+        "stage": 24,
+        "type": 0
+      }
+    ]
+  },
+  "Arbiters Grounds Torch Room East Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 4252,
+        "room": 2,
+        "stage": 24,
+        "type": 0
+      }
+    ]
+  },
+  "Arbiters Grounds Torch Room West Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 4220,
+        "room": 2,
+        "stage": 24,
+        "type": 0
+      }
+    ]
+  },
+  "Arbiters Grounds West Chandelier Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2036,
+        "room": 6,
+        "stage": 24,
+        "type": 0
+      }
+    ]
+  },
+  "Arbiters Grounds West Small Chest Behind Block": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2068,
+        "room": 6,
+        "stage": 24,
+        "type": 0
+      }
+    ]
+  },
+  "Arbiters Grounds West Stalfos Northeast Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 1708,
+        "room": 7,
+        "stage": 24,
+        "type": 0
+      }
+    ]
+  },
+  "Arbiters Grounds West Stalfos West Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 1740,
+        "room": 7,
+        "stage": 24,
+        "type": 0
+      }
+    ]
+  },
+  "Ashei Sketch": {
+    "arc": [
+      {
+        "dir": 1,
+        "offset": 5159,
+        "room": 0,
+        "stage": 51,
+        "type": 0
+      }
+    ]
+  },
+  "Auru Gift To Fyer": {
+    "arc": [
+      {
+        "dir": 1,
+        "offset": 3095,
+        "room": 0,
+        "stage": 52,
+        "type": 0
+      }
+    ]
+  },
+  "Barnes Bomb Bag": {
+    "arc": [
+      {
+        "dir": 1,
+        "offset": 9263,
+        "room": 0,
+        "stage": 68,
+        "type": 0
+      }
+    ]
+  },
+  "Bridge of Eldin Boulder Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 6179,
+        "room": 0,
+        "stage": 56,
+        "type": 0
+      }
+    ]
+  },
+  "Bridge of Eldin Owl Statue Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 7764,
+        "room": 0,
+        "stage": 56,
+        "type": 0
+      }
+    ]
+  },
+  "Castle Town Goron Shop Arrow Refill": {
+    "arc": [
+      {
+        "dir": 1,
+        "offset": 20479,
+        "room": 0,
+        "stage": 53,
+        "type": 0
+      }
+    ]
+  },
+  "Castle Town Goron Shop Hylian Shield": {
+    "arc": [
+      {
+        "dir": 1,
+        "offset": 20711,
+        "room": 0,
+        "stage": 73,
+        "type": 0
+      }
+    ]
+  },
+  "Castle Town Goron Shop Lantern Oil": {
+    "arc": [
+      {
+        "dir": 1,
+        "offset": 19775,
+        "room": 0,
+        "stage": 73,
+        "type": 0
+      }
+    ]
+  },
+  "Castle Town Goron Shop Red Potion": {
+    "arc": [
+      {
+        "dir": 1,
+        "offset": 19975,
+        "room": 0,
+        "stage": 73,
+        "type": 0
+      }
+    ]
+  },
+  "Castle Town Malo Mart Magic Armor": {
+    "arc": [
+      {
+        "dir": 1,
+        "offset": 12439,
+        "room": 0,
+        "stage": 73,
+        "type": 0
+      }
+    ]
+  },
+  "Cave of Ordeals Great Fairy Reward": {
+    "arc": [
+      {
+        "dir": 1,
+        "offset": 4199,
+        "room": 0,
+        "stage": 31,
+        "type": 0
+      }
+    ]
+  },
+  "City in The Sky Aeralfos Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2904,
+        "room": 51,
+        "stage": 14,
+        "type": 0
+      }
+    ]
+  },
+  "City in The Sky Baba Tower Alcove Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 1744,
+        "room": 11,
+        "stage": 12,
+        "type": 0
+      }
+    ]
+  },
+  "City in The Sky Baba Tower Narrow Ledge Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 1808,
+        "room": 11,
+        "stage": 12,
+        "type": 0
+      }
+    ]
+  },
+  "City in The Sky Baba Tower Top Small Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 1776,
+        "room": 11,
+        "stage": 12,
+        "type": 0
+      }
+    ]
+  },
+  "City in The Sky Big Key Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3828,
+        "room": 2,
+        "stage": 12,
+        "type": 0
+      }
+    ]
+  },
+  "City in The Sky Central Outside Ledge Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3128,
+        "room": 13,
+        "stage": 12,
+        "type": 0
+      }
+    ]
+  },
+  "City in The Sky Central Outside Poe Island Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3096,
+        "room": 13,
+        "stage": 12,
+        "type": 0
+      }
+    ]
+  },
+  "City in The Sky Chest Behind North Fan": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 1540,
+        "room": 14,
+        "stage": 12,
+        "type": 0
+      }
+    ]
+  },
+  "City in The Sky Chest Below Big Key Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3860,
+        "room": 2,
+        "stage": 12,
+        "type": 0
+      }
+    ]
+  },
+  "City in The Sky Dungeon Reward": {
+    "arc": [
+      {
+        "dir": 3,
+        "offset": 14318,
+        "room": 0,
+        "stage": 13,
+        "type": 2
+      }
+    ]
+  },
+  "City in The Sky East First Wing Chest After Fans": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2628,
+        "room": 5,
+        "stage": 12,
+        "type": 0
+      }
+    ]
+  },
+  "City in The Sky East Tile Worm Small Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2416,
+        "room": 7,
+        "stage": 12,
+        "type": 0
+      }
+    ]
+  },
+  "City in The Sky East Wing After Dinalfos Alcove Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2384,
+        "room": 7,
+        "stage": 12,
+        "type": 0
+      }
+    ]
+  },
+  "City in The Sky East Wing After Dinalfos Ledge Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2448,
+        "room": 7,
+        "stage": 12,
+        "type": 0
+      }
+    ]
+  },
+  "City in The Sky East Wing Lower Level Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2376,
+        "room": 4,
+        "stage": 12,
+        "type": 0
+      }
+    ]
+  },
+  "City in The Sky Underwater East Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2948,
+        "room": 0,
+        "stage": 12,
+        "type": 0
+      }
+    ]
+  },
+  "City in The Sky Underwater West Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2916,
+        "room": 0,
+        "stage": 12,
+        "type": 0
+      }
+    ]
+  },
+  "City in The Sky West Garden Corner Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2620,
+        "room": 12,
+        "stage": 12,
+        "type": 0
+      }
+    ]
+  },
+  "City in The Sky West Garden Ledge Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2556,
+        "room": 12,
+        "stage": 12,
+        "type": 0
+      }
+    ]
+  },
+  "City in The Sky West Garden Lone Island Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2652,
+        "room": 12,
+        "stage": 12,
+        "type": 0
+      }
+    ]
+  },
+  "City in The Sky West Garden Lower Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2588,
+        "room": 12,
+        "stage": 12,
+        "type": 0
+      }
+    ]
+  },
+  "City in The Sky West Wing Baba Balcony Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 1656,
+        "room": 10,
+        "stage": 12,
+        "type": 0
+      }
+    ]
+  },
+  "City in The Sky West Wing First Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 1592,
+        "room": 10,
+        "stage": 12,
+        "type": 0
+      }
+    ]
+  },
+  "City in The Sky West Wing Narrow Ledge Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 1688,
+        "room": 10,
+        "stage": 12,
+        "type": 0
+      }
+    ]
+  },
+  "City in The Sky West Wing Tile Worm Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 1624,
+        "room": 10,
+        "stage": 12,
+        "type": 0
+      }
+    ]
+  },
+  "Coro Bottle": {
+    "arc": [
+      {
+        "dir": 1,
+        "offset": 935,
+        "room": 0,
+        "stage": 45,
+        "type": 0
+      },
+      {
+        "dir": 1,
+        "offset": 783,
+        "room": 0,
+        "stage": 45,
+        "type": 0
+      }
+    ]
+  },
+  "Coro Gate Key": {
+    "arc": [
+      {
+        "dir": 1,
+        "offset": 1239,
+        "room": 0,
+        "stage": 45,
+        "type": 0
+      }
+    ]
+  },
+  "Coro Lantern": {
+    "arc": [
+      {
+        "dir": 1,
+        "offset": 3391,
+        "room": 0,
+        "stage": 45,
+        "type": 0
+      }
+    ]
+  },
+  "Death Mountain Alcove Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 5380,
+        "room": 0,
+        "stage": 47,
+        "type": 0
+      }
+    ]
+  },
+  "Death Mountain Volcano Ledge Rupee 1": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 12003,
+        "room": 3,
+        "stage": 47,
+        "type": 0
+      },
+      {
+        "dir": 0,
+        "offset": 14143,
+        "room": 3,
+        "stage": 47,
+        "type": 0
+      }
+    ]
+  },
+  "Death Mountain Volcano Ledge Rupee 2": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 12035,
+        "room": 3,
+        "stage": 47,
+        "type": 0
+      },
+      {
+        "dir": 0,
+        "offset": 14175,
+        "room": 3,
+        "stage": 47,
+        "type": 0
+      }
+    ]
+  },
+  "Death Mountain Volcano Ledge Rupee 3": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 12067,
+        "room": 3,
+        "stage": 47,
+        "type": 0
+      },
+      {
+        "dir": 0,
+        "offset": 14207,
+        "room": 3,
+        "stage": 47,
+        "type": 0
+      }
+    ]
+  },
+  "Death Mountain Volcano Pipe Ledge Rock Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 9614,
+        "room": 3,
+        "stage": 47,
+        "type": 0
+      }
+    ]
+  },
+  "Doctors Office Balcony Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 5512,
+        "room": 4,
+        "stage": 53,
+        "type": 0
+      }
+    ]
+  },
+  "Eldin Field Bomb Rock Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 7732,
+        "room": 0,
+        "stage": 56,
+        "type": 0
+      }
+    ]
+  },
+  "Eldin Lantern Cave First Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3520,
+        "room": 0,
+        "stage": 32,
+        "type": 0
+      }
+    ]
+  },
+  "Eldin Lantern Cave Lantern Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3456,
+        "room": 0,
+        "stage": 32,
+        "type": 0
+      }
+    ]
+  },
+  "Eldin Lantern Cave Second Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3488,
+        "room": 0,
+        "stage": 32,
+        "type": 0
+      }
+    ]
+  },
+  "Eldin Spring Underwater Boulder Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 19099,
+        "room": 0,
+        "stage": 46,
+        "type": 0
+      },
+      {
+        "dir": 0,
+        "offset": 23187,
+        "room": 0,
+        "stage": 46,
+        "type": 0
+      }
+    ]
+  },
+  "Eldin Spring Underwater Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 12108,
+        "room": 0,
+        "stage": 46,
+        "type": 0
+      }
+    ]
+  },
+  "Eldin Stockcave Lantern Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3792,
+        "room": 10,
+        "stage": 34,
+        "type": 0
+      }
+    ]
+  },
+  "Eldin Stockcave Lowest Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3728,
+        "room": 10,
+        "stage": 34,
+        "type": 0
+      }
+    ]
+  },
+  "Eldin Stockcave Upper Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3760,
+        "room": 10,
+        "stage": 34,
+        "type": 0
+      }
+    ]
+  },
+  "Faron Field Bridge Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 4640,
+        "room": 6,
+        "stage": 56,
+        "type": 0
+      }
+    ]
+  },
+  "Faron Field Tree Heart Piece": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 4087,
+        "room": 6,
+        "stage": 56,
+        "type": 0
+      }
+    ]
+  },
+  "Faron Mist Cave Lantern Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 504,
+        "room": 14,
+        "stage": 45,
+        "type": 0
+      }
+    ]
+  },
+  "Faron Mist Cave Open Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 536,
+        "room": 14,
+        "stage": 45,
+        "type": 0
+      }
+    ]
+  },
+  "Faron Woods Coro Boulder Rupee 1": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 1659,
+        "room": 4,
+        "stage": 45,
+        "type": 0
+      }
+    ]
+  },
+  "Faron Woods Coro Boulder Rupee 2": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 1691,
+        "room": 4,
+        "stage": 45,
+        "type": 0
+      }
+    ]
+  },
+  "Faron Woods Coro Boulder Rupee 3": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 1723,
+        "room": 4,
+        "stage": 45,
+        "type": 0
+      }
+    ]
+  },
+  "Faron Woods Coro Boulder Rupee 4": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 1755,
+        "room": 4,
+        "stage": 45,
+        "type": 0
+      }
+    ]
+  },
+  "Faron Woods Owl Statue Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 7924,
+        "room": 5,
+        "stage": 45,
+        "type": 0
+      }
+    ]
+  },
+  "Fishing Hole Bottle": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 80328,
+        "room": 0,
+        "stage": 62,
+        "type": 4
+      }
+    ]
+  },
+  "Fishing Hole Heart Piece": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3103,
+        "room": 0,
+        "stage": 62,
+        "type": 0
+      },
+      {
+        "dir": 1,
+        "offset": 14172,
+        "room": 0,
+        "stage": 62,
+        "type": 5
+      },
+      {
+        "dir": 1,
+        "offset": 13892,
+        "room": 0,
+        "stage": 62,
+        "type": 5
+      }
+    ]
+  },
+  "Forest Temple Big Key Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3028,
+        "room": 1,
+        "stage": 6,
+        "type": 0
+      }
+    ]
+  },
+  "Forest Temple Central Chest Behind Stairs": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 4236,
+        "room": 0,
+        "stage": 6,
+        "type": 0
+      }
+    ]
+  },
+  "Forest Temple Central Chest Hanging From Web": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 4204,
+        "room": 0,
+        "stage": 6,
+        "type": 0
+      }
+    ]
+  },
+  "Forest Temple Central North Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 4268,
+        "room": 0,
+        "stage": 6,
+        "type": 0
+      }
+    ]
+  },
+  "Forest Temple Dungeon Reward": {
+    "arc": [
+      {
+        "dir": 3,
+        "offset": 12934,
+        "room": 0,
+        "stage": 7,
+        "type": 2
+      }
+    ]
+  },
+  "Forest Temple East Tile Worm Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2040,
+        "room": 11,
+        "stage": 6,
+        "type": 0
+      }
+    ]
+  },
+  "Forest Temple East Water Cave Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2996,
+        "room": 1,
+        "stage": 6,
+        "type": 0
+      }
+    ]
+  },
+  "Forest Temple Entrance Vines Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2368,
+        "room": 22,
+        "stage": 6,
+        "type": 0
+      }
+    ]
+  },
+  "Forest Temple North Deku Like Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2456,
+        "room": 10,
+        "stage": 6,
+        "type": 0
+      }
+    ]
+  },
+  "Forest Temple Second Monkey Under Bridge Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2436,
+        "room": 2,
+        "stage": 6,
+        "type": 0
+      }
+    ]
+  },
+  "Forest Temple Totem Pole Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3060,
+        "room": 5,
+        "stage": 6,
+        "type": 0
+      }
+    ]
+  },
+  "Forest Temple West Deku Like Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3188,
+        "room": 3,
+        "stage": 6,
+        "type": 0
+      }
+    ]
+  },
+  "Forest Temple West Tile Worm Chest Behind Stairs": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3092,
+        "room": 5,
+        "stage": 6,
+        "type": 0
+      }
+    ]
+  },
+  "Forest Temple West Tile Worm Room Vines Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3124,
+        "room": 5,
+        "stage": 6,
+        "type": 0
+      }
+    ]
+  },
+  "Forest Temple Windless Bridge Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 1872,
+        "room": 9,
+        "stage": 6,
+        "type": 0
+      }
+    ]
+  },
+  "Gerudo Desert Campfire East Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 5752,
+        "room": 0,
+        "stage": 59,
+        "type": 0
+      }
+    ]
+  },
+  "Gerudo Desert Campfire North Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 5784,
+        "room": 0,
+        "stage": 59,
+        "type": 0
+      }
+    ]
+  },
+  "Gerudo Desert Campfire West Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 5720,
+        "room": 0,
+        "stage": 59,
+        "type": 0
+      }
+    ]
+  },
+  "Gerudo Desert East Canyon Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 5848,
+        "room": 0,
+        "stage": 59,
+        "type": 0
+      }
+    ]
+  },
+  "Gerudo Desert Lone Small Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 5880,
+        "room": 0,
+        "stage": 59,
+        "type": 0
+      }
+    ]
+  },
+  "Gerudo Desert North Small Chest Before Bulblin Camp": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 5656,
+        "room": 0,
+        "stage": 59,
+        "type": 0
+      }
+    ]
+  },
+  "Gerudo Desert Northeast Chest Behind Gates": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 5944,
+        "room": 0,
+        "stage": 59,
+        "type": 0
+      }
+    ]
+  },
+  "Gerudo Desert Northwest Chest Behind Gates": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 5912,
+        "room": 0,
+        "stage": 59,
+        "type": 0
+      }
+    ]
+  },
+  "Gerudo Desert Owl Statue Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 5624,
+        "room": 0,
+        "stage": 59,
+        "type": 0
+      }
+    ]
+  },
+  "Gerudo Desert Peahat Ledge Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 5688,
+        "room": 0,
+        "stage": 59,
+        "type": 0
+      }
+    ]
+  },
+  "Gerudo Desert South Chest Behind Wooden Gates": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 5592,
+        "room": 0,
+        "stage": 59,
+        "type": 0
+      }
+    ]
+  },
+  "Gerudo Desert West Canyon Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 5816,
+        "room": 0,
+        "stage": 59,
+        "type": 0
+      }
+    ]
+  },
+  "Gift From Ralis": {
+    "arc": [
+      {
+        "dir": 1,
+        "offset": 6623,
+        "room": 0,
+        "stage": 48,
+        "type": 0
+      }
+    ]
+  },
+  "Goron Mines After Crystal Switch Room Magnet Wall Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2696,
+        "room": 6,
+        "stage": 3,
+        "type": 0
+      }
+    ]
+  },
+  "Goron Mines Beamos Room Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2904,
+        "room": 11,
+        "stage": 3,
+        "type": 0
+      }
+    ]
+  },
+  "Goron Mines Chest Before Dangoro": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3028,
+        "room": 9,
+        "stage": 3,
+        "type": 0
+      }
+    ]
+  },
+  "Goron Mines Crystal Switch Room Small Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2760,
+        "room": 6,
+        "stage": 3,
+        "type": 0
+      }
+    ]
+  },
+  "Goron Mines Crystal Switch Room Underwater Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2728,
+        "room": 6,
+        "stage": 3,
+        "type": 0
+      }
+    ]
+  },
+  "Goron Mines Dangoro Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2872,
+        "room": 11,
+        "stage": 3,
+        "type": 0
+      }
+    ]
+  },
+  "Goron Mines Dungeon Reward": {
+    "arc": [
+      {
+        "dir": 3,
+        "offset": 14662,
+        "room": 0,
+        "stage": 4,
+        "type": 2
+      }
+    ]
+  },
+  "Goron Mines Entrance Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 5844,
+        "room": 1,
+        "stage": 3,
+        "type": 0
+      }
+    ]
+  },
+  "Goron Mines Gor Amato Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 712,
+        "room": 14,
+        "stage": 3,
+        "type": 0
+      }
+    ]
+  },
+  "Goron Mines Gor Amato Key Shard": {
+    "arc": [
+      {
+        "dir": 1,
+        "offset": 4559,
+        "room": 0,
+        "stage": 3,
+        "type": 0
+      }
+    ]
+  },
+  "Goron Mines Gor Amato Small Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 776,
+        "room": 14,
+        "stage": 3,
+        "type": 0
+      }
+    ]
+  },
+  "Goron Mines Gor Ebizo Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 648,
+        "room": 17,
+        "stage": 3,
+        "type": 0
+      }
+    ]
+  },
+  "Goron Mines Gor Ebizo Key Shard": {
+    "arc": [
+      {
+        "dir": 1,
+        "offset": 4831,
+        "room": 0,
+        "stage": 3,
+        "type": 0
+      }
+    ]
+  },
+  "Goron Mines Gor Liggs Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 760,
+        "room": 16,
+        "stage": 3,
+        "type": 0
+      }
+    ]
+  },
+  "Goron Mines Gor Liggs Key Shard": {
+    "arc": [
+      {
+        "dir": 1,
+        "offset": 4695,
+        "room": 0,
+        "stage": 3,
+        "type": 0
+      }
+    ]
+  },
+  "Goron Mines Magnet Maze Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 4288,
+        "room": 4,
+        "stage": 3,
+        "type": 0
+      }
+    ]
+  },
+  "Goron Mines Main Magnet Room Bottom Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 5756,
+        "room": 3,
+        "stage": 3,
+        "type": 0
+      }
+    ]
+  },
+  "Goron Mines Main Magnet Room Top Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 5788,
+        "room": 3,
+        "stage": 3,
+        "type": 0
+      }
+    ]
+  },
+  "Goron Mines Outside Beamos Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3832,
+        "room": 7,
+        "stage": 3,
+        "type": 0
+      }
+    ]
+  },
+  "Goron Mines Outside Clawshot Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3800,
+        "room": 7,
+        "stage": 3,
+        "type": 0
+      }
+    ]
+  },
+  "Goron Mines Outside Underwater Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3864,
+        "room": 7,
+        "stage": 3,
+        "type": 0
+      }
+    ]
+  },
+  "Herding Goats Reward": {
+    "arc": [
+      {
+        "dir": 1,
+        "offset": 6719,
+        "room": 0,
+        "stage": 41,
+        "type": 0
+      }
+    ]
+  },
+  "Hyrule Castle Big Key Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 1016,
+        "room": 15,
+        "stage": 20,
+        "type": 0
+      }
+    ]
+  },
+  "Hyrule Castle East Wing Balcony Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 720,
+        "room": 14,
+        "stage": 20,
+        "type": 0
+      }
+    ]
+  },
+  "Hyrule Castle East Wing Boomerang Puzzle Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 688,
+        "room": 14,
+        "stage": 20,
+        "type": 0
+      }
+    ]
+  },
+  "Hyrule Castle Graveyard Grave Switch Room Back Left Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 1068,
+        "room": 9,
+        "stage": 20,
+        "type": 0
+      }
+    ]
+  },
+  "Hyrule Castle Graveyard Grave Switch Room Front Left Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 1036,
+        "room": 9,
+        "stage": 20,
+        "type": 0
+      }
+    ]
+  },
+  "Hyrule Castle Graveyard Grave Switch Room Right Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 1004,
+        "room": 9,
+        "stage": 20,
+        "type": 0
+      }
+    ]
+  },
+  "Hyrule Castle Graveyard Owl Statue Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 972,
+        "room": 9,
+        "stage": 20,
+        "type": 0
+      }
+    ]
+  },
+  "Hyrule Castle Lantern Staircase Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 1632,
+        "room": 2,
+        "stage": 20,
+        "type": 0
+      }
+    ]
+  },
+  "Hyrule Castle Main Hall Northeast Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 1228,
+        "room": 1,
+        "stage": 20,
+        "type": 0
+      }
+    ]
+  },
+  "Hyrule Castle Main Hall Northwest Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 1260,
+        "room": 1,
+        "stage": 20,
+        "type": 0
+      }
+    ]
+  },
+  "Hyrule Castle Main Hall Southwest Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 1196,
+        "room": 1,
+        "stage": 20,
+        "type": 0
+      }
+    ]
+  },
+  "Hyrule Castle Southeast Balcony Tower Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 984,
+        "room": 15,
+        "stage": 20,
+        "type": 0
+      }
+    ]
+  },
+  "Hyrule Castle Treasure Room Eighth Small Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 748,
+        "room": 8,
+        "stage": 20,
+        "type": 0
+      }
+    ]
+  },
+  "Hyrule Castle Treasure Room Fifth Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 556,
+        "room": 8,
+        "stage": 20,
+        "type": 0
+      }
+    ]
+  },
+  "Hyrule Castle Treasure Room Fifth Small Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 620,
+        "room": 8,
+        "stage": 20,
+        "type": 0
+      }
+    ]
+  },
+  "Hyrule Castle Treasure Room First Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 428,
+        "room": 8,
+        "stage": 20,
+        "type": 0
+      }
+    ]
+  },
+  "Hyrule Castle Treasure Room First Small Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 812,
+        "room": 8,
+        "stage": 20,
+        "type": 0
+      }
+    ]
+  },
+  "Hyrule Castle Treasure Room Fourth Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 524,
+        "room": 8,
+        "stage": 20,
+        "type": 0
+      }
+    ]
+  },
+  "Hyrule Castle Treasure Room Fourth Small Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 652,
+        "room": 8,
+        "stage": 20,
+        "type": 0
+      }
+    ]
+  },
+  "Hyrule Castle Treasure Room Second Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 460,
+        "room": 8,
+        "stage": 20,
+        "type": 0
+      }
+    ]
+  },
+  "Hyrule Castle Treasure Room Second Small Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 780,
+        "room": 8,
+        "stage": 20,
+        "type": 0
+      }
+    ]
+  },
+  "Hyrule Castle Treasure Room Seventh Small Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 716,
+        "room": 8,
+        "stage": 20,
+        "type": 0
+      }
+    ]
+  },
+  "Hyrule Castle Treasure Room Sixth Small Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 684,
+        "room": 8,
+        "stage": 20,
+        "type": 0
+      }
+    ]
+  },
+  "Hyrule Castle Treasure Room Third Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 492,
+        "room": 8,
+        "stage": 20,
+        "type": 0
+      }
+    ]
+  },
+  "Hyrule Castle Treasure Room Third Small Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 588,
+        "room": 8,
+        "stage": 20,
+        "type": 0
+      }
+    ]
+  },
+  "Hyrule Castle West Courtyard Central Small Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 800,
+        "room": 13,
+        "stage": 20,
+        "type": 0
+      }
+    ]
+  },
+  "Hyrule Castle West Courtyard North Small Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 736,
+        "room": 13,
+        "stage": 20,
+        "type": 0
+      }
+    ]
+  },
+  "Hyrule Field Amphitheater Owl Statue Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 7528,
+        "room": 8,
+        "stage": 57,
+        "type": 0
+      }
+    ]
+  },
+  "Ilia Charm": {
+    "arc": [
+      {
+        "dir": 1,
+        "offset": 423,
+        "room": 0,
+        "stage": 63,
+        "type": 0
+      }
+    ]
+  },
+  "Ilia Memory Reward": {
+    "arc": [
+      {
+        "dir": 1,
+        "offset": 4948,
+        "room": 0,
+        "stage": 44,
+        "type": 4
+      }
+    ]
+  },
+  "Iza Helping Hand": {
+    "arc": [
+      {
+        "dir": 1,
+        "offset": 5943,
+        "room": 0,
+        "stage": 52,
+        "type": 0
+      }
+    ]
+  },
+  "Iza Raging Rapids Minigame": {
+    "arc": [
+      {
+        "dir": 1,
+        "offset": 6023,
+        "room": 0,
+        "stage": 52,
+        "type": 0
+      }
+    ]
+  },
+  "Jovani 20 Poe Soul Reward": {
+    "arc": [
+      {
+        "dir": 1,
+        "offset": 16927,
+        "room": 0,
+        "stage": 73,
+        "type": 0
+      }
+    ]
+  },
+  "Jovani 60 Poe Soul Reward": {
+    "arc": [
+      {
+        "dir": 1,
+        "offset": 17063,
+        "room": 0,
+        "stage": 73,
+        "type": 0
+      }
+    ]
+  },
+  "Kakariko Gorge Double Clawshot Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 5816,
+        "room": 3,
+        "stage": 56,
+        "type": 0
+      }
+    ]
+  },
+  "Kakariko Gorge Owl Statue Boulder Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 5355,
+        "room": 3,
+        "stage": 56,
+        "type": 0
+      }
+    ]
+  },
+  "Kakariko Gorge Owl Statue Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 5784,
+        "room": 3,
+        "stage": 56,
+        "type": 0
+      }
+    ]
+  },
+  "Kakariko Gorge Spire Boulder Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 5227,
+        "room": 3,
+        "stage": 56,
+        "type": 0
+      }
+    ]
+  },
+  "Kakariko Gorge Spire Heart Piece": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 5131,
+        "room": 3,
+        "stage": 56,
+        "type": 0
+      }
+    ]
+  },
+  "Kakariko Graveyard Lantern Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 8440,
+        "room": 0,
+        "stage": 48,
+        "type": 0
+      }
+    ]
+  },
+  "Kakariko Graveyard Underwater Boulder Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 10283,
+        "room": 0,
+        "stage": 48,
+        "type": 0
+      },
+      {
+        "dir": 0,
+        "offset": 11723,
+        "room": 0,
+        "stage": 48,
+        "type": 0
+      },
+      {
+        "dir": 0,
+        "offset": 12523,
+        "room": 0,
+        "stage": 48,
+        "type": 0
+      }
+    ]
+  },
+  "Kakariko Inn Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 1864,
+        "room": 2,
+        "stage": 68,
+        "type": 0
+      }
+    ]
+  },
+  "Kakariko Village Ant House Ledge Box Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 18729,
+        "room": 0,
+        "stage": 46,
+        "type": 0
+      },
+      {
+        "dir": 0,
+        "offset": 22689,
+        "room": 0,
+        "stage": 46,
+        "type": 0
+      }
+    ]
+  },
+  "Kakariko Village Bell Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 18779,
+        "room": 0,
+        "stage": 46,
+        "type": 0
+      },
+      {
+        "dir": 0,
+        "offset": 22739,
+        "room": 0,
+        "stage": 46,
+        "type": 0
+      }
+    ]
+  },
+  "Kakariko Village Hot Spring Ledge Box Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 18825,
+        "room": 0,
+        "stage": 46,
+        "type": 0
+      },
+      {
+        "dir": 0,
+        "offset": 22785,
+        "room": 0,
+        "stage": 46,
+        "type": 0
+      }
+    ]
+  },
+  "Kakariko Village Malo Mart Hawkeye": {
+    "arc": [
+      {
+        "dir": 1,
+        "offset": 8671,
+        "room": 0,
+        "stage": 68,
+        "type": 0
+      }
+    ]
+  },
+  "Kakariko Village Malo Mart Hylian Shield": {
+    "arc": [
+      {
+        "dir": 1,
+        "offset": 8527,
+        "room": 0,
+        "stage": 68,
+        "type": 0
+      }
+    ]
+  },
+  "Kakariko Village Malo Mart Red Potion": {
+    "arc": [
+      {
+        "dir": 1,
+        "offset": 8799,
+        "room": 0,
+        "stage": 68,
+        "type": 0
+      }
+    ]
+  },
+  "Kakariko Village Malo Mart Wooden Shield": {
+    "arc": [
+      {
+        "dir": 1,
+        "offset": 8439,
+        "room": 0,
+        "stage": 68,
+        "type": 0
+      }
+    ]
+  },
+  "Kakariko Village Spring Shortcut Box Rupee 1": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 17705,
+        "room": 0,
+        "stage": 46,
+        "type": 0
+      },
+      {
+        "dir": 0,
+        "offset": 21537,
+        "room": 0,
+        "stage": 46,
+        "type": 0
+      }
+    ]
+  },
+  "Kakariko Village Spring Shortcut Box Rupee 2": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 17769,
+        "room": 0,
+        "stage": 46,
+        "type": 0
+      },
+      {
+        "dir": 0,
+        "offset": 21601,
+        "room": 0,
+        "stage": 46,
+        "type": 0
+      }
+    ]
+  },
+  "Kakariko Watchtower Alcove Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 12140,
+        "room": 0,
+        "stage": 46,
+        "type": 0
+      }
+    ]
+  },
+  "Kakariko Watchtower Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 892,
+        "room": 4,
+        "stage": 68,
+        "type": 0
+      }
+    ]
+  },
+  "Lake Hylia Bridge Cliff Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3588,
+        "room": 13,
+        "stage": 56,
+        "type": 0
+      }
+    ]
+  },
+  "Lake Hylia Bridge Faron Boulder Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3291,
+        "room": 13,
+        "stage": 56,
+        "type": 0
+      }
+    ]
+  },
+  "Lake Hylia Bridge Owl Statue Boulder Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3163,
+        "room": 13,
+        "stage": 56,
+        "type": 0
+      }
+    ]
+  },
+  "Lake Hylia Bridge Owl Statue Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3652,
+        "room": 13,
+        "stage": 56,
+        "type": 0
+      }
+    ]
+  },
+  "Lake Hylia Bridge Vines Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3620,
+        "room": 13,
+        "stage": 56,
+        "type": 0
+      }
+    ]
+  },
+  "Lake Hylia Left Underwater Boulder Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 36907,
+        "room": 0,
+        "stage": 52,
+        "type": 0
+      },
+      {
+        "dir": 0,
+        "offset": 42955,
+        "room": 0,
+        "stage": 52,
+        "type": 0
+      }
+    ]
+  },
+  "Lake Hylia Left Underwater Pillar Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 36747,
+        "room": 0,
+        "stage": 52,
+        "type": 0
+      },
+      {
+        "dir": 0,
+        "offset": 42795,
+        "room": 0,
+        "stage": 52,
+        "type": 0
+      }
+    ]
+  },
+  "Lake Hylia Right Underwater Boulder Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 36779,
+        "room": 0,
+        "stage": 52,
+        "type": 0
+      },
+      {
+        "dir": 0,
+        "offset": 42827,
+        "room": 0,
+        "stage": 52,
+        "type": 0
+      }
+    ]
+  },
+  "Lake Hylia Right Underwater Pillar Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 36715,
+        "room": 0,
+        "stage": 52,
+        "type": 0
+      },
+      {
+        "dir": 0,
+        "offset": 42763,
+        "room": 0,
+        "stage": 52,
+        "type": 0
+      }
+    ]
+  },
+  "Lake Lantern Cave Eighth Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 7676,
+        "room": 0,
+        "stage": 33,
+        "type": 0
+      }
+    ]
+  },
+  "Lake Lantern Cave Eleventh Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 7708,
+        "room": 0,
+        "stage": 33,
+        "type": 0
+      }
+    ]
+  },
+  "Lake Lantern Cave End Lantern Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 7388,
+        "room": 0,
+        "stage": 33,
+        "type": 0
+      }
+    ]
+  },
+  "Lake Lantern Cave Fifth Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 7580,
+        "room": 0,
+        "stage": 33,
+        "type": 0
+      }
+    ]
+  },
+  "Lake Lantern Cave First Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 7516,
+        "room": 0,
+        "stage": 33,
+        "type": 0
+      }
+    ]
+  },
+  "Lake Lantern Cave Fourteenth Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 7804,
+        "room": 0,
+        "stage": 33,
+        "type": 0
+      }
+    ]
+  },
+  "Lake Lantern Cave Fourth Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 7420,
+        "room": 0,
+        "stage": 33,
+        "type": 0
+      }
+    ]
+  },
+  "Lake Lantern Cave Ninth Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 7644,
+        "room": 0,
+        "stage": 33,
+        "type": 0
+      }
+    ]
+  },
+  "Lake Lantern Cave Second Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 7772,
+        "room": 0,
+        "stage": 33,
+        "type": 0
+      }
+    ]
+  },
+  "Lake Lantern Cave Seventh Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 7612,
+        "room": 0,
+        "stage": 33,
+        "type": 0
+      }
+    ]
+  },
+  "Lake Lantern Cave Sixth Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 7836,
+        "room": 0,
+        "stage": 33,
+        "type": 0
+      }
+    ]
+  },
+  "Lake Lantern Cave Tenth Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 7484,
+        "room": 0,
+        "stage": 33,
+        "type": 0
+      }
+    ]
+  },
+  "Lake Lantern Cave Third Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 7548,
+        "room": 0,
+        "stage": 33,
+        "type": 0
+      }
+    ]
+  },
+  "Lake Lantern Cave Thirteenth Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 7740,
+        "room": 0,
+        "stage": 33,
+        "type": 0
+      }
+    ]
+  },
+  "Lake Lantern Cave Twelfth Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 7452,
+        "room": 0,
+        "stage": 33,
+        "type": 0
+      }
+    ]
+  },
+  "Lakebed Temple Before Deku Toad Alcove Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3172,
+        "room": 9,
+        "stage": 0,
+        "type": 0
+      }
+    ]
+  },
+  "Lakebed Temple Before Deku Toad Underwater Left Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3236,
+        "room": 9,
+        "stage": 0,
+        "type": 0
+      }
+    ]
+  },
+  "Lakebed Temple Before Deku Toad Underwater Right Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3204,
+        "room": 9,
+        "stage": 0,
+        "type": 0
+      }
+    ]
+  },
+  "Lakebed Temple Big Key Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3328,
+        "room": 6,
+        "stage": 0,
+        "type": 0
+      }
+    ]
+  },
+  "Lakebed Temple Central Room Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 13884,
+        "room": 3,
+        "stage": 0,
+        "type": 0
+      }
+    ]
+  },
+  "Lakebed Temple Central Room Small Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 13852,
+        "room": 3,
+        "stage": 0,
+        "type": 0
+      }
+    ]
+  },
+  "Lakebed Temple Central Room Spire Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 13820,
+        "room": 3,
+        "stage": 0,
+        "type": 0
+      }
+    ]
+  },
+  "Lakebed Temple Chandelier Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 13788,
+        "room": 3,
+        "stage": 0,
+        "type": 0
+      }
+    ]
+  },
+  "Lakebed Temple Deku Toad Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 1692,
+        "room": 51,
+        "stage": 2,
+        "type": 0
+      }
+    ]
+  },
+  "Lakebed Temple Dungeon Reward": {
+    "arc": [
+      {
+        "dir": 3,
+        "offset": 14490,
+        "room": 0,
+        "stage": 1,
+        "type": 2
+      }
+    ]
+  },
+  "Lakebed Temple East Lower Waterwheel Bridge Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 13156,
+        "room": 8,
+        "stage": 0,
+        "type": 0
+      }
+    ]
+  },
+  "Lakebed Temple East Lower Waterwheel Stalactite Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 13124,
+        "room": 8,
+        "stage": 0,
+        "type": 0
+      }
+    ]
+  },
+  "Lakebed Temple East Second Floor Southeast Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3312,
+        "room": 7,
+        "stage": 0,
+        "type": 0
+      }
+    ]
+  },
+  "Lakebed Temple East Second Floor Southwest Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3344,
+        "room": 7,
+        "stage": 0,
+        "type": 0
+      }
+    ]
+  },
+  "Lakebed Temple East Water Supply Clawshot Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 4364,
+        "room": 10,
+        "stage": 0,
+        "type": 0
+      }
+    ]
+  },
+  "Lakebed Temple East Water Supply Small Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 4332,
+        "room": 10,
+        "stage": 0,
+        "type": 0
+      }
+    ]
+  },
+  "Lakebed Temple Lobby Left Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2584,
+        "room": 0,
+        "stage": 0,
+        "type": 0
+      }
+    ]
+  },
+  "Lakebed Temple Lobby Rear Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2616,
+        "room": 0,
+        "stage": 0,
+        "type": 0
+      }
+    ]
+  },
+  "Lakebed Temple Stalactite Room Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 4932,
+        "room": 1,
+        "stage": 0,
+        "type": 0
+      }
+    ]
+  },
+  "Lakebed Temple Underwater Maze Small Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3876,
+        "room": 5,
+        "stage": 0,
+        "type": 0
+      }
+    ]
+  },
+  "Lakebed Temple West Lower Small Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2800,
+        "room": 12,
+        "stage": 0,
+        "type": 0
+      }
+    ]
+  },
+  "Lakebed Temple West Second Floor Central Small Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2768,
+        "room": 12,
+        "stage": 0,
+        "type": 0
+      }
+    ]
+  },
+  "Lakebed Temple West Second Floor Northeast Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 8640,
+        "room": 11,
+        "stage": 0,
+        "type": 0
+      }
+    ]
+  },
+  "Lakebed Temple West Second Floor Southeast Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 8608,
+        "room": 11,
+        "stage": 0,
+        "type": 0
+      }
+    ]
+  },
+  "Lakebed Temple West Second Floor Southwest Underwater Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 8672,
+        "room": 11,
+        "stage": 0,
+        "type": 0
+      }
+    ]
+  },
+  "Lakebed Temple West Water Supply Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 8696,
+        "room": 13,
+        "stage": 0,
+        "type": 0
+      }
+    ]
+  },
+  "Lakebed Temple West Water Supply Small Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 8728,
+        "room": 13,
+        "stage": 0,
+        "type": 0
+      }
+    ]
+  },
+  "Lanayru Field Behind Gate Underwater Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 8160,
+        "room": 10,
+        "stage": 56,
+        "type": 0
+      }
+    ]
+  },
+  "Lanayru Field North Spinner Track Boulder Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 6931,
+        "room": 10,
+        "stage": 56,
+        "type": 0
+      }
+    ]
+  },
+  "Lanayru Field North Underwater Boulder Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 6771,
+        "room": 10,
+        "stage": 56,
+        "type": 0
+      }
+    ]
+  },
+  "Lanayru Field South Spinner Track Boulder Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 975,
+        "room": 12,
+        "stage": 56,
+        "type": 0
+      }
+    ]
+  },
+  "Lanayru Field South Underwater Boulder Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 6611,
+        "room": 10,
+        "stage": 56,
+        "type": 0
+      }
+    ]
+  },
+  "Lanayru Field Spinner Track Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 1492,
+        "room": 11,
+        "stage": 56,
+        "type": 0
+      }
+    ]
+  },
+  "Lanayru Field Tree Boulder Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 6899,
+        "room": 10,
+        "stage": 56,
+        "type": 0
+      }
+    ]
+  },
+  "Lanayru Ice Block Puzzle Cave Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2384,
+        "room": 0,
+        "stage": 30,
+        "type": 0
+      }
+    ]
+  },
+  "Lanayru Spring Back Room Lantern Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 9376,
+        "room": 1,
+        "stage": 52,
+        "type": 0
+      }
+    ]
+  },
+  "Lanayru Spring Back Room Left Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 9408,
+        "room": 1,
+        "stage": 52,
+        "type": 0
+      }
+    ]
+  },
+  "Lanayru Spring Back Room Right Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 9440,
+        "room": 1,
+        "stage": 52,
+        "type": 0
+      }
+    ]
+  },
+  "Lanayru Spring East Double Clawshot Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 9568,
+        "room": 1,
+        "stage": 52,
+        "type": 0
+      }
+    ]
+  },
+  "Lanayru Spring Lower Underwater Boulder Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 8171,
+        "room": 1,
+        "stage": 52,
+        "type": 0
+      }
+    ]
+  },
+  "Lanayru Spring Underwater Left Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 9504,
+        "room": 1,
+        "stage": 52,
+        "type": 0
+      }
+    ]
+  },
+  "Lanayru Spring Underwater Right Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 9472,
+        "room": 1,
+        "stage": 52,
+        "type": 0
+      }
+    ]
+  },
+  "Lanayru Spring Upper Underwater Boulder Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 8203,
+        "room": 1,
+        "stage": 52,
+        "type": 0
+      }
+    ]
+  },
+  "Lanayru Spring West Double Clawshot Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 9536,
+        "room": 1,
+        "stage": 52,
+        "type": 0
+      }
+    ]
+  },
+  "Links Basement Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 460,
+        "room": 7,
+        "stage": 65,
+        "type": 0
+      }
+    ]
+  },
+  "Lost Woods Lantern Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 12928,
+        "room": 3,
+        "stage": 54,
+        "type": 0
+      }
+    ]
+  },
+  "North Faron Woods Deku Baba Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3748,
+        "room": 6,
+        "stage": 45,
+        "type": 0
+      }
+    ]
+  },
+  "Ordon Bo Cliff Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 11579,
+        "room": 0,
+        "stage": 43,
+        "type": 0
+      }
+    ]
+  },
+  "Ordon Bo Roof Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 11611,
+        "room": 0,
+        "stage": 43,
+        "type": 0
+      }
+    ]
+  },
+  "Ordon Bo Window Rupee 1": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 15347,
+        "room": 0,
+        "stage": 43,
+        "type": 0
+      }
+    ]
+  },
+  "Ordon Bo Window Rupee 2": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 15379,
+        "room": 0,
+        "stage": 43,
+        "type": 0
+      }
+    ]
+  },
+  "Ordon Cat Rescue": {
+    "arc": [
+      {
+        "dir": 1,
+        "offset": 14095,
+        "room": 0,
+        "stage": 65,
+        "type": 0
+      }
+    ]
+  },
+  "Ordon Hidden Rusl House Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 15315,
+        "room": 0,
+        "stage": 43,
+        "type": 0
+      },
+      {
+        "dir": 0,
+        "offset": 35287,
+        "room": 0,
+        "stage": 43,
+        "type": 0
+      }
+    ]
+  },
+  "Ordon Rupee In Grass By Bo": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 15731,
+        "room": 0,
+        "stage": 43,
+        "type": 0
+      }
+    ]
+  },
+  "Ordon Rupee In River 1": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 15667,
+        "room": 0,
+        "stage": 43,
+        "type": 0
+      }
+    ]
+  },
+  "Ordon Rupee In River 2": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 15699,
+        "room": 0,
+        "stage": 43,
+        "type": 0
+      }
+    ]
+  },
+  "Ordon Rupee Under Bridge": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 15411,
+        "room": 0,
+        "stage": 43,
+        "type": 0
+      }
+    ]
+  },
+  "Ordon Rupee Under Tall Tree 1": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 15155,
+        "room": 0,
+        "stage": 43,
+        "type": 0
+      }
+    ]
+  },
+  "Ordon Rupee Under Tall Tree 2": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 15187,
+        "room": 0,
+        "stage": 43,
+        "type": 0
+      }
+    ]
+  },
+  "Ordon Rusl House Roof Rupee 1": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 12179,
+        "room": 0,
+        "stage": 43,
+        "type": 0
+      },
+      {
+        "dir": 0,
+        "offset": 35223,
+        "room": 0,
+        "stage": 43,
+        "type": 0
+      }
+    ]
+  },
+  "Ordon Rusl House Roof Rupee 2": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 15283,
+        "room": 0,
+        "stage": 43,
+        "type": 0
+      },
+      {
+        "dir": 0,
+        "offset": 35255,
+        "room": 0,
+        "stage": 43,
+        "type": 0
+      }
+    ]
+  },
+  "Ordon Shield House Ledge Grass Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 35351,
+        "room": 0,
+        "stage": 43,
+        "type": 0
+      }
+    ]
+  },
+  "Ordon Tree Long Branch Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 15763,
+        "room": 0,
+        "stage": 43,
+        "type": 0
+      },
+      {
+        "dir": 0,
+        "offset": 35447,
+        "room": 0,
+        "stage": 43,
+        "type": 0
+      }
+    ]
+  },
+  "Ordon Tree Short Branch Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 13491,
+        "room": 0,
+        "stage": 43,
+        "type": 0
+      },
+      {
+        "dir": 0,
+        "offset": 33239,
+        "room": 0,
+        "stage": 43,
+        "type": 0
+      }
+    ]
+  },
+  "Outside Arbiters Grounds Lantern Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2044,
+        "room": 3,
+        "stage": 55,
+        "type": 0
+      }
+    ]
+  },
+  "Outside South Castle Town Boulder Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 5815,
+        "room": 16,
+        "stage": 57,
+        "type": 0
+      }
+    ]
+  },
+  "Outside South Castle Town Double Clawshot Chasm Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 8604,
+        "room": 16,
+        "stage": 57,
+        "type": 0
+      }
+    ]
+  },
+  "Outside South Castle Town Fountain Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 8636,
+        "room": 16,
+        "stage": 57,
+        "type": 0
+      }
+    ]
+  },
+  "Outside South Castle Town Tightrope Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 8572,
+        "room": 16,
+        "stage": 57,
+        "type": 0
+      }
+    ]
+  },
+  "Palace of Twilight Big Key Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3148,
+        "room": 11,
+        "stage": 15,
+        "type": 0
+      }
+    ]
+  },
+  "Palace of Twilight Central First Room Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 4300,
+        "room": 7,
+        "stage": 15,
+        "type": 0
+      }
+    ]
+  },
+  "Palace of Twilight Central Outdoor Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3180,
+        "room": 11,
+        "stage": 15,
+        "type": 0
+      }
+    ]
+  },
+  "Palace of Twilight Central Tower Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3984,
+        "room": 8,
+        "stage": 15,
+        "type": 0
+      }
+    ]
+  },
+  "Palace of Twilight East Wing First Room East Alcove Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2904,
+        "room": 4,
+        "stage": 15,
+        "type": 0
+      }
+    ]
+  },
+  "Palace of Twilight East Wing First Room North Small Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2936,
+        "room": 4,
+        "stage": 15,
+        "type": 0
+      }
+    ]
+  },
+  "Palace of Twilight East Wing First Room West Alcove Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2872,
+        "room": 4,
+        "stage": 15,
+        "type": 0
+      }
+    ]
+  },
+  "Palace of Twilight East Wing First Room Zant Head Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2840,
+        "room": 4,
+        "stage": 15,
+        "type": 0
+      }
+    ]
+  },
+  "Palace of Twilight East Wing Second Room Northeast Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3296,
+        "room": 5,
+        "stage": 15,
+        "type": 0
+      }
+    ]
+  },
+  "Palace of Twilight East Wing Second Room Northwest Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3328,
+        "room": 5,
+        "stage": 15,
+        "type": 0
+      }
+    ]
+  },
+  "Palace of Twilight East Wing Second Room Southeast Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3264,
+        "room": 5,
+        "stage": 15,
+        "type": 0
+      }
+    ]
+  },
+  "Palace of Twilight East Wing Second Room Southwest Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3360,
+        "room": 5,
+        "stage": 15,
+        "type": 0
+      }
+    ]
+  },
+  "Palace of Twilight West Wing Chest Behind Wall of Darkness": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2080,
+        "room": 1,
+        "stage": 15,
+        "type": 0
+      }
+    ]
+  },
+  "Palace of Twilight West Wing First Room Central Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2112,
+        "room": 1,
+        "stage": 15,
+        "type": 0
+      }
+    ]
+  },
+  "Palace of Twilight West Wing Second Room Central Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3720,
+        "room": 2,
+        "stage": 15,
+        "type": 0
+      }
+    ]
+  },
+  "Palace of Twilight West Wing Second Room Lower South Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3784,
+        "room": 2,
+        "stage": 15,
+        "type": 0
+      }
+    ]
+  },
+  "Palace of Twilight West Wing Second Room Southeast Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3752,
+        "room": 2,
+        "stage": 15,
+        "type": 0
+      }
+    ]
+  },
+  "Plumm Fruit Balloon Minigame": {
+    "arc": [
+      {
+        "dir": 1,
+        "offset": 4087,
+        "room": 0,
+        "stage": 61,
+        "type": 0
+      },
+      {
+        "dir": 1,
+        "offset": 3943,
+        "room": 0,
+        "stage": 61,
+        "type": 0
+      }
+    ]
+  },
+  "Renados Letter": {
+    "arc": [
+      {
+        "dir": 1,
+        "offset": 3303,
+        "room": 0,
+        "stage": 68,
+        "type": 0
+      }
+    ]
+  },
+  "Rutelas Blessing": {
+    "arc": [
+      {
+        "dir": 1,
+        "offset": 703,
+        "room": 0,
+        "stage": 48,
+        "type": 0
+      }
+    ]
+  },
+  "STAR Prize 1": {
+    "arc": [
+      {
+        "dir": 1,
+        "offset": 5063,
+        "room": 0,
+        "stage": 74,
+        "type": 0
+      }
+    ]
+  },
+  "STAR Prize 2": {
+    "arc": [
+      {
+        "dir": 1,
+        "offset": 4959,
+        "room": 0,
+        "stage": 74,
+        "type": 0
+      }
+    ]
+  },
+  "Sacred Grove Past Owl Statue Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2724,
+        "room": 2,
+        "stage": 54,
+        "type": 0
+      }
+    ]
+  },
+  "Sacred Grove Spinner Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 12896,
+        "room": 3,
+        "stage": 54,
+        "type": 0
+      }
+    ]
+  },
+  "Sera Shop Slingshot": {
+    "arc": [
+      {
+        "dir": 1,
+        "offset": 9895,
+        "room": 0,
+        "stage": 65,
+        "type": 0
+      }
+    ]
+  },
+  "Shad Dominion Rod": {
+    "arc": [
+      {
+        "dir": 1,
+        "offset": 19061,
+        "room": 0,
+        "stage": 75,
+        "type": 0
+      },
+      {
+        "dir": 1,
+        "offset": 21612,
+        "room": 0,
+        "stage": 75,
+        "type": 5
+      }
+    ]
+  },
+  "Skybook From Impaz": {
+    "arc": [
+      {
+        "dir": 1,
+        "offset": 12439,
+        "room": 0,
+        "stage": 63,
+        "type": 0
+      },
+      {
+        "dir": 1,
+        "offset": 12439,
+        "room": 0,
+        "stage": 72,
+        "type": 0
+      }
+    ]
+  },
+  "Snowboard Racing Prize": {
+    "arc": [
+      {
+        "dir": 1,
+        "offset": 6103,
+        "room": 0,
+        "stage": 51,
+        "type": 0
+      }
+    ]
+  },
+  "Snowboarding Bridge Ledge Bottom Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 12567,
+        "room": 1,
+        "stage": 51,
+        "type": 0
+      }
+    ]
+  },
+  "Snowboarding Bridge Ledge Middle Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 12535,
+        "room": 1,
+        "stage": 51,
+        "type": 0
+      }
+    ]
+  },
+  "Snowboarding Bridge Ledge Upper Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 12599,
+        "room": 1,
+        "stage": 51,
+        "type": 0
+      }
+    ]
+  },
+  "Snowboarding Shortcut Rupee 1": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 13143,
+        "room": 1,
+        "stage": 51,
+        "type": 0
+      }
+    ]
+  },
+  "Snowboarding Shortcut Rupee 10": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 12887,
+        "room": 1,
+        "stage": 51,
+        "type": 0
+      }
+    ]
+  },
+  "Snowboarding Shortcut Rupee 11": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 13271,
+        "room": 1,
+        "stage": 51,
+        "type": 0
+      }
+    ]
+  },
+  "Snowboarding Shortcut Rupee 2": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 13239,
+        "room": 1,
+        "stage": 51,
+        "type": 0
+      }
+    ]
+  },
+  "Snowboarding Shortcut Rupee 3": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 13207,
+        "room": 1,
+        "stage": 51,
+        "type": 0
+      }
+    ]
+  },
+  "Snowboarding Shortcut Rupee 4": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 13175,
+        "room": 1,
+        "stage": 51,
+        "type": 0
+      }
+    ]
+  },
+  "Snowboarding Shortcut Rupee 5": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 12983,
+        "room": 1,
+        "stage": 51,
+        "type": 0
+      }
+    ]
+  },
+  "Snowboarding Shortcut Rupee 6": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 12951,
+        "room": 1,
+        "stage": 51,
+        "type": 0
+      }
+    ]
+  },
+  "Snowboarding Shortcut Rupee 7": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 12919,
+        "room": 1,
+        "stage": 51,
+        "type": 0
+      }
+    ]
+  },
+  "Snowboarding Shortcut Rupee 8": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 12823,
+        "room": 1,
+        "stage": 51,
+        "type": 0
+      }
+    ]
+  },
+  "Snowboarding Shortcut Rupee 9": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 12855,
+        "room": 1,
+        "stage": 51,
+        "type": 0
+      }
+    ]
+  },
+  "Snowboarding Snowy Tree Top Rupee 1": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 13047,
+        "room": 1,
+        "stage": 51,
+        "type": 0
+      }
+    ]
+  },
+  "Snowboarding Snowy Tree Top Rupee 2": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 13015,
+        "room": 1,
+        "stage": 51,
+        "type": 0
+      }
+    ]
+  },
+  "Snowboarding Snowy Tree Top Rupee 3": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 11991,
+        "room": 1,
+        "stage": 51,
+        "type": 0
+      }
+    ]
+  },
+  "Snowboarding Top Left Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 13079,
+        "room": 1,
+        "stage": 51,
+        "type": 0
+      }
+    ]
+  },
+  "Snowboarding Top Right Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 13111,
+        "room": 1,
+        "stage": 51,
+        "type": 0
+      }
+    ]
+  },
+  "Snowpeak Cave Ice Lantern Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2424,
+        "room": 2,
+        "stage": 51,
+        "type": 0
+      }
+    ]
+  },
+  "Snowpeak Ruins Broken Floor Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2904,
+        "room": 7,
+        "stage": 27,
+        "type": 0
+      }
+    ]
+  },
+  "Snowpeak Ruins Chapel Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 1780,
+        "room": 11,
+        "stage": 27,
+        "type": 0
+      }
+    ]
+  },
+  "Snowpeak Ruins Chest After Darkhammer": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 1232,
+        "room": 51,
+        "stage": 29,
+        "type": 0
+      }
+    ]
+  },
+  "Snowpeak Ruins Courtyard Central Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3952,
+        "room": 4,
+        "stage": 27,
+        "type": 0
+      }
+    ]
+  },
+  "Snowpeak Ruins Dungeon Reward": {
+    "arc": [
+      {
+        "dir": 3,
+        "offset": 13226,
+        "room": 0,
+        "stage": 28,
+        "type": 2
+      }
+    ]
+  },
+  "Snowpeak Ruins East Courtyard Buried Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3888,
+        "room": 4,
+        "stage": 27,
+        "type": 0
+      }
+    ]
+  },
+  "Snowpeak Ruins East Courtyard Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3920,
+        "room": 4,
+        "stage": 27,
+        "type": 0
+      }
+    ]
+  },
+  "Snowpeak Ruins Lobby Chandelier Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2220,
+        "room": 0,
+        "stage": 27,
+        "type": 0
+      }
+    ]
+  },
+  "Snowpeak Ruins Lobby East Armor Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2252,
+        "room": 0,
+        "stage": 27,
+        "type": 0
+      }
+    ]
+  },
+  "Snowpeak Ruins Lobby West Armor Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2284,
+        "room": 0,
+        "stage": 27,
+        "type": 0
+      }
+    ]
+  },
+  "Snowpeak Ruins Mansion Map": {
+    "arc": [
+      {
+        "dir": 1,
+        "offset": 7767,
+        "room": 0,
+        "stage": 27,
+        "type": 0
+      },
+      {
+        "dir": 1,
+        "offset": 692,
+        "room": 0,
+        "stage": 27,
+        "type": 3
+      }
+    ]
+  },
+  "Snowpeak Ruins Northeast Chandelier Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3404,
+        "room": 5,
+        "stage": 27,
+        "type": 0
+      }
+    ]
+  },
+  "Snowpeak Ruins Ordon Pumpkin Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3372,
+        "room": 5,
+        "stage": 27,
+        "type": 0
+      }
+    ]
+  },
+  "Snowpeak Ruins West Cannon Room Central Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 1336,
+        "room": 9,
+        "stage": 27,
+        "type": 0
+      }
+    ]
+  },
+  "Snowpeak Ruins West Cannon Room Corner Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 1304,
+        "room": 9,
+        "stage": 27,
+        "type": 0
+      }
+    ]
+  },
+  "Snowpeak Ruins West Courtyard Buried Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3856,
+        "room": 4,
+        "stage": 27,
+        "type": 0
+      }
+    ]
+  },
+  "Snowpeak Ruins Wooden Beam Central Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 1632,
+        "room": 8,
+        "stage": 27,
+        "type": 0
+      }
+    ]
+  },
+  "Snowpeak Ruins Wooden Beam Chandelier Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 1568,
+        "room": 8,
+        "stage": 27,
+        "type": 0
+      }
+    ]
+  },
+  "Snowpeak Ruins Wooden Beam Northwest Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 1600,
+        "room": 8,
+        "stage": 27,
+        "type": 0
+      }
+    ]
+  },
+  "South Faron Cave Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 1768,
+        "room": 0,
+        "stage": 40,
+        "type": 0
+      }
+    ]
+  },
+  "Talo Sharpshooting": {
+    "arc": [
+      {
+        "dir": 1,
+        "offset": 2359,
+        "room": 0,
+        "stage": 46,
+        "type": 0
+      },
+      {
+        "dir": 1,
+        "offset": 1815,
+        "room": 0,
+        "stage": 46,
+        "type": 0
+      }
+    ]
+  },
+  "Telma Invoice": {
+    "arc": [
+      {
+        "dir": 1,
+        "offset": 2687,
+        "room": 0,
+        "stage": 70,
+        "type": 0
+      }
+    ]
+  },
+  "Temple of Time Armos Antechamber East Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 1900,
+        "room": 3,
+        "stage": 9,
+        "type": 0
+      }
+    ]
+  },
+  "Temple of Time Armos Antechamber North Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 1932,
+        "room": 3,
+        "stage": 9,
+        "type": 0
+      }
+    ]
+  },
+  "Temple of Time Armos Antechamber Statue Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 1868,
+        "room": 3,
+        "stage": 9,
+        "type": 0
+      }
+    ]
+  },
+  "Temple of Time Big Key Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 1136,
+        "room": 6,
+        "stage": 9,
+        "type": 0
+      }
+    ]
+  },
+  "Temple of Time Chest Before Darknut": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 4176,
+        "room": 7,
+        "stage": 9,
+        "type": 0
+      }
+    ]
+  },
+  "Temple of Time Darknut Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 1196,
+        "room": 51,
+        "stage": 11,
+        "type": 0
+      }
+    ]
+  },
+  "Temple of Time Dungeon Reward": {
+    "arc": [
+      {
+        "dir": 3,
+        "offset": 14398,
+        "room": 0,
+        "stage": 10,
+        "type": 2
+      }
+    ]
+  },
+  "Temple of Time First Staircase Armos Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2136,
+        "room": 1,
+        "stage": 9,
+        "type": 0
+      }
+    ]
+  },
+  "Temple of Time First Staircase Gohma Gate Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2168,
+        "room": 1,
+        "stage": 9,
+        "type": 0
+      }
+    ]
+  },
+  "Temple of Time First Staircase Window Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2200,
+        "room": 1,
+        "stage": 9,
+        "type": 0
+      }
+    ]
+  },
+  "Temple of Time Floor Switch Puzzle Room Upper Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 1168,
+        "room": 6,
+        "stage": 9,
+        "type": 0
+      }
+    ]
+  },
+  "Temple of Time Guillotine Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 4144,
+        "room": 7,
+        "stage": 9,
+        "type": 0
+      }
+    ]
+  },
+  "Temple of Time Lobby Lantern Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2380,
+        "room": 0,
+        "stage": 9,
+        "type": 0
+      }
+    ]
+  },
+  "Temple of Time Moving Wall Beamos Room Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3036,
+        "room": 4,
+        "stage": 9,
+        "type": 0
+      }
+    ]
+  },
+  "Temple of Time Moving Wall Dinalfos Room Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 3068,
+        "room": 4,
+        "stage": 9,
+        "type": 0
+      }
+    ]
+  },
+  "Temple of Time Scales Gohma Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2436,
+        "room": 5,
+        "stage": 9,
+        "type": 0
+      }
+    ]
+  },
+  "Temple of Time Scales Upper Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2468,
+        "room": 5,
+        "stage": 9,
+        "type": 0
+      }
+    ]
+  },
+  "Uli Cradle Delivery": {
+    "arc": [
+      {
+        "dir": 1,
+        "offset": 3215,
+        "room": 0,
+        "stage": 43,
+        "type": 0
+      }
+    ]
+  },
+  "Upper Zoras River Central Underwater Boulder Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 9919,
+        "room": 0,
+        "stage": 61,
+        "type": 0
+      }
+    ]
+  },
+  "Upper Zoras River East Underwater Boulder Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 10399,
+        "room": 0,
+        "stage": 61,
+        "type": 0
+      }
+    ]
+  },
+  "Upper Zoras River Ledge Boulder Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 10623,
+        "room": 0,
+        "stage": 61,
+        "type": 0
+      }
+    ]
+  },
+  "Upper Zoras River West Underwater Boulder Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 10111,
+        "room": 0,
+        "stage": 61,
+        "type": 0
+      }
+    ]
+  },
+  "West Hyrule Field Northern Boulder Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 6151,
+        "room": 8,
+        "stage": 57,
+        "type": 0
+      }
+    ]
+  },
+  "West Hyrule Field Southern Boulder Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 6343,
+        "room": 8,
+        "stage": 57,
+        "type": 0
+      }
+    ]
+  },
+  "Wooden Sword Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 1104,
+        "room": 4,
+        "stage": 65,
+        "type": 0
+      }
+    ]
+  },
+  "Wrestling With Bo": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 1348,
+        "room": 0,
+        "stage": 65,
+        "type": 0
+      }
+    ]
+  },
+  "Zoras Domain Behind Waterfall Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 13247,
+        "room": 1,
+        "stage": 50,
+        "type": 0
+      }
+    ]
+  },
+  "Zoras Domain Central Underwater Boulder Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 12735,
+        "room": 1,
+        "stage": 50,
+        "type": 0
+      }
+    ]
+  },
+  "Zoras Domain Chest Behind Waterfall": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 10224,
+        "room": 1,
+        "stage": 50,
+        "type": 0
+      }
+    ]
+  },
+  "Zoras Domain Chest By Mother and Child Isles": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 10192,
+        "room": 1,
+        "stage": 50,
+        "type": 0
+      }
+    ]
+  },
+  "Zoras Domain Extinguish All Torches Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2680,
+        "room": 0,
+        "stage": 50,
+        "type": 0
+      }
+    ]
+  },
+  "Zoras Domain Light All Torches Chest": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 2648,
+        "room": 0,
+        "stage": 50,
+        "type": 0
+      }
+    ]
+  },
+  "Zoras Domain North Underwater Boulder Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 12703,
+        "room": 1,
+        "stage": 50,
+        "type": 0
+      }
+    ]
+  },
+  "Zoras Domain Shortcut Ledge Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 12671,
+        "room": 1,
+        "stage": 50,
+        "type": 0
+      }
+    ]
+  },
+  "Zoras Domain Shortcut Lower Boulder Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 6903,
+        "room": 1,
+        "stage": 50,
+        "type": 0
+      }
+    ]
+  },
+  "Zoras Domain Shortcut Upper Boulder Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 6871,
+        "room": 1,
+        "stage": 50,
+        "type": 0
+      }
+    ]
+  },
+  "Zoras Domain Throne East Gate Underwater Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 4231,
+        "room": 0,
+        "stage": 50,
+        "type": 0
+      }
+    ]
+  },
+  "Zoras Domain Throne East Underwater Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 4039,
+        "room": 0,
+        "stage": 50,
+        "type": 0
+      }
+    ]
+  },
+  "Zoras Domain Throne Northwest Underwater Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 4071,
+        "room": 0,
+        "stage": 50,
+        "type": 0
+      }
+    ]
+  },
+  "Zoras Domain Throne South Underwater Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 4103,
+        "room": 0,
+        "stage": 50,
+        "type": 0
+      }
+    ]
+  },
+  "Zoras Domain Throne West Gate Underwater Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 4135,
+        "room": 0,
+        "stage": 50,
+        "type": 0
+      }
+    ]
+  },
+  "Zoras Domain Throne West Underwater Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 4007,
+        "room": 0,
+        "stage": 50,
+        "type": 0
+      }
+    ]
+  },
+  "Zoras Domain Top Ledge Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 12639,
+        "room": 1,
+        "stage": 50,
+        "type": 0
+      }
+    ]
+  },
+  "Zoras Domain Underwater Goron": {
+    "arc": [
+      {
+        "dir": 1,
+        "offset": 87,
+        "room": 0,
+        "stage": 50,
+        "type": 0
+      }
+    ]
+  },
+  "Zoras Domain Vine Ledge Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 13279,
+        "room": 1,
+        "stage": 50,
+        "type": 0
+      }
+    ]
+  },
+  "Zoras Domain Waterfall Ledge Rupee": {
+    "arc": [
+      {
+        "dir": 0,
+        "offset": 13215,
+        "room": 1,
+        "stage": 50,
+        "type": 0
+      }
+    ]
+  }
+}

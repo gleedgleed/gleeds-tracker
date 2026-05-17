@@ -1,0 +1,29 @@
+vendor/*
+submodules/*
+!submodules/webgen
+!submodules/ootr
+tools/
+doc/
+__pycache__/
+*.pyc
+
+# C++ build artifacts
+build/
+out/
+.vs/
+.vscode/
+CMakeUserPresets.json
+*.user
+
+# Reference repos (read-only copies, not tracked)
+dusklight-main/
+oot-main/
+project64-develop/
+Randomizer-master/
+Randomizer-Web-Generator-main/
+Tracker-of-Time-main/
+Dusklight-v1.1.1-win32-x86_64/
+
+# ROMs (large, copyrighted, don't commit)
+*.iso
+*.z64

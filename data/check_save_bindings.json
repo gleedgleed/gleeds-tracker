@@ -1,0 +1,2943 @@
+{
+ "Agitha Female Ant Reward": {
+  "type": "Flag",
+  "offset": 2084,
+  "bit": 128
+ },
+ "Agitha Female Beetle Reward": {
+  "type": "Flag",
+  "offset": 2081,
+  "bit": 8
+ },
+ "Agitha Female Butterfly Reward": {
+  "type": "Flag",
+  "offset": 2081,
+  "bit": 2
+ },
+ "Agitha Female Dayfly Reward": {
+  "type": "Flag",
+  "offset": 2084,
+  "bit": 32
+ },
+ "Agitha Female Dragonfly Reward": {
+  "type": "Flag",
+  "offset": 2083,
+  "bit": 2
+ },
+ "Agitha Female Grasshopper Reward": {
+  "type": "Flag",
+  "offset": 2082,
+  "bit": 32
+ },
+ "Agitha Female Ladybug Reward": {
+  "type": "Flag",
+  "offset": 2083,
+  "bit": 32
+ },
+ "Agitha Female Mantis Reward": {
+  "type": "Flag",
+  "offset": 2083,
+  "bit": 128
+ },
+ "Agitha Female Phasmid Reward": {
+  "type": "Flag",
+  "offset": 2082,
+  "bit": 8
+ },
+ "Agitha Female Pill Bug Reward": {
+  "type": "Flag",
+  "offset": 2082,
+  "bit": 2
+ },
+ "Agitha Female Snail Reward": {
+  "type": "Flag",
+  "offset": 2083,
+  "bit": 8
+ },
+ "Agitha Female Stag Beetle Reward": {
+  "type": "Flag",
+  "offset": 2082,
+  "bit": 128
+ },
+ "Agitha Male Ant Reward": {
+  "type": "Flag",
+  "offset": 2083,
+  "bit": 1
+ },
+ "Agitha Male Beetle Reward": {
+  "type": "Flag",
+  "offset": 2081,
+  "bit": 16
+ },
+ "Agitha Male Butterfly Reward": {
+  "type": "Flag",
+  "offset": 2081,
+  "bit": 4
+ },
+ "Agitha Male Dayfly Reward": {
+  "type": "Flag",
+  "offset": 2084,
+  "bit": 64
+ },
+ "Agitha Male Dragonfly Reward": {
+  "type": "Flag",
+  "offset": 2083,
+  "bit": 4
+ },
+ "Agitha Male Grasshopper Reward": {
+  "type": "Flag",
+  "offset": 2082,
+  "bit": 64
+ },
+ "Agitha Male Ladybug Reward": {
+  "type": "Flag",
+  "offset": 2083,
+  "bit": 64
+ },
+ "Agitha Male Mantis Reward": {
+  "type": "Flag",
+  "offset": 2082,
+  "bit": 1
+ },
+ "Agitha Male Phasmid Reward": {
+  "type": "Flag",
+  "offset": 2082,
+  "bit": 16
+ },
+ "Agitha Male Pill Bug Reward": {
+  "type": "Flag",
+  "offset": 2082,
+  "bit": 4
+ },
+ "Agitha Male Snail Reward": {
+  "type": "Flag",
+  "offset": 2083,
+  "bit": 16
+ },
+ "Agitha Male Stag Beetle Reward": {
+  "type": "Flag",
+  "offset": 2081,
+  "bit": 1
+ },
+ "Arbiters Grounds Big Key Chest": {
+  "type": "Region",
+  "region": 19,
+  "offset": 1,
+  "bit": 16
+ },
+ "Arbiters Grounds Death Sword Chest": {
+  "type": "Region",
+  "region": 19,
+  "offset": 2,
+  "bit": 8
+ },
+ "Arbiters Grounds Dungeon Reward": {
+  "type": "Region",
+  "region": 19,
+  "offset": 29,
+  "bit": 8
+ },
+ "Arbiters Grounds East Lower Turnable Redead Chest": {
+  "type": "Region",
+  "region": 19,
+  "offset": 3,
+  "bit": 64
+ },
+ "Arbiters Grounds East Turning Room Poe": {
+  "type": "Region",
+  "region": 19,
+  "offset": 10,
+  "bit": 16
+ },
+ "Arbiters Grounds East Upper Turnable Chest": {
+  "type": "Region",
+  "region": 19,
+  "offset": 3,
+  "bit": 16
+ },
+ "Arbiters Grounds East Upper Turnable Redead Chest": {
+  "type": "Region",
+  "region": 19,
+  "offset": 3,
+  "bit": 32
+ },
+ "Arbiters Grounds Entrance Chest": {
+  "type": "Region",
+  "region": 19,
+  "offset": 1,
+  "bit": 128
+ },
+ "Arbiters Grounds Ghoul Rat Room Chest": {
+  "type": "Region",
+  "region": 19,
+  "offset": 1,
+  "bit": 32
+ },
+ "Arbiters Grounds Hidden Wall Poe": {
+  "type": "Region",
+  "region": 19,
+  "offset": 17,
+  "bit": 4
+ },
+ "Arbiters Grounds North Turning Room Chest": {
+  "type": "Region",
+  "region": 19,
+  "offset": 0,
+  "bit": 1
+ },
+ "Arbiters Grounds Spinner Room First Small Chest": {
+  "type": "Region",
+  "region": 19,
+  "offset": 0,
+  "bit": 16
+ },
+ "Arbiters Grounds Spinner Room Lower Central Small Chest": {
+  "type": "Region",
+  "region": 19,
+  "offset": 0,
+  "bit": 32
+ },
+ "Arbiters Grounds Spinner Room Lower North Chest": {
+  "type": "Region",
+  "region": 19,
+  "offset": 0,
+  "bit": 64
+ },
+ "Arbiters Grounds Spinner Room Second Small Chest": {
+  "type": "Region",
+  "region": 19,
+  "offset": 0,
+  "bit": 8
+ },
+ "Arbiters Grounds Spinner Room Stalfos Alcove Chest": {
+  "type": "Region",
+  "region": 19,
+  "offset": 0,
+  "bit": 4
+ },
+ "Arbiters Grounds Stallord Heart Container": {
+  "type": "Region",
+  "region": 19,
+  "offset": 24,
+  "bit": 128
+ },
+ "Arbiters Grounds Torch Room East Chest": {
+  "type": "Region",
+  "region": 19,
+  "offset": 1,
+  "bit": 8
+ },
+ "Arbiters Grounds Torch Room Poe": {
+  "type": "Region",
+  "region": 19,
+  "offset": 8,
+  "bit": 64
+ },
+ "Arbiters Grounds Torch Room West Chest": {
+  "type": "Region",
+  "region": 19,
+  "offset": 1,
+  "bit": 4
+ },
+ "Arbiters Grounds West Chandelier Chest": {
+  "type": "Region",
+  "region": 19,
+  "offset": 3,
+  "bit": 8
+ },
+ "Arbiters Grounds West Poe": {
+  "type": "Region",
+  "region": 19,
+  "offset": 15,
+  "bit": 2
+ },
+ "Arbiters Grounds West Small Chest Behind Block": {
+  "type": "Region",
+  "region": 19,
+  "offset": 0,
+  "bit": 2
+ },
+ "Arbiters Grounds West Stalfos Northeast Chest": {
+  "type": "Region",
+  "region": 19,
+  "offset": 1,
+  "bit": 1
+ },
+ "Arbiters Grounds West Stalfos West Chest": {
+  "type": "Region",
+  "region": 19,
+  "offset": 1,
+  "bit": 2
+ },
+ "Ashei Sketch": {
+  "type": "Flag",
+  "offset": 2073,
+  "bit": 64
+ },
+ "Auru Gift To Fyer": {
+  "type": "Flag",
+  "offset": 2069,
+  "bit": 16
+ },
+ "Barnes Bomb Bag": {
+  "type": "Flag",
+  "offset": 2041,
+  "bit": 8
+ },
+ "Bridge of Eldin Female Phasmid": {
+  "type": "Region",
+  "region": 6,
+  "offset": 25,
+  "bit": 64
+ },
+ "Bridge of Eldin Male Phasmid": {
+  "type": "Region",
+  "region": 6,
+  "offset": 25,
+  "bit": 128
+ },
+ "Bridge of Eldin Owl Statue Chest": {
+  "type": "Region",
+  "region": 6,
+  "offset": 3,
+  "bit": 8
+ },
+ "Bridge of Eldin Owl Statue Sky Character": {
+  "type": "Region",
+  "region": 6,
+  "offset": 17,
+  "bit": 8
+ },
+ "Bridge of Eldin Portal": {
+  "type": "Region",
+  "region": 6,
+  "offset": 12,
+  "bit": 8
+ },
+ "Bulblin Camp First Chest Under Tower At Entrance": {
+  "type": "Region",
+  "region": 10,
+  "offset": 0,
+  "bit": 128
+ },
+ "Bulblin Camp Poe": {
+  "type": "Region",
+  "region": 10,
+  "offset": 20,
+  "bit": 1
+ },
+ "Bulblin Camp Roasted Boar": {
+  "type": "Region",
+  "region": 10,
+  "offset": 24,
+  "bit": 128
+ },
+ "Bulblin Camp Small Chest in Back of Camp": {
+  "type": "Region",
+  "region": 10,
+  "offset": 0,
+  "bit": 64
+ },
+ "Bulblin Guard Key": {
+  "type": "Region",
+  "region": 10,
+  "offset": 24,
+  "bit": 4
+ },
+ "Castle Town Goron Shop Arrow Refill": {
+  "type": "Flag",
+  "offset": 2131,
+  "bit": 16
+ },
+ "Castle Town Goron Shop Hylian Shield": {
+  "type": "Flag",
+  "offset": 2131,
+  "bit": 128
+ },
+ "Castle Town Goron Shop Lantern Oil": {
+  "type": "Flag",
+  "offset": 2131,
+  "bit": 32
+ },
+ "Castle Town Goron Shop Red Potion": {
+  "type": "Flag",
+  "offset": 2131,
+  "bit": 64
+ },
+ "Castle Town Malo Mart Magic Armor": {
+  "type": "Region",
+  "region": 9,
+  "offset": 14,
+  "bit": 8
+ },
+ "Castle Town Portal": {
+  "type": "Region",
+  "region": 6,
+  "offset": 0,
+  "bit": 8
+ },
+ "Cats Hide and Seek Minigame": {
+  "type": "Region",
+  "region": 3,
+  "offset": 26,
+  "bit": 8
+ },
+ "Cave of Ordeals Floor 17 Poe": {
+  "type": "Region",
+  "region": 25,
+  "offset": 19,
+  "bit": 32
+ },
+ "Cave of Ordeals Floor 33 Poe": {
+  "type": "Region",
+  "region": 25,
+  "offset": 19,
+  "bit": 64
+ },
+ "Cave of Ordeals Floor 44 Poe": {
+  "type": "Region",
+  "region": 25,
+  "offset": 19,
+  "bit": 128
+ },
+ "Cave of Ordeals Great Fairy Reward": {
+  "type": "Region",
+  "region": 25,
+  "offset": 19,
+  "bit": 4
+ },
+ "Charlo Donation Blessing": {
+  "type": "Flag",
+  "offset": 2068,
+  "bit": 128
+ },
+ "City in The Sky Aeralfos Chest": {
+  "type": "Region",
+  "region": 22,
+  "offset": 3,
+  "bit": 1
+ },
+ "City in The Sky Argorok Heart Container": {
+  "type": "Region",
+  "region": 22,
+  "offset": 24,
+  "bit": 128
+ },
+ "City in The Sky Baba Tower Alcove Chest": {
+  "type": "Region",
+  "region": 22,
+  "offset": 3,
+  "bit": 64
+ },
+ "City in The Sky Baba Tower Narrow Ledge Chest": {
+  "type": "Region",
+  "region": 22,
+  "offset": 1,
+  "bit": 128
+ },
+ "City in The Sky Baba Tower Top Small Chest": {
+  "type": "Region",
+  "region": 22,
+  "offset": 3,
+  "bit": 128
+ },
+ "City in The Sky Big Key Chest": {
+  "type": "Region",
+  "region": 22,
+  "offset": 2,
+  "bit": 32
+ },
+ "City in The Sky Central Outside Ledge Chest": {
+  "type": "Region",
+  "region": 22,
+  "offset": 0,
+  "bit": 1
+ },
+ "City in The Sky Central Outside Poe Island Chest": {
+  "type": "Region",
+  "region": 22,
+  "offset": 2,
+  "bit": 16
+ },
+ "City in The Sky Chest Behind North Fan": {
+  "type": "Region",
+  "region": 22,
+  "offset": 1,
+  "bit": 2
+ },
+ "City in The Sky Chest Below Big Key Chest": {
+  "type": "Region",
+  "region": 22,
+  "offset": 2,
+  "bit": 64
+ },
+ "City in The Sky Dungeon Reward": {
+  "type": "Region",
+  "region": 22,
+  "offset": 29,
+  "bit": 8
+ },
+ "City in The Sky East First Wing Chest After Fans": {
+  "type": "Region",
+  "region": 22,
+  "offset": 3,
+  "bit": 4
+ },
+ "City in The Sky East Tile Worm Small Chest": {
+  "type": "Region",
+  "region": 22,
+  "offset": 1,
+  "bit": 8
+ },
+ "City in The Sky East Wing After Dinalfos Alcove Chest": {
+  "type": "Region",
+  "region": 22,
+  "offset": 1,
+  "bit": 4
+ },
+ "City in The Sky East Wing After Dinalfos Ledge Chest": {
+  "type": "Region",
+  "region": 22,
+  "offset": 0,
+  "bit": 4
+ },
+ "City in The Sky East Wing Lower Level Chest": {
+  "type": "Region",
+  "region": 22,
+  "offset": 3,
+  "bit": 16
+ },
+ "City in The Sky Garden Island Poe": {
+  "type": "Region",
+  "region": 22,
+  "offset": 17,
+  "bit": 16
+ },
+ "City in The Sky Poe Above Central Fan": {
+  "type": "Region",
+  "region": 22,
+  "offset": 17,
+  "bit": 32
+ },
+ "City in The Sky Underwater East Chest": {
+  "type": "Region",
+  "region": 22,
+  "offset": 0,
+  "bit": 8
+ },
+ "City in The Sky Underwater West Chest": {
+  "type": "Region",
+  "region": 22,
+  "offset": 3,
+  "bit": 8
+ },
+ "City in The Sky West Garden Corner Chest": {
+  "type": "Region",
+  "region": 22,
+  "offset": 2,
+  "bit": 128
+ },
+ "City in The Sky West Garden Ledge Chest": {
+  "type": "Region",
+  "region": 22,
+  "offset": 2,
+  "bit": 2
+ },
+ "City in The Sky West Garden Lone Island Chest": {
+  "type": "Region",
+  "region": 22,
+  "offset": 0,
+  "bit": 2
+ },
+ "City in The Sky West Garden Lower Chest": {
+  "type": "Region",
+  "region": 22,
+  "offset": 2,
+  "bit": 8
+ },
+ "City in The Sky West Wing Baba Balcony Chest": {
+  "type": "Region",
+  "region": 22,
+  "offset": 1,
+  "bit": 32
+ },
+ "City in The Sky West Wing First Chest": {
+  "type": "Region",
+  "region": 22,
+  "offset": 3,
+  "bit": 32
+ },
+ "City in The Sky West Wing Narrow Ledge Chest": {
+  "type": "Region",
+  "region": 22,
+  "offset": 1,
+  "bit": 64
+ },
+ "City in The Sky West Wing Tile Worm Chest": {
+  "type": "Region",
+  "region": 22,
+  "offset": 1,
+  "bit": 16
+ },
+ "Coro Bottle": {
+  "type": "Flag",
+  "offset": 2058,
+  "bit": 8
+ },
+ "Coro Gate Key": {
+  "type": "Region",
+  "region": 2,
+  "offset": 1,
+  "bit": 16
+ },
+ "Coro Lantern": {
+  "type": "Flag",
+  "offset": 2047,
+  "bit": 1
+ },
+ "Death Mountain Alcove Chest": {
+  "type": "Region",
+  "region": 3,
+  "offset": 1,
+  "bit": 64
+ },
+ "Death Mountain Portal": {
+  "type": "Region",
+  "region": 3,
+  "offset": 2,
+  "bit": 32
+ },
+ "Death Mountain Trail Poe": {
+  "type": "Region",
+  "region": 3,
+  "offset": 16,
+  "bit": 2
+ },
+ "Doctors Office Balcony Chest": {
+  "type": "Region",
+  "region": 9,
+  "offset": 3,
+  "bit": 2
+ },
+ "East Castle Town Bridge Poe": {
+  "type": "Region",
+  "region": 6,
+  "offset": 19,
+  "bit": 128
+ },
+ "Eldin Field Bomb Rock Chest": {
+  "type": "Region",
+  "region": 6,
+  "offset": 3,
+  "bit": 4
+ },
+ "Eldin Field Bomskit Grotto Lantern Chest": {
+  "type": "Region",
+  "region": 27,
+  "offset": 3,
+  "bit": 64
+ },
+ "Eldin Field Bomskit Grotto Left Chest": {
+  "type": "Region",
+  "region": 27,
+  "offset": 2,
+  "bit": 4
+ },
+ "Eldin Field Female Grasshopper": {
+  "type": "Region",
+  "region": 6,
+  "offset": 24,
+  "bit": 1
+ },
+ "Eldin Field Male Grasshopper": {
+  "type": "Region",
+  "region": 6,
+  "offset": 24,
+  "bit": 2
+ },
+ "Eldin Field Stalfos Grotto Left Small Chest": {
+  "type": "Region",
+  "region": 27,
+  "offset": 1,
+  "bit": 4
+ },
+ "Eldin Field Stalfos Grotto Right Small Chest": {
+  "type": "Region",
+  "region": 27,
+  "offset": 1,
+  "bit": 2
+ },
+ "Eldin Field Stalfos Grotto Stalfos Chest": {
+  "type": "Region",
+  "region": 27,
+  "offset": 3,
+  "bit": 4
+ },
+ "Eldin Field Water Bomb Fish Grotto Chest": {
+  "type": "Region",
+  "region": 27,
+  "offset": 1,
+  "bit": 1
+ },
+ "Eldin Lantern Cave First Chest": {
+  "type": "Region",
+  "region": 25,
+  "offset": 4,
+  "bit": 32
+ },
+ "Eldin Lantern Cave Lantern Chest": {
+  "type": "Region",
+  "region": 25,
+  "offset": 4,
+  "bit": 64
+ },
+ "Eldin Lantern Cave Poe": {
+  "type": "Region",
+  "region": 25,
+  "offset": 23,
+  "bit": 1
+ },
+ "Eldin Lantern Cave Second Chest": {
+  "type": "Region",
+  "region": 25,
+  "offset": 4,
+  "bit": 128
+ },
+ "Eldin Spring Underwater Chest": {
+  "type": "Region",
+  "region": 3,
+  "offset": 1,
+  "bit": 32
+ },
+ "Eldin Stockcave Lantern Chest": {
+  "type": "Region",
+  "region": 26,
+  "offset": 4,
+  "bit": 32
+ },
+ "Eldin Stockcave Lowest Chest": {
+  "type": "Region",
+  "region": 26,
+  "offset": 4,
+  "bit": 64
+ },
+ "Eldin Stockcave Upper Chest": {
+  "type": "Region",
+  "region": 26,
+  "offset": 4,
+  "bit": 128
+ },
+ "Faron Field Bridge Chest": {
+  "type": "Region",
+  "region": 6,
+  "offset": 3,
+  "bit": 64
+ },
+ "Faron Field Corner Grotto Left Chest": {
+  "type": "Region",
+  "region": 27,
+  "offset": 2,
+  "bit": 8
+ },
+ "Faron Field Corner Grotto Rear Chest": {
+  "type": "Region",
+  "region": 27,
+  "offset": 2,
+  "bit": 32
+ },
+ "Faron Field Corner Grotto Right Chest": {
+  "type": "Region",
+  "region": 27,
+  "offset": 2,
+  "bit": 16
+ },
+ "Faron Field Female Beetle": {
+  "type": "Region",
+  "region": 6,
+  "offset": 24,
+  "bit": 64
+ },
+ "Faron Field Male Beetle": {
+  "type": "Region",
+  "region": 6,
+  "offset": 24,
+  "bit": 128
+ },
+ "Faron Field Poe": {
+  "type": "Region",
+  "region": 6,
+  "offset": 12,
+  "bit": 2
+ },
+ "Faron Field Tree Heart Piece": {
+  "type": "Region",
+  "region": 6,
+  "offset": 27,
+  "bit": 2
+ },
+ "Faron Mist Cave Lantern Chest": {
+  "type": "Region",
+  "region": 2,
+  "offset": 0,
+  "bit": 4
+ },
+ "Faron Mist Cave Open Chest": {
+  "type": "Region",
+  "region": 2,
+  "offset": 0,
+  "bit": 1
+ },
+ "Faron Mist North Chest": {
+  "type": "Region",
+  "region": 2,
+  "offset": 0,
+  "bit": 8
+ },
+ "Faron Mist Poe": {
+  "type": "Region",
+  "region": 2,
+  "offset": 16,
+  "bit": 32
+ },
+ "Faron Mist South Chest": {
+  "type": "Region",
+  "region": 2,
+  "offset": 0,
+  "bit": 32
+ },
+ "Faron Mist Stump Chest": {
+  "type": "Region",
+  "region": 2,
+  "offset": 0,
+  "bit": 16
+ },
+ "Faron Woods Golden Wolf": {
+  "type": "Flag",
+  "offset": 2092,
+  "bit": 16
+ },
+ "Faron Woods Owl Statue Chest": {
+  "type": "Region",
+  "region": 2,
+  "offset": 0,
+  "bit": 64
+ },
+ "Faron Woods Owl Statue Sky Character": {
+  "type": "Region",
+  "region": 2,
+  "offset": 8,
+  "bit": 4
+ },
+ "Fishing Hole Bottle": {
+  "type": "Flag",
+  "offset": 2089,
+  "bit": 8
+ },
+ "Fishing Hole Heart Piece": {
+  "type": "Region",
+  "region": 11,
+  "offset": 27,
+  "bit": 1
+ },
+ "Flight By Fowl Fifth Platform Chest": {
+  "type": "Region",
+  "region": 4,
+  "offset": 3,
+  "bit": 128
+ },
+ "Flight By Fowl Fourth Platform Chest": {
+  "type": "Region",
+  "region": 4,
+  "offset": 2,
+  "bit": 1
+ },
+ "Flight By Fowl Ledge Poe": {
+  "type": "Region",
+  "region": 4,
+  "offset": 18,
+  "bit": 32
+ },
+ "Flight By Fowl Second Platform Chest": {
+  "type": "Region",
+  "region": 4,
+  "offset": 3,
+  "bit": 1
+ },
+ "Flight By Fowl Third Platform Chest": {
+  "type": "Region",
+  "region": 4,
+  "offset": 3,
+  "bit": 4
+ },
+ "Flight By Fowl Top Platform Reward": {
+  "type": "Region",
+  "region": 4,
+  "offset": 0,
+  "bit": 2
+ },
+ "Forest Temple Big Baba Key": {
+  "type": "Region",
+  "region": 16,
+  "offset": 3,
+  "bit": 64
+ },
+ "Forest Temple Big Key Chest": {
+  "type": "Region",
+  "region": 16,
+  "offset": 7,
+  "bit": 64
+ },
+ "Forest Temple Central Chest Behind Stairs": {
+  "type": "Region",
+  "region": 16,
+  "offset": 7,
+  "bit": 32
+ },
+ "Forest Temple Central Chest Hanging From Web": {
+  "type": "Region",
+  "region": 16,
+  "offset": 1,
+  "bit": 16
+ },
+ "Forest Temple Central North Chest": {
+  "type": "Region",
+  "region": 16,
+  "offset": 7,
+  "bit": 128
+ },
+ "Forest Temple Diababa Heart Container": {
+  "type": "Region",
+  "region": 16,
+  "offset": 24,
+  "bit": 128
+ },
+ "Forest Temple Dungeon Reward": {
+  "type": "Region",
+  "region": 16,
+  "offset": 29,
+  "bit": 8
+ },
+ "Forest Temple East Tile Worm Chest": {
+  "type": "Region",
+  "region": 16,
+  "offset": 3,
+  "bit": 2
+ },
+ "Forest Temple East Water Cave Chest": {
+  "type": "Region",
+  "region": 16,
+  "offset": 0,
+  "bit": 4
+ },
+ "Forest Temple Entrance Vines Chest": {
+  "type": "Region",
+  "region": 16,
+  "offset": 3,
+  "bit": 128
+ },
+ "Forest Temple Gale Boomerang": {
+  "type": "Region",
+  "region": 16,
+  "offset": 29,
+  "bit": 128
+ },
+ "Forest Temple North Deku Like Chest": {
+  "type": "Region",
+  "region": 16,
+  "offset": 3,
+  "bit": 4
+ },
+ "Forest Temple Second Monkey Under Bridge Chest": {
+  "type": "Region",
+  "region": 16,
+  "offset": 2,
+  "bit": 2
+ },
+ "Forest Temple Totem Pole Chest": {
+  "type": "Region",
+  "region": 16,
+  "offset": 0,
+  "bit": 2
+ },
+ "Forest Temple West Deku Like Chest": {
+  "type": "Region",
+  "region": 16,
+  "offset": 0,
+  "bit": 128
+ },
+ "Forest Temple West Tile Worm Chest Behind Stairs": {
+  "type": "Region",
+  "region": 16,
+  "offset": 1,
+  "bit": 8
+ },
+ "Forest Temple West Tile Worm Room Vines Chest": {
+  "type": "Region",
+  "region": 16,
+  "offset": 0,
+  "bit": 1
+ },
+ "Forest Temple Windless Bridge Chest": {
+  "type": "Region",
+  "region": 16,
+  "offset": 3,
+  "bit": 16
+ },
+ "Gerudo Desert Campfire East Chest": {
+  "type": "Region",
+  "region": 10,
+  "offset": 2,
+  "bit": 2
+ },
+ "Gerudo Desert Campfire North Chest": {
+  "type": "Region",
+  "region": 10,
+  "offset": 2,
+  "bit": 1
+ },
+ "Gerudo Desert Campfire West Chest": {
+  "type": "Region",
+  "region": 10,
+  "offset": 2,
+  "bit": 4
+ },
+ "Gerudo Desert East Canyon Chest": {
+  "type": "Region",
+  "region": 10,
+  "offset": 3,
+  "bit": 64
+ },
+ "Gerudo Desert East Poe": {
+  "type": "Region",
+  "region": 10,
+  "offset": 16,
+  "bit": 16
+ },
+ "Gerudo Desert Female Dayfly": {
+  "type": "Region",
+  "region": 10,
+  "offset": 24,
+  "bit": 1
+ },
+ "Gerudo Desert Golden Wolf": {
+  "type": "Flag",
+  "offset": 2092,
+  "bit": 1
+ },
+ "Gerudo Desert Lone Small Chest": {
+  "type": "Region",
+  "region": 10,
+  "offset": 3,
+  "bit": 32
+ },
+ "Gerudo Desert Male Dayfly": {
+  "type": "Region",
+  "region": 10,
+  "offset": 24,
+  "bit": 2
+ },
+ "Gerudo Desert North Peahat Poe": {
+  "type": "Region",
+  "region": 10,
+  "offset": 16,
+  "bit": 8
+ },
+ "Gerudo Desert North Small Chest Before Bulblin Camp": {
+  "type": "Region",
+  "region": 10,
+  "offset": 2,
+  "bit": 32
+ },
+ "Gerudo Desert Northeast Chest Behind Gates": {
+  "type": "Region",
+  "region": 10,
+  "offset": 3,
+  "bit": 4
+ },
+ "Gerudo Desert Northwest Chest Behind Gates": {
+  "type": "Region",
+  "region": 10,
+  "offset": 3,
+  "bit": 8
+ },
+ "Gerudo Desert Owl Statue Chest": {
+  "type": "Region",
+  "region": 10,
+  "offset": 3,
+  "bit": 2
+ },
+ "Gerudo Desert Owl Statue Sky Character": {
+  "type": "Region",
+  "region": 10,
+  "offset": 15,
+  "bit": 4
+ },
+ "Gerudo Desert Peahat Ledge Chest": {
+  "type": "Region",
+  "region": 10,
+  "offset": 2,
+  "bit": 8
+ },
+ "Gerudo Desert Poe Above Cave of Ordeals": {
+  "type": "Region",
+  "region": 10,
+  "offset": 16,
+  "bit": 32
+ },
+ "Gerudo Desert Portal": {
+  "type": "Region",
+  "region": 10,
+  "offset": 2,
+  "bit": 32
+ },
+ "Gerudo Desert Rock Grotto First Poe": {
+  "type": "Region",
+  "region": 27,
+  "offset": 9,
+  "bit": 1
+ },
+ "Gerudo Desert Rock Grotto Lantern Chest": {
+  "type": "Region",
+  "region": 27,
+  "offset": 2,
+  "bit": 64
+ },
+ "Gerudo Desert Rock Grotto Second Poe": {
+  "type": "Region",
+  "region": 27,
+  "offset": 10,
+  "bit": 128
+ },
+ "Gerudo Desert Skulltula Grotto Chest": {
+  "type": "Region",
+  "region": 27,
+  "offset": 2,
+  "bit": 1
+ },
+ "Gerudo Desert South Chest Behind Wooden Gates": {
+  "type": "Region",
+  "region": 10,
+  "offset": 3,
+  "bit": 1
+ },
+ "Gerudo Desert West Canyon Chest": {
+  "type": "Region",
+  "region": 10,
+  "offset": 3,
+  "bit": 128
+ },
+ "Gift From Ralis": {
+  "type": "Flag",
+  "offset": 2091,
+  "bit": 128
+ },
+ "Goron Mines After Crystal Switch Room Magnet Wall Chest": {
+  "type": "Region",
+  "region": 17,
+  "offset": 2,
+  "bit": 2
+ },
+ "Goron Mines Beamos Room Chest": {
+  "type": "Region",
+  "region": 17,
+  "offset": 2,
+  "bit": 16
+ },
+ "Goron Mines Chest Before Dangoro": {
+  "type": "Region",
+  "region": 17,
+  "offset": 2,
+  "bit": 32
+ },
+ "Goron Mines Crystal Switch Room Small Chest": {
+  "type": "Region",
+  "region": 17,
+  "offset": 0,
+  "bit": 16
+ },
+ "Goron Mines Crystal Switch Room Underwater Chest": {
+  "type": "Region",
+  "region": 17,
+  "offset": 1,
+  "bit": 1
+ },
+ "Goron Mines Dangoro Chest": {
+  "type": "Region",
+  "region": 17,
+  "offset": 3,
+  "bit": 64
+ },
+ "Goron Mines Dungeon Reward": {
+  "type": "Region",
+  "region": 17,
+  "offset": 29,
+  "bit": 8
+ },
+ "Goron Mines Entrance Chest": {
+  "type": "Region",
+  "region": 17,
+  "offset": 0,
+  "bit": 8
+ },
+ "Goron Mines Fyrus Heart Container": {
+  "type": "Region",
+  "region": 17,
+  "offset": 24,
+  "bit": 128
+ },
+ "Goron Mines Gor Amato Chest": {
+  "type": "Region",
+  "region": 17,
+  "offset": 1,
+  "bit": 2
+ },
+ "Goron Mines Gor Amato Key Shard": {
+  "type": "Flag",
+  "offset": 2080,
+  "bit": 8
+ },
+ "Goron Mines Gor Amato Small Chest": {
+  "type": "Region",
+  "region": 17,
+  "offset": 0,
+  "bit": 1
+ },
+ "Goron Mines Gor Ebizo Chest": {
+  "type": "Region",
+  "region": 17,
+  "offset": 0,
+  "bit": 2
+ },
+ "Goron Mines Gor Ebizo Key Shard": {
+  "type": "Flag",
+  "offset": 2087,
+  "bit": 2
+ },
+ "Goron Mines Gor Liggs Chest": {
+  "type": "Region",
+  "region": 17,
+  "offset": 0,
+  "bit": 4
+ },
+ "Goron Mines Gor Liggs Key Shard": {
+  "type": "Flag",
+  "offset": 2087,
+  "bit": 1
+ },
+ "Goron Mines Magnet Maze Chest": {
+  "type": "Region",
+  "region": 17,
+  "offset": 1,
+  "bit": 16
+ },
+ "Goron Mines Main Magnet Room Bottom Chest": {
+  "type": "Region",
+  "region": 17,
+  "offset": 2,
+  "bit": 8
+ },
+ "Goron Mines Main Magnet Room Top Chest": {
+  "type": "Region",
+  "region": 17,
+  "offset": 0,
+  "bit": 64
+ },
+ "Goron Mines Outside Beamos Chest": {
+  "type": "Region",
+  "region": 17,
+  "offset": 2,
+  "bit": 128
+ },
+ "Goron Mines Outside Clawshot Chest": {
+  "type": "Region",
+  "region": 17,
+  "offset": 2,
+  "bit": 64
+ },
+ "Goron Mines Outside Underwater Chest": {
+  "type": "Region",
+  "region": 17,
+  "offset": 1,
+  "bit": 32
+ },
+ "Goron Springwater Rush": {
+  "type": "Region",
+  "region": 6,
+  "offset": 27,
+  "bit": 1
+ },
+ "Herding Goats Reward": {
+  "type": "Flag",
+  "offset": 2098,
+  "bit": 64
+ },
+ "Hidden Village Poe": {
+  "type": "Region",
+  "region": 3,
+  "offset": 19,
+  "bit": 1
+ },
+ "Hyrule Castle Big Key Chest": {
+  "type": "Region",
+  "region": 24,
+  "offset": 3,
+  "bit": 1
+ },
+ "Hyrule Castle East Wing Balcony Chest": {
+  "type": "Region",
+  "region": 24,
+  "offset": 2,
+  "bit": 8
+ },
+ "Hyrule Castle East Wing Boomerang Puzzle Chest": {
+  "type": "Region",
+  "region": 24,
+  "offset": 3,
+  "bit": 16
+ },
+ "Hyrule Castle Ganondorf": {
+  "type": "Flag",
+  "offset": 2135,
+  "bit": 128
+ },
+ "Hyrule Castle Graveyard Grave Switch Room Back Left Chest": {
+  "type": "Region",
+  "region": 24,
+  "offset": 7,
+  "bit": 4
+ },
+ "Hyrule Castle Graveyard Grave Switch Room Front Left Chest": {
+  "type": "Region",
+  "region": 24,
+  "offset": 7,
+  "bit": 2
+ },
+ "Hyrule Castle Graveyard Grave Switch Room Right Chest": {
+  "type": "Region",
+  "region": 24,
+  "offset": 0,
+  "bit": 64
+ },
+ "Hyrule Castle Graveyard Owl Statue Chest": {
+  "type": "Region",
+  "region": 24,
+  "offset": 3,
+  "bit": 128
+ },
+ "Hyrule Castle King Bulblin Key": {
+  "type": "Region",
+  "region": 24,
+  "offset": 3,
+  "bit": 8
+ },
+ "Hyrule Castle Lantern Staircase Chest": {
+  "type": "Region",
+  "region": 24,
+  "offset": 0,
+  "bit": 2
+ },
+ "Hyrule Castle Main Hall Northeast Chest": {
+  "type": "Region",
+  "region": 24,
+  "offset": 2,
+  "bit": 1
+ },
+ "Hyrule Castle Main Hall Northwest Chest": {
+  "type": "Region",
+  "region": 24,
+  "offset": 2,
+  "bit": 32
+ },
+ "Hyrule Castle Main Hall Southwest Chest": {
+  "type": "Region",
+  "region": 24,
+  "offset": 3,
+  "bit": 4
+ },
+ "Hyrule Castle Southeast Balcony Tower Chest": {
+  "type": "Region",
+  "region": 24,
+  "offset": 3,
+  "bit": 2
+ },
+ "Hyrule Castle Treasure Room Eighth Small Chest": {
+  "type": "Region",
+  "region": 24,
+  "offset": 0,
+  "bit": 16
+ },
+ "Hyrule Castle Treasure Room Fifth Chest": {
+  "type": "Region",
+  "region": 24,
+  "offset": 1,
+  "bit": 8
+ },
+ "Hyrule Castle Treasure Room Fifth Small Chest": {
+  "type": "Region",
+  "region": 24,
+  "offset": 1,
+  "bit": 64
+ },
+ "Hyrule Castle Treasure Room First Chest": {
+  "type": "Region",
+  "region": 24,
+  "offset": 2,
+  "bit": 128
+ },
+ "Hyrule Castle Treasure Room First Small Chest": {
+  "type": "Region",
+  "region": 24,
+  "offset": 7,
+  "bit": 8
+ },
+ "Hyrule Castle Treasure Room Fourth Chest": {
+  "type": "Region",
+  "region": 24,
+  "offset": 1,
+  "bit": 4
+ },
+ "Hyrule Castle Treasure Room Fourth Small Chest": {
+  "type": "Region",
+  "region": 24,
+  "offset": 1,
+  "bit": 128
+ },
+ "Hyrule Castle Treasure Room Second Chest": {
+  "type": "Region",
+  "region": 24,
+  "offset": 1,
+  "bit": 1
+ },
+ "Hyrule Castle Treasure Room Second Small Chest": {
+  "type": "Region",
+  "region": 24,
+  "offset": 0,
+  "bit": 32
+ },
+ "Hyrule Castle Treasure Room Seventh Small Chest": {
+  "type": "Region",
+  "region": 24,
+  "offset": 0,
+  "bit": 8
+ },
+ "Hyrule Castle Treasure Room Sixth Small Chest": {
+  "type": "Region",
+  "region": 24,
+  "offset": 0,
+  "bit": 4
+ },
+ "Hyrule Castle Treasure Room Third Chest": {
+  "type": "Region",
+  "region": 24,
+  "offset": 1,
+  "bit": 2
+ },
+ "Hyrule Castle Treasure Room Third Small Chest": {
+  "type": "Region",
+  "region": 24,
+  "offset": 1,
+  "bit": 32
+ },
+ "Hyrule Castle West Courtyard Central Small Chest": {
+  "type": "Region",
+  "region": 24,
+  "offset": 3,
+  "bit": 32
+ },
+ "Hyrule Castle West Courtyard North Small Chest": {
+  "type": "Region",
+  "region": 24,
+  "offset": 2,
+  "bit": 2
+ },
+ "Hyrule Field Amphitheater Owl Statue Chest": {
+  "type": "Region",
+  "region": 6,
+  "offset": 2,
+  "bit": 8
+ },
+ "Hyrule Field Amphitheater Owl Statue Sky Character": {
+  "type": "Region",
+  "region": 6,
+  "offset": 17,
+  "bit": 128
+ },
+ "Hyrule Field Amphitheater Poe": {
+  "type": "Region",
+  "region": 6,
+  "offset": 18,
+  "bit": 2
+ },
+ "Ilia Charm": {
+  "type": "Flag",
+  "offset": 2066,
+  "bit": 128
+ },
+ "Ilia Memory Reward": {
+  "type": "Flag",
+  "offset": 2067,
+  "bit": 64
+ },
+ "Isle of Riches Poe": {
+  "type": "Region",
+  "region": 4,
+  "offset": 19,
+  "bit": 128
+ },
+ "Iza Helping Hand": {
+  "type": "Flag",
+  "offset": 2043,
+  "bit": 1
+ },
+ "Iza Raging Rapids Minigame": {
+  "type": "Flag",
+  "offset": 2121,
+  "bit": 8
+ },
+ "Jovani 20 Poe Soul Reward": {
+  "type": "Flag",
+  "offset": 2109,
+  "bit": 128
+ },
+ "Jovani 60 Poe Soul Reward": {
+  "type": "Flag",
+  "offset": 2088,
+  "bit": 32
+ },
+ "Jovani House Poe": {
+  "type": "Region",
+  "region": 9,
+  "offset": 8,
+  "bit": 64
+ },
+ "Kakariko Gorge Double Clawshot Chest": {
+  "type": "Region",
+  "region": 6,
+  "offset": 3,
+  "bit": 32
+ },
+ "Kakariko Gorge Female Pill Bug": {
+  "type": "Region",
+  "region": 6,
+  "offset": 25,
+  "bit": 16
+ },
+ "Kakariko Gorge Male Pill Bug": {
+  "type": "Region",
+  "region": 6,
+  "offset": 25,
+  "bit": 32
+ },
+ "Kakariko Gorge Owl Statue Chest": {
+  "type": "Region",
+  "region": 6,
+  "offset": 3,
+  "bit": 16
+ },
+ "Kakariko Gorge Owl Statue Sky Character": {
+  "type": "Region",
+  "region": 6,
+  "offset": 17,
+  "bit": 2
+ },
+ "Kakariko Gorge Poe": {
+  "type": "Region",
+  "region": 6,
+  "offset": 12,
+  "bit": 4
+ },
+ "Kakariko Gorge Portal": {
+  "type": "Region",
+  "region": 6,
+  "offset": 2,
+  "bit": 32
+ },
+ "Kakariko Gorge Spire Heart Piece": {
+  "type": "Region",
+  "region": 6,
+  "offset": 27,
+  "bit": 4
+ },
+ "Kakariko Graveyard Golden Wolf": {
+  "type": "Flag",
+  "offset": 2093,
+  "bit": 128
+ },
+ "Kakariko Graveyard Grave Poe": {
+  "type": "Region",
+  "region": 3,
+  "offset": 17,
+  "bit": 128
+ },
+ "Kakariko Graveyard Lantern Chest": {
+  "type": "Region",
+  "region": 3,
+  "offset": 0,
+  "bit": 1
+ },
+ "Kakariko Graveyard Male Ant": {
+  "type": "Region",
+  "region": 3,
+  "offset": 25,
+  "bit": 2
+ },
+ "Kakariko Graveyard Open Poe": {
+  "type": "Region",
+  "region": 3,
+  "offset": 16,
+  "bit": 1
+ },
+ "Kakariko Inn Chest": {
+  "type": "Region",
+  "region": 3,
+  "offset": 1,
+  "bit": 128
+ },
+ "Kakariko Village Bomb Rock Spire Heart Piece": {
+  "type": "Region",
+  "region": 3,
+  "offset": 26,
+  "bit": 16
+ },
+ "Kakariko Village Bomb Shop Poe": {
+  "type": "Region",
+  "region": 3,
+  "offset": 16,
+  "bit": 64
+ },
+ "Kakariko Village Female Ant": {
+  "type": "Region",
+  "region": 3,
+  "offset": 25,
+  "bit": 1
+ },
+ "Kakariko Village Malo Mart Hawkeye": {
+  "type": "Region",
+  "region": 3,
+  "offset": 12,
+  "bit": 32
+ },
+ "Kakariko Village Malo Mart Hylian Shield": {
+  "type": "Region",
+  "region": 3,
+  "offset": 12,
+  "bit": 2
+ },
+ "Kakariko Village Malo Mart Red Potion": {
+  "type": "Region",
+  "region": 3,
+  "offset": 11,
+  "bit": 16
+ },
+ "Kakariko Village Malo Mart Wooden Shield": {
+  "type": "Region",
+  "region": 3,
+  "offset": 11,
+  "bit": 32
+ },
+ "Kakariko Village Portal": {
+  "type": "Region",
+  "region": 3,
+  "offset": 3,
+  "bit": 128
+ },
+ "Kakariko Village Watchtower Poe": {
+  "type": "Region",
+  "region": 3,
+  "offset": 16,
+  "bit": 128
+ },
+ "Kakariko Watchtower Alcove Chest": {
+  "type": "Region",
+  "region": 3,
+  "offset": 1,
+  "bit": 16
+ },
+ "Kakariko Watchtower Chest": {
+  "type": "Region",
+  "region": 3,
+  "offset": 1,
+  "bit": 2
+ },
+ "Lake Hylia Alcove Poe": {
+  "type": "Region",
+  "region": 4,
+  "offset": 19,
+  "bit": 64
+ },
+ "Lake Hylia Bridge Bubble Grotto Chest": {
+  "type": "Region",
+  "region": 27,
+  "offset": 3,
+  "bit": 16
+ },
+ "Lake Hylia Bridge Cliff Chest": {
+  "type": "Region",
+  "region": 6,
+  "offset": 2,
+  "bit": 2
+ },
+ "Lake Hylia Bridge Cliff Poe": {
+  "type": "Region",
+  "region": 6,
+  "offset": 12,
+  "bit": 8
+ },
+ "Lake Hylia Bridge Female Mantis": {
+  "type": "Region",
+  "region": 6,
+  "offset": 25,
+  "bit": 4
+ },
+ "Lake Hylia Bridge Male Mantis": {
+  "type": "Region",
+  "region": 6,
+  "offset": 25,
+  "bit": 8
+ },
+ "Lake Hylia Bridge Owl Statue Chest": {
+  "type": "Region",
+  "region": 6,
+  "offset": 2,
+  "bit": 128
+ },
+ "Lake Hylia Bridge Owl Statue Sky Character": {
+  "type": "Region",
+  "region": 6,
+  "offset": 17,
+  "bit": 32
+ },
+ "Lake Hylia Bridge Vines Chest": {
+  "type": "Region",
+  "region": 6,
+  "offset": 2,
+  "bit": 4
+ },
+ "Lake Hylia Dock Poe": {
+  "type": "Region",
+  "region": 4,
+  "offset": 18,
+  "bit": 8
+ },
+ "Lake Hylia Portal": {
+  "type": "Region",
+  "region": 4,
+  "offset": 1,
+  "bit": 4
+ },
+ "Lake Hylia Shell Blade Grotto Chest": {
+  "type": "Region",
+  "region": 27,
+  "offset": 1,
+  "bit": 32
+ },
+ "Lake Hylia Tower Poe": {
+  "type": "Region",
+  "region": 4,
+  "offset": 18,
+  "bit": 16
+ },
+ "Lake Hylia Underwater Chest": {
+  "type": "Region",
+  "region": 4,
+  "offset": 3,
+  "bit": 32
+ },
+ "Lake Hylia Water Toadpoli Grotto Chest": {
+  "type": "Region",
+  "region": 27,
+  "offset": 3,
+  "bit": 32
+ },
+ "Lake Lantern Cave Eighth Chest": {
+  "type": "Region",
+  "region": 26,
+  "offset": 2,
+  "bit": 4
+ },
+ "Lake Lantern Cave Eleventh Chest": {
+  "type": "Region",
+  "region": 26,
+  "offset": 3,
+  "bit": 16
+ },
+ "Lake Lantern Cave End Lantern Chest": {
+  "type": "Region",
+  "region": 26,
+  "offset": 3,
+  "bit": 8
+ },
+ "Lake Lantern Cave Fifth Chest": {
+  "type": "Region",
+  "region": 26,
+  "offset": 3,
+  "bit": 128
+ },
+ "Lake Lantern Cave Final Poe": {
+  "type": "Region",
+  "region": 26,
+  "offset": 16,
+  "bit": 128
+ },
+ "Lake Lantern Cave First Chest": {
+  "type": "Region",
+  "region": 26,
+  "offset": 3,
+  "bit": 2
+ },
+ "Lake Lantern Cave First Poe": {
+  "type": "Region",
+  "region": 26,
+  "offset": 16,
+  "bit": 64
+ },
+ "Lake Lantern Cave Fourteenth Chest": {
+  "type": "Region",
+  "region": 26,
+  "offset": 2,
+  "bit": 32
+ },
+ "Lake Lantern Cave Fourth Chest": {
+  "type": "Region",
+  "region": 26,
+  "offset": 3,
+  "bit": 1
+ },
+ "Lake Lantern Cave Ninth Chest": {
+  "type": "Region",
+  "region": 26,
+  "offset": 2,
+  "bit": 2
+ },
+ "Lake Lantern Cave Second Chest": {
+  "type": "Region",
+  "region": 26,
+  "offset": 3,
+  "bit": 4
+ },
+ "Lake Lantern Cave Second Poe": {
+  "type": "Region",
+  "region": 26,
+  "offset": 16,
+  "bit": 32
+ },
+ "Lake Lantern Cave Seventh Chest": {
+  "type": "Region",
+  "region": 26,
+  "offset": 2,
+  "bit": 1
+ },
+ "Lake Lantern Cave Sixth Chest": {
+  "type": "Region",
+  "region": 26,
+  "offset": 2,
+  "bit": 64
+ },
+ "Lake Lantern Cave Tenth Chest": {
+  "type": "Region",
+  "region": 26,
+  "offset": 3,
+  "bit": 32
+ },
+ "Lake Lantern Cave Third Chest": {
+  "type": "Region",
+  "region": 26,
+  "offset": 3,
+  "bit": 64
+ },
+ "Lake Lantern Cave Thirteenth Chest": {
+  "type": "Region",
+  "region": 26,
+  "offset": 2,
+  "bit": 16
+ },
+ "Lake Lantern Cave Twelfth Chest": {
+  "type": "Region",
+  "region": 26,
+  "offset": 2,
+  "bit": 8
+ },
+ "Lakebed Temple Before Deku Toad Alcove Chest": {
+  "type": "Region",
+  "region": 18,
+  "offset": 3,
+  "bit": 4
+ },
+ "Lakebed Temple Before Deku Toad Underwater Left Chest": {
+  "type": "Region",
+  "region": 18,
+  "offset": 2,
+  "bit": 128
+ },
+ "Lakebed Temple Before Deku Toad Underwater Right Chest": {
+  "type": "Region",
+  "region": 18,
+  "offset": 2,
+  "bit": 64
+ },
+ "Lakebed Temple Big Key Chest": {
+  "type": "Region",
+  "region": 18,
+  "offset": 2,
+  "bit": 16
+ },
+ "Lakebed Temple Central Room Chest": {
+  "type": "Region",
+  "region": 18,
+  "offset": 1,
+  "bit": 2
+ },
+ "Lakebed Temple Central Room Small Chest": {
+  "type": "Region",
+  "region": 18,
+  "offset": 3,
+  "bit": 2
+ },
+ "Lakebed Temple Central Room Spire Chest": {
+  "type": "Region",
+  "region": 18,
+  "offset": 1,
+  "bit": 1
+ },
+ "Lakebed Temple Chandelier Chest": {
+  "type": "Region",
+  "region": 18,
+  "offset": 3,
+  "bit": 32
+ },
+ "Lakebed Temple Deku Toad Chest": {
+  "type": "Region",
+  "region": 18,
+  "offset": 3,
+  "bit": 1
+ },
+ "Lakebed Temple Dungeon Reward": {
+  "type": "Region",
+  "region": 18,
+  "offset": 29,
+  "bit": 8
+ },
+ "Lakebed Temple East Lower Waterwheel Bridge Chest": {
+  "type": "Region",
+  "region": 18,
+  "offset": 2,
+  "bit": 1
+ },
+ "Lakebed Temple East Lower Waterwheel Stalactite Chest": {
+  "type": "Region",
+  "region": 18,
+  "offset": 3,
+  "bit": 64
+ },
+ "Lakebed Temple East Second Floor Southeast Chest": {
+  "type": "Region",
+  "region": 18,
+  "offset": 2,
+  "bit": 4
+ },
+ "Lakebed Temple East Second Floor Southwest Chest": {
+  "type": "Region",
+  "region": 18,
+  "offset": 0,
+  "bit": 1
+ },
+ "Lakebed Temple East Water Supply Clawshot Chest": {
+  "type": "Region",
+  "region": 18,
+  "offset": 2,
+  "bit": 8
+ },
+ "Lakebed Temple East Water Supply Small Chest": {
+  "type": "Region",
+  "region": 18,
+  "offset": 0,
+  "bit": 8
+ },
+ "Lakebed Temple Lobby Left Chest": {
+  "type": "Region",
+  "region": 18,
+  "offset": 0,
+  "bit": 16
+ },
+ "Lakebed Temple Lobby Rear Chest": {
+  "type": "Region",
+  "region": 18,
+  "offset": 0,
+  "bit": 32
+ },
+ "Lakebed Temple Morpheel Heart Container": {
+  "type": "Region",
+  "region": 18,
+  "offset": 24,
+  "bit": 128
+ },
+ "Lakebed Temple Stalactite Room Chest": {
+  "type": "Region",
+  "region": 18,
+  "offset": 3,
+  "bit": 8
+ },
+ "Lakebed Temple Underwater Maze Small Chest": {
+  "type": "Region",
+  "region": 18,
+  "offset": 1,
+  "bit": 4
+ },
+ "Lakebed Temple West Lower Small Chest": {
+  "type": "Region",
+  "region": 18,
+  "offset": 0,
+  "bit": 64
+ },
+ "Lakebed Temple West Second Floor Central Small Chest": {
+  "type": "Region",
+  "region": 18,
+  "offset": 1,
+  "bit": 8
+ },
+ "Lakebed Temple West Second Floor Northeast Chest": {
+  "type": "Region",
+  "region": 18,
+  "offset": 2,
+  "bit": 32
+ },
+ "Lakebed Temple West Second Floor Southeast Chest": {
+  "type": "Region",
+  "region": 18,
+  "offset": 3,
+  "bit": 128
+ },
+ "Lakebed Temple West Second Floor Southwest Underwater Chest": {
+  "type": "Region",
+  "region": 18,
+  "offset": 0,
+  "bit": 2
+ },
+ "Lakebed Temple West Water Supply Chest": {
+  "type": "Region",
+  "region": 18,
+  "offset": 1,
+  "bit": 16
+ },
+ "Lakebed Temple West Water Supply Small Chest": {
+  "type": "Region",
+  "region": 18,
+  "offset": 1,
+  "bit": 32
+ },
+ "Lanayru Field Behind Gate Underwater Chest": {
+  "type": "Region",
+  "region": 6,
+  "offset": 3,
+  "bit": 128
+ },
+ "Lanayru Field Bridge Poe": {
+  "type": "Region",
+  "region": 6,
+  "offset": 13,
+  "bit": 8
+ },
+ "Lanayru Field Female Stag Beetle": {
+  "type": "Region",
+  "region": 6,
+  "offset": 24,
+  "bit": 4
+ },
+ "Lanayru Field Male Stag Beetle": {
+  "type": "Region",
+  "region": 6,
+  "offset": 24,
+  "bit": 8
+ },
+ "Lanayru Field Poe Grotto Left Poe": {
+  "type": "Region",
+  "region": 27,
+  "offset": 10,
+  "bit": 8
+ },
+ "Lanayru Field Poe Grotto Right Poe": {
+  "type": "Region",
+  "region": 27,
+  "offset": 10,
+  "bit": 4
+ },
+ "Lanayru Field Skulltula Grotto Chest": {
+  "type": "Region",
+  "region": 27,
+  "offset": 1,
+  "bit": 8
+ },
+ "Lanayru Field Spinner Track Chest": {
+  "type": "Region",
+  "region": 6,
+  "offset": 2,
+  "bit": 1
+ },
+ "Lanayru Ice Block Puzzle Cave Chest": {
+  "type": "Region",
+  "region": 25,
+  "offset": 3,
+  "bit": 1
+ },
+ "Lanayru Spring Back Room Lantern Chest": {
+  "type": "Region",
+  "region": 4,
+  "offset": 0,
+  "bit": 32
+ },
+ "Lanayru Spring Back Room Left Chest": {
+  "type": "Region",
+  "region": 4,
+  "offset": 0,
+  "bit": 16
+ },
+ "Lanayru Spring Back Room Right Chest": {
+  "type": "Region",
+  "region": 4,
+  "offset": 0,
+  "bit": 8
+ },
+ "Lanayru Spring East Double Clawshot Chest": {
+  "type": "Region",
+  "region": 4,
+  "offset": 3,
+  "bit": 16
+ },
+ "Lanayru Spring Underwater Left Chest": {
+  "type": "Region",
+  "region": 4,
+  "offset": 2,
+  "bit": 16
+ },
+ "Lanayru Spring Underwater Right Chest": {
+  "type": "Region",
+  "region": 4,
+  "offset": 2,
+  "bit": 4
+ },
+ "Lanayru Spring West Double Clawshot Chest": {
+  "type": "Region",
+  "region": 4,
+  "offset": 3,
+  "bit": 8
+ },
+ "Links Basement Chest": {
+  "type": "Region",
+  "region": 0,
+  "offset": 3,
+  "bit": 2
+ },
+ "Lost Woods Boulder Poe": {
+  "type": "Region",
+  "region": 7,
+  "offset": 9,
+  "bit": 1
+ },
+ "Lost Woods Lantern Chest": {
+  "type": "Region",
+  "region": 7,
+  "offset": 3,
+  "bit": 8
+ },
+ "Lost Woods Waterfall Poe": {
+  "type": "Region",
+  "region": 7,
+  "offset": 9,
+  "bit": 2
+ },
+ "Mirror Chamber Portal": {
+  "type": "Region",
+  "region": 10,
+  "offset": 5,
+  "bit": 1
+ },
+ "North Castle Town Golden Wolf": {
+  "type": "Flag",
+  "offset": 2093,
+  "bit": 64
+ },
+ "North Faron Portal": {
+  "type": "Region",
+  "region": 2,
+  "offset": 0,
+  "bit": 4
+ },
+ "North Faron Woods Deku Baba Chest": {
+  "type": "Region",
+  "region": 2,
+  "offset": 4,
+  "bit": 128
+ },
+ "Ordon Cat Rescue": {
+  "type": "Flag",
+  "offset": 2052,
+  "bit": 8
+ },
+ "Ordon Ranch Grotto Lantern Chest": {
+  "type": "Region",
+  "region": 27,
+  "offset": 3,
+  "bit": 128
+ },
+ "Ordon Shield": {
+  "type": "Region",
+  "region": 0,
+  "offset": 8,
+  "bit": 4
+ },
+ "Ordon Spring Golden Wolf": {
+  "type": "Flag",
+  "offset": 2092,
+  "bit": 8
+ },
+ "Ordon Sword": {
+  "type": "Region",
+  "region": 0,
+  "offset": 8,
+  "bit": 1
+ },
+ "Outside Arbiters Grounds Lantern Chest": {
+  "type": "Region",
+  "region": 10,
+  "offset": 2,
+  "bit": 128
+ },
+ "Outside Arbiters Grounds Poe": {
+  "type": "Region",
+  "region": 10,
+  "offset": 16,
+  "bit": 4
+ },
+ "Outside Bulblin Camp Poe": {
+  "type": "Region",
+  "region": 10,
+  "offset": 13,
+  "bit": 8
+ },
+ "Outside Lanayru Spring Left Statue Chest": {
+  "type": "Region",
+  "region": 4,
+  "offset": 3,
+  "bit": 2
+ },
+ "Outside Lanayru Spring Right Statue Chest": {
+  "type": "Region",
+  "region": 4,
+  "offset": 3,
+  "bit": 64
+ },
+ "Outside South Castle Town Double Clawshot Chasm Chest": {
+  "type": "Region",
+  "region": 6,
+  "offset": 2,
+  "bit": 32
+ },
+ "Outside South Castle Town Female Ladybug": {
+  "type": "Region",
+  "region": 6,
+  "offset": 25,
+  "bit": 1
+ },
+ "Outside South Castle Town Fountain Chest": {
+  "type": "Region",
+  "region": 6,
+  "offset": 2,
+  "bit": 64
+ },
+ "Outside South Castle Town Golden Wolf": {
+  "type": "Flag",
+  "offset": 2092,
+  "bit": 2
+ },
+ "Outside South Castle Town Male Ladybug": {
+  "type": "Region",
+  "region": 6,
+  "offset": 25,
+  "bit": 2
+ },
+ "Outside South Castle Town Poe": {
+  "type": "Region",
+  "region": 6,
+  "offset": 13,
+  "bit": 1
+ },
+ "Outside South Castle Town Tektite Grotto Chest": {
+  "type": "Region",
+  "region": 27,
+  "offset": 3,
+  "bit": 2
+ },
+ "Outside South Castle Town Tightrope Chest": {
+  "type": "Region",
+  "region": 6,
+  "offset": 2,
+  "bit": 16
+ },
+ "Palace of Twilight Big Key Chest": {
+  "type": "Region",
+  "region": 23,
+  "offset": 1,
+  "bit": 128
+ },
+ "Palace of Twilight Central First Room Chest": {
+  "type": "Region",
+  "region": 23,
+  "offset": 1,
+  "bit": 64
+ },
+ "Palace of Twilight Central Outdoor Chest": {
+  "type": "Region",
+  "region": 23,
+  "offset": 0,
+  "bit": 1
+ },
+ "Palace of Twilight Central Tower Chest": {
+  "type": "Region",
+  "region": 23,
+  "offset": 0,
+  "bit": 4
+ },
+ "Palace of Twilight Collect Both Sols": {
+  "type": "Region",
+  "region": 23,
+  "offset": 12,
+  "bit": 128
+ },
+ "Palace of Twilight East Wing First Room East Alcove Chest": {
+  "type": "Region",
+  "region": 23,
+  "offset": 3,
+  "bit": 1
+ },
+ "Palace of Twilight East Wing First Room North Small Chest": {
+  "type": "Region",
+  "region": 23,
+  "offset": 7,
+  "bit": 16
+ },
+ "Palace of Twilight East Wing First Room West Alcove Chest": {
+  "type": "Region",
+  "region": 23,
+  "offset": 0,
+  "bit": 8
+ },
+ "Palace of Twilight East Wing First Room Zant Head Chest": {
+  "type": "Region",
+  "region": 23,
+  "offset": 3,
+  "bit": 64
+ },
+ "Palace of Twilight East Wing Second Room Northeast Chest": {
+  "type": "Region",
+  "region": 23,
+  "offset": 0,
+  "bit": 16
+ },
+ "Palace of Twilight East Wing Second Room Northwest Chest": {
+  "type": "Region",
+  "region": 23,
+  "offset": 0,
+  "bit": 32
+ },
+ "Palace of Twilight East Wing Second Room Southeast Chest": {
+  "type": "Region",
+  "region": 23,
+  "offset": 3,
+  "bit": 128
+ },
+ "Palace of Twilight East Wing Second Room Southwest Chest": {
+  "type": "Region",
+  "region": 23,
+  "offset": 7,
+  "bit": 2
+ },
+ "Palace of Twilight West Wing Chest Behind Wall of Darkness": {
+  "type": "Region",
+  "region": 23,
+  "offset": 0,
+  "bit": 64
+ },
+ "Palace of Twilight West Wing First Room Central Chest": {
+  "type": "Region",
+  "region": 23,
+  "offset": 3,
+  "bit": 16
+ },
+ "Palace of Twilight West Wing Second Room Central Chest": {
+  "type": "Region",
+  "region": 23,
+  "offset": 3,
+  "bit": 32
+ },
+ "Palace of Twilight West Wing Second Room Lower South Chest": {
+  "type": "Region",
+  "region": 23,
+  "offset": 3,
+  "bit": 8
+ },
+ "Palace of Twilight West Wing Second Room Southeast Chest": {
+  "type": "Region",
+  "region": 23,
+  "offset": 0,
+  "bit": 2
+ },
+ "Palace of Twilight Zant Heart Container": {
+  "type": "Region",
+  "region": 23,
+  "offset": 27,
+  "bit": 1
+ },
+ "Plumm Fruit Balloon Minigame": {
+  "type": "Flag",
+  "offset": 2067,
+  "bit": 128
+ },
+ "Renados Letter": {
+  "type": "Flag",
+  "offset": 2047,
+  "bit": 128
+ },
+ "Rutelas Blessing": {
+  "type": "Flag",
+  "offset": 2040,
+  "bit": 4
+ },
+ "STAR Prize 1": {
+  "type": "Flag",
+  "offset": 2067,
+  "bit": 8
+ },
+ "STAR Prize 2": {
+  "type": "Flag",
+  "offset": 2067,
+  "bit": 1
+ },
+ "Sacred Grove Baba Serpent Grotto Chest": {
+  "type": "Region",
+  "region": 27,
+  "offset": 3,
+  "bit": 8
+ },
+ "Sacred Grove Female Snail": {
+  "type": "Region",
+  "region": 7,
+  "offset": 24,
+  "bit": 1
+ },
+ "Sacred Grove Male Snail": {
+  "type": "Region",
+  "region": 7,
+  "offset": 24,
+  "bit": 2
+ },
+ "Sacred Grove Master Sword Poe": {
+  "type": "Region",
+  "region": 7,
+  "offset": 10,
+  "bit": 128
+ },
+ "Sacred Grove Past Owl Statue Chest": {
+  "type": "Region",
+  "region": 7,
+  "offset": 3,
+  "bit": 2
+ },
+ "Sacred Grove Pedestal Master Sword": {
+  "type": "Flag",
+  "offset": 2065,
+  "bit": 32
+ },
+ "Sacred Grove Pedestal Shadow Crystal": {
+  "type": "Flag",
+  "offset": 2065,
+  "bit": 32
+ },
+ "Sacred Grove Portal": {
+  "type": "Region",
+  "region": 7,
+  "offset": 12,
+  "bit": 16
+ },
+ "Sacred Grove Spinner Chest": {
+  "type": "Region",
+  "region": 7,
+  "offset": 3,
+  "bit": 4
+ },
+ "Sacred Grove Temple of Time Owl Statue Poe": {
+  "type": "Region",
+  "region": 7,
+  "offset": 8,
+  "bit": 64
+ },
+ "Sera Shop Slingshot": {
+  "type": "Flag",
+  "offset": 2105,
+  "bit": 2
+ },
+ "Shad Dominion Rod": {
+  "type": "Flag",
+  "offset": 2069,
+  "bit": 128
+ },
+ "Skybook From Impaz": {
+  "type": "Flag",
+  "offset": 2127,
+  "bit": 128
+ },
+ "Snowboard Racing Prize": {
+  "type": "Flag",
+  "offset": 2091,
+  "bit": 16
+ },
+ "Snowpeak Above Freezard Grotto Poe": {
+  "type": "Region",
+  "region": 8,
+  "offset": 20,
+  "bit": 16
+ },
+ "Snowpeak Blizzard Poe": {
+  "type": "Region",
+  "region": 8,
+  "offset": 20,
+  "bit": 32
+ },
+ "Snowpeak Cave Ice Lantern Chest": {
+  "type": "Region",
+  "region": 8,
+  "offset": 3,
+  "bit": 1
+ },
+ "Snowpeak Cave Ice Poe": {
+  "type": "Region",
+  "region": 8,
+  "offset": 20,
+  "bit": 128
+ },
+ "Snowpeak Freezard Grotto Chest": {
+  "type": "Region",
+  "region": 27,
+  "offset": 2,
+  "bit": 128
+ },
+ "Snowpeak Icy Summit Poe": {
+  "type": "Region",
+  "region": 8,
+  "offset": 20,
+  "bit": 64
+ },
+ "Snowpeak Poe Among Trees": {
+  "type": "Region",
+  "region": 8,
+  "offset": 20,
+  "bit": 8
+ },
+ "Snowpeak Portal": {
+  "type": "Region",
+  "region": 8,
+  "offset": 2,
+  "bit": 32
+ },
+ "Snowpeak Ruins Ball and Chain": {
+  "type": "Region",
+  "region": 20,
+  "offset": 16,
+  "bit": 128
+ },
+ "Snowpeak Ruins Blizzeta Heart Container": {
+  "type": "Region",
+  "region": 20,
+  "offset": 24,
+  "bit": 128
+ },
+ "Snowpeak Ruins Broken Floor Chest": {
+  "type": "Region",
+  "region": 20,
+  "offset": 0,
+  "bit": 2
+ },
+ "Snowpeak Ruins Chapel Chest": {
+  "type": "Region",
+  "region": 20,
+  "offset": 2,
+  "bit": 8
+ },
+ "Snowpeak Ruins Chest After Darkhammer": {
+  "type": "Region",
+  "region": 20,
+  "offset": 3,
+  "bit": 64
+ },
+ "Snowpeak Ruins Courtyard Central Chest": {
+  "type": "Region",
+  "region": 20,
+  "offset": 3,
+  "bit": 8
+ },
+ "Snowpeak Ruins Dungeon Reward": {
+  "type": "Region",
+  "region": 20,
+  "offset": 29,
+  "bit": 8
+ },
+ "Snowpeak Ruins East Courtyard Buried Chest": {
+  "type": "Region",
+  "region": 20,
+  "offset": 2,
+  "bit": 64
+ },
+ "Snowpeak Ruins East Courtyard Chest": {
+  "type": "Region",
+  "region": 20,
+  "offset": 2,
+  "bit": 128
+ },
+ "Snowpeak Ruins Ice Room Poe": {
+  "type": "Region",
+  "region": 20,
+  "offset": 20,
+  "bit": 128
+ },
+ "Snowpeak Ruins Lobby Armor Poe": {
+  "type": "Region",
+  "region": 20,
+  "offset": 9,
+  "bit": 32
+ },
+ "Snowpeak Ruins Lobby Chandelier Chest": {
+  "type": "Region",
+  "region": 20,
+  "offset": 1,
+  "bit": 32
+ },
+ "Snowpeak Ruins Lobby East Armor Chest": {
+  "type": "Region",
+  "region": 20,
+  "offset": 1,
+  "bit": 64
+ },
+ "Snowpeak Ruins Lobby Poe": {
+  "type": "Region",
+  "region": 20,
+  "offset": 21,
+  "bit": 4
+ },
+ "Snowpeak Ruins Lobby West Armor Chest": {
+  "type": "Region",
+  "region": 20,
+  "offset": 1,
+  "bit": 128
+ },
+ "Snowpeak Ruins Mansion Map": {
+  "type": "Region",
+  "region": 20,
+  "offset": 10,
+  "bit": 16
+ },
+ "Snowpeak Ruins Northeast Chandelier Chest": {
+  "type": "Region",
+  "region": 20,
+  "offset": 1,
+  "bit": 4
+ },
+ "Snowpeak Ruins Ordon Pumpkin Chest": {
+  "type": "Region",
+  "region": 20,
+  "offset": 2,
+  "bit": 4
+ },
+ "Snowpeak Ruins West Cannon Room Central Chest": {
+  "type": "Region",
+  "region": 20,
+  "offset": 1,
+  "bit": 16
+ },
+ "Snowpeak Ruins West Cannon Room Corner Chest": {
+  "type": "Region",
+  "region": 20,
+  "offset": 1,
+  "bit": 8
+ },
+ "Snowpeak Ruins West Courtyard Buried Chest": {
+  "type": "Region",
+  "region": 20,
+  "offset": 2,
+  "bit": 32
+ },
+ "Snowpeak Ruins Wooden Beam Central Chest": {
+  "type": "Region",
+  "region": 20,
+  "offset": 3,
+  "bit": 2
+ },
+ "Snowpeak Ruins Wooden Beam Chandelier Chest": {
+  "type": "Region",
+  "region": 20,
+  "offset": 3,
+  "bit": 128
+ },
+ "Snowpeak Ruins Wooden Beam Northwest Chest": {
+  "type": "Region",
+  "region": 20,
+  "offset": 3,
+  "bit": 4
+ },
+ "South Faron Cave Chest": {
+  "type": "Region",
+  "region": 2,
+  "offset": 0,
+  "bit": 128
+ },
+ "South Faron Portal": {
+  "type": "Region",
+  "region": 2,
+  "offset": 8,
+  "bit": 128
+ },
+ "Talo Sharpshooting": {
+  "type": "Flag",
+  "offset": 2041,
+  "bit": 32
+ },
+ "Telma Invoice": {
+  "type": "Flag",
+  "offset": 223,
+  "bit": 2
+ },
+ "Temple of Time Armogohma Heart Container": {
+  "type": "Region",
+  "region": 21,
+  "offset": 24,
+  "bit": 128
+ },
+ "Temple of Time Armos Antechamber East Chest": {
+  "type": "Region",
+  "region": 21,
+  "offset": 3,
+  "bit": 16
+ },
+ "Temple of Time Armos Antechamber North Chest": {
+  "type": "Region",
+  "region": 21,
+  "offset": 6,
+  "bit": 64
+ },
+ "Temple of Time Armos Antechamber Statue Chest": {
+  "type": "Region",
+  "region": 21,
+  "offset": 3,
+  "bit": 32
+ },
+ "Temple of Time Big Key Chest": {
+  "type": "Region",
+  "region": 21,
+  "offset": 2,
+  "bit": 1
+ },
+ "Temple of Time Chest Before Darknut": {
+  "type": "Region",
+  "region": 21,
+  "offset": 6,
+  "bit": 8
+ },
+ "Temple of Time Darknut Chest": {
+  "type": "Region",
+  "region": 21,
+  "offset": 3,
+  "bit": 1
+ },
+ "Temple of Time Dungeon Reward": {
+  "type": "Region",
+  "region": 21,
+  "offset": 29,
+  "bit": 8
+ },
+ "Temple of Time First Staircase Armos Chest": {
+  "type": "Region",
+  "region": 21,
+  "offset": 3,
+  "bit": 2
+ },
+ "Temple of Time First Staircase Gohma Gate Chest": {
+  "type": "Region",
+  "region": 21,
+  "offset": 3,
+  "bit": 4
+ },
+ "Temple of Time First Staircase Window Chest": {
+  "type": "Region",
+  "region": 21,
+  "offset": 6,
+  "bit": 32
+ },
+ "Temple of Time Floor Switch Puzzle Room Upper Chest": {
+  "type": "Region",
+  "region": 21,
+  "offset": 5,
+  "bit": 1
+ },
+ "Temple of Time Guillotine Chest": {
+  "type": "Region",
+  "region": 21,
+  "offset": 2,
+  "bit": 2
+ },
+ "Temple of Time Lobby Lantern Chest": {
+  "type": "Region",
+  "region": 21,
+  "offset": 6,
+  "bit": 2
+ },
+ "Temple of Time Moving Wall Beamos Room Chest": {
+  "type": "Region",
+  "region": 21,
+  "offset": 3,
+  "bit": 64
+ },
+ "Temple of Time Moving Wall Dinalfos Room Chest": {
+  "type": "Region",
+  "region": 21,
+  "offset": 2,
+  "bit": 16
+ },
+ "Temple of Time Poe Above Scales": {
+  "type": "Region",
+  "region": 21,
+  "offset": 8,
+  "bit": 1
+ },
+ "Temple of Time Poe Behind Gate": {
+  "type": "Region",
+  "region": 21,
+  "offset": 8,
+  "bit": 2
+ },
+ "Temple of Time Scales Gohma Chest": {
+  "type": "Region",
+  "region": 21,
+  "offset": 6,
+  "bit": 16
+ },
+ "Temple of Time Scales Upper Chest": {
+  "type": "Region",
+  "region": 21,
+  "offset": 6,
+  "bit": 128
+ },
+ "Uli Cradle Delivery": {
+  "type": "Flag",
+  "offset": 2035,
+  "bit": 1
+ },
+ "Upper Zoras River Female Dragonfly": {
+  "type": "Region",
+  "region": 4,
+  "offset": 24,
+  "bit": 64
+ },
+ "Upper Zoras River Poe": {
+  "type": "Region",
+  "region": 4,
+  "offset": 18,
+  "bit": 1
+ },
+ "Upper Zoras River Portal": {
+  "type": "Region",
+  "region": 4,
+  "offset": 6,
+  "bit": 128
+ },
+ "West Hyrule Field Female Butterfly": {
+  "type": "Region",
+  "region": 6,
+  "offset": 24,
+  "bit": 16
+ },
+ "West Hyrule Field Golden Wolf": {
+  "type": "Flag",
+  "offset": 2092,
+  "bit": 4
+ },
+ "West Hyrule Field Helmasaur Grotto Chest": {
+  "type": "Region",
+  "region": 27,
+  "offset": 3,
+  "bit": 1
+ },
+ "West Hyrule Field Male Butterfly": {
+  "type": "Region",
+  "region": 6,
+  "offset": 24,
+  "bit": 32
+ },
+ "Wooden Statue": {
+  "type": "Flag",
+  "offset": 223,
+  "bit": 4
+ },
+ "Wooden Sword Chest": {
+  "type": "Region",
+  "region": 0,
+  "offset": 3,
+  "bit": 16
+ },
+ "Wrestling With Bo": {
+  "type": "Region",
+  "region": 0,
+  "offset": 3,
+  "bit": 4
+ },
+ "Zoras Domain Chest Behind Waterfall": {
+  "type": "Region",
+  "region": 4,
+  "offset": 0,
+  "bit": 4
+ },
+ "Zoras Domain Chest By Mother and Child Isles": {
+  "type": "Region",
+  "region": 4,
+  "offset": 0,
+  "bit": 64
+ },
+ "Zoras Domain Extinguish All Torches Chest": {
+  "type": "Region",
+  "region": 4,
+  "offset": 1,
+  "bit": 16
+ },
+ "Zoras Domain Light All Torches Chest": {
+  "type": "Region",
+  "region": 4,
+  "offset": 1,
+  "bit": 8
+ },
+ "Zoras Domain Male Dragonfly": {
+  "type": "Region",
+  "region": 4,
+  "offset": 24,
+  "bit": 128
+ },
+ "Zoras Domain Mother and Child Isle Poe": {
+  "type": "Region",
+  "region": 4,
+  "offset": 18,
+  "bit": 4
+ },
+ "Zoras Domain Portal": {
+  "type": "Region",
+  "region": 4,
+  "offset": 0,
+  "bit": 4
+ },
+ "Zoras Domain Underwater Goron": {
+  "type": "Flag",
+  "offset": 2073,
+  "bit": 32
+ },
+ "Zoras Domain Waterfall Poe": {
+  "type": "Region",
+  "region": 4,
+  "offset": 18,
+  "bit": 2
+ }
+}
