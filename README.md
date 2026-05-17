@@ -41,4 +41,4 @@ Pre-built releases will come with 1.0.
 Most of the 'typing' of code here was done by AI. I still guided it excessively manually in a most cases. I have a full time job and this is more or less a weekend vibe coding project. But I paid next to 0 attention to its coding style - it has a lot of 'modern cpp-isms' that I would have written very differently if I typed out the code manually.
 
 # Attributions
-Check attributions.md for the crucial list of project's I referenced. They turned this from a major reverse engineering effort into something that can comfortably be done as a side project.
+Check acknowledgements.md for the crucial list of project's I referenced. They turned this from a major reverse engineering effort into something that can comfortably be done as a side project.
