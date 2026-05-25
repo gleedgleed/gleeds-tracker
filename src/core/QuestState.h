@@ -9,10 +9,6 @@
 
 namespace tpt::core {
 
-// Twilight progression labels (transform_level, dark_clear_level).
-inline constexpr std::array<std::string_view, 5> kTwilightLevels{
-    "Sewers", "Faron", "Eldin", "Lanayru", "MDH/Full"};
-
 struct PortalState {
     std::string_view name;
     bool unlocked = false;
@@ -72,7 +68,11 @@ struct QuestState {
     std::uint8_t  magicMax       = 0;
     std::uint8_t  currentForm    = 0;  // 0=human, non-zero=wolf
 
-    // Twilight progression.
+    // Twilight progression. Both are BITMASKS, not ordinal levels:
+    //   0x1 Faron, 0x2 Eldin, 0x4 Lanayru cleared; 0x8 MDH (Midna's Desperate
+    //   Hour) completed. See Randomizer-master user_patch/05_newFileFunctions
+    //   and main.cpp. transformLevel tracks the "last transformed" twilight and
+    //   is only written during the MDH sequence (so it stays 0 until MDH).
     std::uint8_t  transformLevel  = 0;
     std::uint8_t  darkClearLevel  = 0;
 

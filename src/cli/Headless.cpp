@@ -183,9 +183,16 @@ void printInventory(const tpt::core::Inventory& inv) {
     }
 }
 
-const char* twilightLabel(std::uint8_t level) {
-    return level < tpt::core::kTwilightLevels.size()
-        ? tpt::core::kTwilightLevels[level].data() : "?";
+// transform_level / dark_clear_level are bitmasks (see QuestState.h):
+// 0x1 Faron, 0x2 Eldin, 0x4 Lanayru cleared, 0x8 MDH completed.
+std::string twilightFlags(std::uint8_t mask) {
+    if (mask == 0) return "none";
+    const char* names[] = {"Faron", "Eldin", "Lanayru", "MDH"};
+    std::string s;
+    for (int i = 0; i < 4; ++i) {
+        if (mask & (1u << i)) { if (!s.empty()) s += "+"; s += names[i]; }
+    }
+    return s;
 }
 
 void printQuestState(const tpt::core::QuestState& qs) {
@@ -210,9 +217,9 @@ void printQuestState(const tpt::core::QuestState& qs) {
     std::printf("Hearts: %g/%g   Rupees: %u   Lantern Oil: %u/%u\n",
                 curHearts, maxHearts, qs.rupees,
                 qs.curLanternOil, qs.maxLanternOil);
-    std::printf("Twilight cleared up to: %s   Transformed up to: %s\n",
-                twilightLabel(qs.darkClearLevel),
-                twilightLabel(qs.transformLevel));
+    std::printf("Twilight cleared: %s   Transform flags: %s\n",
+                twilightFlags(qs.darkClearLevel).c_str(),
+                twilightFlags(qs.transformLevel).c_str());
     std::printf("Tears  Faron: %u/16  Eldin: %u/16  Lanayru: %u/16\n",
                 qs.faronTears, qs.eldinTears, qs.lanayruTears);
     std::printf("Deaths: %u\n", qs.deaths);

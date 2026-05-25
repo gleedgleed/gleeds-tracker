@@ -411,26 +411,30 @@ bool canDefeatGanondorf(const Context& c) {
 
 // ----- twilight / story / dungeon clears -------------------------------------
 
+// darkClearLevel is a BITMASK (see QuestState.h): 0x1 Faron, 0x2 Eldin,
+// 0x4 Lanayru cleared, 0x8 MDH completed — NOT an ordinal level. The event
+// flag is the primary signal; the bit is the fallback for seeds that pre-clear
+// a province at file creation without setting the event flag.
 bool canCompleteFaronTwilight(const Context& c) {
-    return flag(c, "CLEARED_FARON_TWILIGHT") || c.darkClearLevel >= 1;
+    return flag(c, "CLEARED_FARON_TWILIGHT") || (c.darkClearLevel & 0x1) != 0;
 }
 bool canCompleteEldinTwilight(const Context& c) {
-    return flag(c, "CLEARED_ELDIN_TWILIGHT") || c.darkClearLevel >= 2;
+    return flag(c, "CLEARED_ELDIN_TWILIGHT") || (c.darkClearLevel & 0x2) != 0;
 }
 bool canCompleteLanayruTwilight(const Context& c) {
-    return flag(c, "CLEARED_LANAYRU_TWILIGHT") || c.darkClearLevel >= 3;
+    return flag(c, "CLEARED_LANAYRU_TWILIGHT") || (c.darkClearLevel & 0x4) != 0;
 }
 bool canCompleteAllTwilight(const Context& c) {
     return canCompleteFaronTwilight(c) && canCompleteEldinTwilight(c) && canCompleteLanayruTwilight(c);
 }
 bool canCompletePrologue(const Context& c) {
     if (flag(c, "FINISHED_SEWERS") || flag(c, "CLEARED_FARON_TWILIGHT")
-        || c.darkClearLevel >= 1) return true;
+        || c.darkClearLevel != 0) return true;  // any twilight progress ⇒ prologue done
     return c.reachedRooms.count("North Faron Woods") && call(c, "CanDefeatBokoblin");
 }
 bool canCompleteMDH(const Context& c) {
     return flag(c, "MIDNAS_DESPERATE_HOUR_COMPLETED")
-        || c.darkClearLevel >= 4
+        || (c.darkClearLevel & 0x8) != 0
         || settingEq(c, "skipMdh", "true")
         || call(c, "CanCompleteLakebedTemple");
 }
@@ -482,7 +486,7 @@ bool canFreeAllMonkeys(const Context& c) {
 }
 
 bool canWarpMeteor(const Context& c) {
-    return flag(c, "CAN_NOW_WARP_METEOR") || c.darkClearLevel >= 3;
+    return flag(c, "CAN_NOW_WARP_METEOR") || c.darkClearLevel != 0;
 }
 
 }  // namespace
