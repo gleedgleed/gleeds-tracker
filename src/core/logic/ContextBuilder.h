@@ -33,6 +33,12 @@ std::unordered_map<std::string, bool> readAllGetItemFlags(std::span<const std::u
 std::unordered_map<std::string, std::string> dslSettingsFromSeed(const SeedSettings& s);
 std::unordered_map<std::string, std::string> dslSettingsFromParsed(const ParsedSettings& s);
 
+// The web-gen default settings as a DSL map (every setting at its generator
+// default). Use as the baseline layer beneath dslSettingsFromSeed /
+// dslSettingsFromParsed so unspecified settings resolve to the real default
+// rather than the permissive fallback. See defaultParsedSettings().
+std::unordered_map<std::string, std::string> dslDefaultSettings();
+
 // Map portal-display-name -> destination room in the web-gen graph.
 // Returns the room names corresponding to currently-unlocked portals.
 std::vector<std::string> warpRoomsFromPortals(const std::vector<PortalState>& portals);

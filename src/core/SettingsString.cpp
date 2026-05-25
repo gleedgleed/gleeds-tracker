@@ -274,4 +274,33 @@ ParsedSettings decodeSettingsString(std::string_view raw) {
     return out;
 }
 
+ParsedSettings defaultParsedSettings() {
+    // Equivalent to decoding an all-zero bit stream: each enum maps through the
+    // same table at index 0, every bool is false, every count is 0. Reusing the
+    // decoder's tables here means this can't drift out of sync with them.
+    ParsedSettings out;
+    out.logicRules              = mapEnum(kLogicRules,       0);
+    out.castleRequirements      = mapEnum(kCastleReq,        0);
+    out.palaceRequirements      = mapEnum(kPalaceReq,        0);
+    out.faronWoodsLogic         = mapEnum(kFaronWoods,       0);
+    out.shufflePoes             = mapEnum(kPoes,             0);
+    out.smallKeySettings        = mapEnum(kKeys,             0);
+    out.bigKeySettings          = mapEnum(kKeys,             0);
+    out.mapAndCompassSettings   = mapEnum(kMapCompass,       0);
+    out.walletSize              = mapEnum(kWalletSize,       0);
+    out.trapFrequency           = mapEnum(kTrapFreq,         0);
+    out.goronMinesEntrance      = mapEnum(kGoronMines,       0);
+    out.totEntrance             = mapEnum(kTotEntrance,      0);
+    out.itemScarcity            = mapEnum(kItemScarcity,     0);
+    out.damageMagnification     = mapEnum(kDamageMag,        0);
+    out.startingTod             = mapEnum(kStartingTod,      0);
+    out.hintDistribution        = mapEnum(kHintDistribution, 0);
+    out.iliaQuest               = mapEnum(kIliaQuest,        0);
+    out.mirrorChamberEntrance   = mapEnum(kMirrorChamber,    0);
+    out.shuffleDungeonEntrances = mapEnum(kDungeonER,        0);
+    out.castleBkRequirements    = mapEnum(kCastleBkReq,      0);
+    out.hintImportance          = mapEnum(kHintImportance,   0);
+    return out;
+}
+
 }  // namespace tpt::core

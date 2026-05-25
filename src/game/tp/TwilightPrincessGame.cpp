@@ -495,9 +495,14 @@ void TwilightPrincessGame::poll(tpt::memory::MemorySource& mem) {
         }
     }
 
-    // Settings overlay: seed first, then settings string overlay.
-    std::unordered_map<std::string, std::string> dslSettings;
-    if (state_.seed) dslSettings = tpt::core::logic::dslSettingsFromSeed(*state_.seed);
+    // Settings overlay, weakest to strongest: web-gen defaults (so unspecified
+    // settings resolve to the generator's real default, not the permissive
+    // fallback), then the seed header, then the settings string.
+    std::unordered_map<std::string, std::string> dslSettings =
+        tpt::core::logic::dslDefaultSettings();
+    if (state_.seed)
+        for (const auto& [k, v] : tpt::core::logic::dslSettingsFromSeed(*state_.seed))
+            dslSettings[k] = v;
     if (!state_.settingsString.empty()) {
         try {
             const auto parsed = tpt::core::decodeSettingsString(state_.settingsString);

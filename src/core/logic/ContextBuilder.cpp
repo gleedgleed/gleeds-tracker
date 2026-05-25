@@ -251,6 +251,10 @@ dslSettingsFromSeed(const SeedSettings& s) {
     return d;
 }
 
+std::unordered_map<std::string, std::string> dslDefaultSettings() {
+    return dslSettingsFromParsed(defaultParsedSettings());
+}
+
 std::unordered_map<std::string, std::string>
 dslSettingsFromParsed(const ParsedSettings& s) {
     std::unordered_map<std::string, std::string> d;

@@ -89,4 +89,11 @@ class SettingsParseError : public std::runtime_error {
 // Parse a TPR settings string. Throws SettingsParseError on bad input.
 ParsedSettings decodeSettingsString(std::string_view s);
 
+// The web-gen's default settings: every enum at its index-0 value, every bool
+// false, every count 0 — i.e. what decoding an all-zero settings string would
+// yield. Used as a baseline so logic `Setting.X equals Y` comparisons resolve
+// to the generator's actual default when the live seed / settings string don't
+// specify X, instead of falling back to the blanket-permissive answer.
+ParsedSettings defaultParsedSettings();
+
 }  // namespace tpt::core

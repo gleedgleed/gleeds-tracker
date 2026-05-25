@@ -2258,10 +2258,12 @@ int runHeadless(const Options& opts) {
 
         // Settings overlay: seed header from RAM (best-effort), then user-provided
         // settings string overlay if any.
-        std::unordered_map<std::string, std::string> dslSettings;
+        std::unordered_map<std::string, std::string> dslSettings =
+            tpt::core::logic::dslDefaultSettings();
         std::optional<tpt::core::SeedSettings> seedOpt = tpt::core::readSeedSettings(dme);
         if (seedOpt) {
-            dslSettings = tpt::core::logic::dslSettingsFromSeed(*seedOpt);
+            for (const auto& [k, v] : tpt::core::logic::dslSettingsFromSeed(*seedOpt))
+                dslSettings[k] = v;
         }
         if (!opts.settingsString.empty()) {
             try {
