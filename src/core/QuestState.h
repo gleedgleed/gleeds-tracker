@@ -18,6 +18,38 @@ struct PortalState {
     bool unlocked = false;
 };
 
+// Warp-portal item table: portal name -> GC custom item ID (customItems.h,
+// "<region>_Portal"). The item's "first-bit" in player_get_item (SAVE+0x0CC)
+// is set whenever the player owns that warp — by activating the portal
+// in-world OR by the seed pre-giving it as a starting item ("Unlock Map
+// Regions" on a pre-cleared province). It's the same signal the Midna warp
+// menu reads. The per-region switch flags set by _02_*PortalItemFunc are
+// only a side effect of receiving the item and are NOT written for pre-gives,
+// so they're unreliable for completion. The matching randomizer check is
+// named "<name> Portal" (except "Ordon Spring", the start portal, which has
+// no check).
+struct PortalEntry {
+    std::string_view name;
+    std::uint8_t     itemId;
+};
+inline constexpr std::array<PortalEntry, 15> kPortalTable{{
+    {"Ordon Spring",      0x14},
+    {"South Faron",       0x15},
+    {"North Faron",       0x3C},
+    {"Kakariko Gorge",    0x4D},
+    {"Kakariko Village",  0x4E},
+    {"Death Mountain",    0x52},
+    {"Castle Town",       0x3A},
+    {"Zoras Domain",      0x57},
+    {"Lake Hylia",        0x8F},
+    {"Gerudo Desert",     0x3B},
+    {"Mirror Chamber",    0xAE},
+    {"Snowpeak",          0xAF},
+    {"Sacred Grove",      0xBF},
+    {"Bridge of Eldin",   0xE8},
+    {"Upper Zoras River", 0x39},
+}};
+
 struct SwitchKeyState {
     std::string_view name;   // DSL item name (e.g. "North_Faron_Woods_Gate_Key")
     bool open = false;

@@ -63,38 +63,6 @@ inline std::uint8_t readRegionByte(std::span<const std::uint8_t> b,
     return b[base + byteOff];
 }
 
-struct PortalEntry {
-    std::string_view name;
-    std::uint8_t     itemId;  // GC item ID; first-bit at SAVE+0x0CC is the warp-menu gate
-};
-
-// The warp menu (Midna wolf warp) shows a portal iff that portal's item-ID
-// has its first-bit set in player_get_item. The rando "Unlock Map Regions"
-// option pre-gives these as starting items when the matching province
-// settings are on (faronTwilightCleared etc.), so the menu populates from
-// boot. The per-region switch flags set by _02_*PortalItemFunc are a side
-// effect of receiving the item, NOT what the menu reads — checking those
-// instead caused a false "1/14 unlocked" report when the seed pre-gave
-// portals via starting items. IDs from
-// Randomizer-master/GameCube/include/rando/customItems.h.
-constexpr std::array<PortalEntry, 15> kPortalTable{{
-    {"Ordon Spring",      0x14},
-    {"South Faron",       0x15},
-    {"North Faron",       0x3C},
-    {"Kakariko Gorge",    0x4D},
-    {"Kakariko Village",  0x4E},
-    {"Death Mountain",    0x52},
-    {"Castle Town",       0x3A},
-    {"Zoras Domain",      0x57},
-    {"Lake Hylia",        0x8F},
-    {"Gerudo Desert",     0x3B},
-    {"Mirror Chamber",    0xAE},
-    {"Snowpeak",          0xAF},
-    {"Sacred Grove",      0xBF},
-    {"Bridge of Eldin",   0xE8},
-    {"Upper Zoras River", 0x39},
-}};
-
 struct SwitchKeyEntry {
     std::string_view name;   // DSL item name
     std::uint8_t     regionId;

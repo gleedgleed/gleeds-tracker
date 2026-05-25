@@ -8,6 +8,7 @@
 
 #include "core/EventFlags.h"
 #include "core/Items.h"
+#include "core/QuestState.h"
 #include "core/SaveOffsets.h"
 
 namespace tpt::core {
@@ -124,6 +125,18 @@ std::unordered_set<std::string> completedCheckSet(
         if (!isProgressionItemId(itemId)) continue;
         if (out.contains(name)) continue;
         if (readGetItemFlag(save, itemId)) out.insert(name);
+    }
+    // Portal checks. The bindings read a per-region switch flag that the rando
+    // only writes when the portal is physically activated — NOT when the seed
+    // pre-gives the portal as a starting item ("Unlock Map Regions" on a
+    // pre-cleared province). The portal warp item's first-bit IS set in both
+    // cases (it's the signal the Midna warp menu reads), so it's the reliable
+    // completion signal. See kPortalTable in QuestState.h.
+    for (const auto& p : kPortalTable) {
+        std::string name = std::string(p.name) + " Portal";
+        if (!bindings.count(name)) continue;  // "Ordon Spring" has no check
+        if (out.contains(name)) continue;
+        if (readGetItemFlag(save, p.itemId)) out.insert(std::move(name));
     }
     return out;
 }
