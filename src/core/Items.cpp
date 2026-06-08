@@ -68,9 +68,17 @@ Inventory readInventory(std::span<const std::uint8_t> b, std::uint8_t currentNod
     if      (bit(b, 0xD7, 0x80)) inv.clawshot = 2;
     else if (bit(b, 0xD7, 0x10)) inv.clawshot = 1;
 
-    // Progressive Dominion Rod.
-    if      (bit(b, 0xD7, 0x40)) inv.dominionRod = 2;
-    else if (bit(b, 0xD6, 0x10)) inv.dominionRod = 1;
+    // Progressive Dominion Rod. First-bits in mItemsFlags (SAVE+0x0CC) keyed by
+    // libtp item ID (see vendor/libtp_rel/include/data/items.h):
+    //   Dominion_Rod           id 0x4C → byte 0xD6 bit 0x10  ← tier 2 (revived)
+    //   Dominion_Rod_Uncharged id 0x46 → byte 0xD7 bit 0x40  ← tier 1 (powerless)
+    // The rando's _04_verifyItemFunctions intercepts any Dominion-Rod check and
+    // gives Uncharged on the first pickup, Powered on the second — so before the
+    // fix the very first rod pickup wrongly promoted to tier 2 (because the bits
+    // were assigned in reverse), claiming owl-statue checks reachable with only
+    // the red/unusable rod in hand.
+    if      (bit(b, 0xD6, 0x10)) inv.dominionRod = 2;
+    else if (bit(b, 0xD7, 0x40)) inv.dominionRod = 1;
 
     // Progressive Fishing Rod.
     if      (bit(b, 0xD0, 0x20)) inv.fishingRod = 2;

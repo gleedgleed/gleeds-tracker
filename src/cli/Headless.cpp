@@ -2324,8 +2324,16 @@ int runHeadless(const Options& opts) {
             completed = tpt::core::completedCheckSet(
                 bindings, save, currentNode, placements);
         }
-        const auto pending = tpt::core::logic::pendingInReach(
+        auto pending = tpt::core::logic::pendingInReach(
             rooms, checks, reached, completed, ctx);
+        // Drop boss-defeat slots — see TwilightPrincessGame::poll(). The player
+        // doesn't collect anything at these <Boss>_Defeated virtual checks;
+        // they exist only to power CanComplete<Dungeon> in the logic.
+        pending.erase(std::remove_if(pending.begin(), pending.end(),
+            [&](const std::string& n) {
+                const auto it = checks.find(n);
+                return it != checks.end() && it->second.itemId.ends_with("_Defeated");
+            }), pending.end());
 
         std::printf("=== Next (%s) ===\n", opts.glitched ? "glitched" : "glitchless");
         std::printf("Reachable rooms: %zu   Pending in-logic checks: %zu\n",

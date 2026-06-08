@@ -525,7 +525,17 @@ void TwilightPrincessGame::poll(tpt::memory::MemorySource& mem) {
     const auto pending = tpt::core::logic::pendingInReach(
         state_.rooms, state_.checks, state_.reachedRooms, state_.completed, ctx);
     state_.pendingSet.clear();
-    state_.pendingSet.insert(pending.begin(), pending.end());
+    for (const auto& name : pending) {
+        // Skip boss-defeat slots — virtual <Boss>_Defeated items that power
+        // CanComplete<Dungeon> in the logic, with no save binding because the
+        // player doesn't physically "collect" them. loadWorldData already
+        // excludes them from masterByStage; without this filter they'd leak
+        // into the Reachable pane (and FlagViews' reach side) because
+        // pendingInReach doesn't know about the convention.
+        const auto it = state_.checks.find(name);
+        if (it != state_.checks.end() && it->second.itemId.ends_with("_Defeated")) continue;
+        state_.pendingSet.insert(name);
+    }
 
     rebuildAllByStage(state_);
     rebuildReachableByStage(state_);
