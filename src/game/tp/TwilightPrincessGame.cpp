@@ -51,6 +51,10 @@ namespace {
 // "Story" maps to web-gen "Quest" (the apworld "Story" tag had no entries).
 // "NPC"/"Shop" both include "Npc - Shop" so shop NPCs appear in both tabs.
 const std::vector<tpt::ui::FilterSpec> kFilterSpecs{
+    // Progression: reachable checks whose *type* can hold a progression item
+    // under the active settings (settings-adaptive, see computeProgressionCats).
+    // Middle column only — it's a "what's worth doing next" view.
+    {"Progression", {}, {}, /*progression=*/true, /*reachableOnly=*/true},
     {"Poes",        {"Poe"},                       {}},
     {"Bugs",        {"Golden Bug", "Bug Reward"},  {}},
     {"Hearts",      {"Heart Container"},           {}},
@@ -74,6 +78,44 @@ const std::vector<tpt::ui::FilterSpec> kFilterSpecs{
     // active seed has no rupee shuffle, the tab renders empty.
     {"Rupees",      {"Rupee - Freestanding", "Rupee - Hidden"}, {}},
 };
+
+// Item-type categories that represent a randomizable item slot. Location /
+// structural tags (Overworld, Dungeon, region names, ARC, DZX, Dungeon Items,
+// and the lone "Mirror Chamber" area tag) are excluded so they don't make
+// every check in a region look "capable"; every reward-slot tag — including
+// singletons like "Npc - Shop" (Barnes) — is included so no progression
+// check is ever missed.
+const std::unordered_set<std::string>& progressionTypeCategories() {
+    static const std::unordered_set<std::string> kTypeCats{
+        "Chest", "Poe", "Npc", "Npc - Shop", "Shop", "Rupee - Freestanding",
+        "Rupee - Hidden", "Small Key", "Big Key", "Compass", "Dungeon Map",
+        "Golden Bug", "Bug Reward", "Boss", "Dungeon Reward", "Heart Container",
+        "Hidden Skill", "Sky Book", "Quest", "Fishing Hole", "Ordon Pumpkin",
+        "Cutscene",
+    };
+    return kTypeCats;
+}
+
+// The set of type-categories that can hold a progression item in this seed.
+// Empirical (mirrors detectRupeeShuffle): a type is capable if some check of
+// that type actually holds a progression item. Chests always count (they're
+// definitionally a randomized slot). With no seed loaded we fall back to a
+// sensible static default — the slots that hold progression in a default seed.
+std::unordered_set<std::string> computeProgressionCats(const tpt::ui::State& s) {
+    if (s.placements.empty()) {
+        return {"Chest", "Heart Container", "Quest", "Small Key", "Big Key"};
+    }
+    const auto& typeCats = progressionTypeCategories();
+    std::unordered_set<std::string> out{"Chest"};
+    for (const auto& [name, chk] : s.checks) {
+        const auto it = s.placements.find(name);
+        if (it == s.placements.end() || !tpt::core::isProgressionItemId(it->second))
+            continue;
+        for (const auto& cat : chk.categories)
+            if (typeCats.count(cat)) out.insert(cat);
+    }
+    return out;
+}
 
 bool checkMatchesFilter(const std::string& name,
                         const tpt::core::logic::Check& chk,
@@ -258,10 +300,22 @@ void rebuildFlagViews(tpt::ui::State& s) {
     for (const auto& [stage, names] : s.masterByStage)
         for (const auto& n : names) nameToStage.emplace(n, stage);
 
+    const std::unordered_set<std::string> progCats = computeProgressionCats(s);
+    auto matchesSpec = [&](const std::string& name,
+                           const tpt::core::logic::Check& chk,
+                           const tpt::ui::FilterSpec& spec) {
+        if (spec.progression) {
+            for (const auto& cat : chk.categories)
+                if (progCats.count(cat)) return true;
+            return false;
+        }
+        return checkMatchesFilter(name, chk, spec);
+    };
+
     for (const auto& spec : kFilterSpecs) {
         std::map<std::string, std::vector<tpt::ui::CheckEntry>> all, reach;
         for (const auto& [name, chk] : s.checks) {
-            if (!checkMatchesFilter(name, chk, spec)) continue;
+            if (!matchesSpec(name, chk, spec)) continue;
 
             // Rupee visibility, applied uniformly across all tabs so the
             // Rupees tab (and any future tab that overlaps) tracks the

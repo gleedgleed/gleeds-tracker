@@ -118,6 +118,13 @@ struct FilterSpec {
     std::string label;
     std::vector<std::string> matchAnyCategory;
     std::vector<std::string> matchAnyName;
+    // When true, this tab matches checks whose category is "progression-capable"
+    // in the current seed (computed dynamically, ignores matchAny*). See
+    // rebuildFlagViews / computeProgressionCats.
+    bool progression = false;
+    // When true, the tab is only rendered in the middle (Reachable) column;
+    // the left (All Checks) column skips it.
+    bool reachableOnly = false;
 };
 
 }  // namespace tpt::ui

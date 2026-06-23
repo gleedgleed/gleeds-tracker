@@ -418,6 +418,7 @@ void allChecksColumn(State& s, tpt::game::GameModule& game) {
         }
         // Per-flag tabs — show every check of that flag (any status).
         for (const auto& spec : game.filterSpecs()) {
+            if (spec.reachableOnly) continue;  // middle-column-only tabs
             const auto it = s.flagAllByStage.find(spec.label);
             const std::size_t total = it == s.flagAllByStage.end() ? 0
                                                                    : totalEntries(it->second);
