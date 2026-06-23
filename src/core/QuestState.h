@@ -14,36 +14,49 @@ struct PortalState {
     bool unlocked = false;
 };
 
-// Warp-portal item table: portal name -> GC custom item ID (customItems.h,
-// "<region>_Portal"). The item's "first-bit" in player_get_item (SAVE+0x0CC)
-// is set whenever the player owns that warp — by activating the portal
-// in-world OR by the seed pre-giving it as a starting item ("Unlock Map
-// Regions" on a pre-cleared province). It's the same signal the Midna warp
-// menu reads. The per-region switch flags set by _02_*PortalItemFunc are
-// only a side effect of receiving the item and are NOT written for pre-gives,
-// so they're unreliable for completion. The matching randomizer check is
-// named "<name> Portal" (except "Ordon Spring", the start portal, which has
-// no check).
+// Warp-portal table. A portal is usable as a warp when its per-region "stage
+// switch" flag is set — this is exactly what the in-game map screen reads to
+// decide which warp icons to draw (dMenu_Fmap_c::checkDrawPortalIcon ->
+// dComIfGs_isStageSwitch in the TP decomp). Each portal's (node, switchNo) is
+// taken from the matching _02_*PortalItemFunc in Randomizer-master
+// (02_modifyItemData.cpp), which mirrors the vanilla unlock. The switch flag
+// is set both when the portal is opened in-world AND when the rando hands out
+// the "<region>_Portal" item.
+//
+// We additionally OR in the item's get-item "first-bit" (player_get_item,
+// SAVE+0x0CC, keyed by the customItems.h item ID) to cover the one case the
+// switch flag misses: a seed pre-giving the portal as a starting item
+// ("Unlock Map Regions" on a pre-cleared province) sets the get-item bit but
+// not the switch. The portal item IDs are otherwise-unused vanilla slots, so
+// the get-item bit never collides with a real item.
+//
+// Ordon Spring is the start portal: it has no _02_ func and no randomizer
+// check, so it's tracked by its get-item bit alone (node = kPortalNoNode).
+//
+// The matching randomizer check is named "<name> Portal" (Ordon Spring has none).
+inline constexpr std::uint8_t kPortalNoNode = 0xFF;  // no stage-switch (start portal)
 struct PortalEntry {
     std::string_view name;
-    std::uint8_t     itemId;
+    std::uint8_t     node;      // AreaNodesID owning the stage-switch flag
+    std::uint16_t    switchNo;  // dComIfGs_isStageSwitch flag number
+    std::uint8_t     itemId;    // get-item first-bit (pre-give / received signal)
 };
 inline constexpr std::array<PortalEntry, 15> kPortalTable{{
-    {"Ordon Spring",      0x14},
-    {"South Faron",       0x15},
-    {"North Faron",       0x3C},
-    {"Kakariko Gorge",    0x4D},
-    {"Kakariko Village",  0x4E},
-    {"Death Mountain",    0x52},
-    {"Castle Town",       0x3A},
-    {"Zoras Domain",      0x57},
-    {"Lake Hylia",        0x8F},
-    {"Gerudo Desert",     0x3B},
-    {"Mirror Chamber",    0xAE},
-    {"Snowpeak",          0xAF},
-    {"Sacred Grove",      0xBF},
-    {"Bridge of Eldin",   0xE8},
-    {"Upper Zoras River", 0x39},
+    {"Ordon Spring",      kPortalNoNode, 0x00, 0x14},
+    {"South Faron",       0x02,          0x47, 0x15},
+    {"North Faron",       0x02,          0x02, 0x3C},
+    {"Kakariko Gorge",    0x06,          0x15, 0x4D},
+    {"Kakariko Village",  0x03,          0x1F, 0x4E},
+    {"Death Mountain",    0x03,          0x15, 0x52},
+    {"Castle Town",       0x06,          0x03, 0x3A},
+    {"Zoras Domain",      0x04,          0x02, 0x57},
+    {"Lake Hylia",        0x04,          0x0A, 0x8F},
+    {"Gerudo Desert",     0x0A,          0x15, 0x3B},
+    {"Mirror Chamber",    0x0A,          0x28, 0xAE},
+    {"Snowpeak",          0x08,          0x15, 0xAF},
+    {"Sacred Grove",      0x07,          0x64, 0xBF},
+    {"Bridge of Eldin",   0x06,          0x63, 0xE8},
+    {"Upper Zoras River", 0x04,          0x15, 0x39},
 }};
 
 struct SwitchKeyState {
@@ -97,10 +110,16 @@ struct QuestState {
     std::vector<SwitchKeyState>  switchKeys;
 };
 
-// Decode raw `dComIfGs_onStageSwitch` flag into byte_offset + bit_mask.
+// Decode a `dComIfGs_*StageSwitch` flag number into (byteOffset, bitMask),
+// where byteOffset is relative to the start of a node's 0x20-byte memBit
+// block. Switches live in `mSwitch[4]` at block+0x08, stored as big-endian
+// uint32 words (dSv_memBit_c::isSwitch reads `mSwitch[no>>5] & (1<<(no&0x1F))`).
+// So within each 4-byte word the byte order is reversed vs. a flat array,
+// hence the `3 - ...` term. See the TP decomp (d_save.cpp / d_com_inf_game.cpp).
 constexpr std::pair<std::uint16_t, std::uint8_t> decodeSwitchFlag(std::uint16_t flag) {
-    return {static_cast<std::uint16_t>(flag >> 3),
-            static_cast<std::uint8_t>(1u << (flag & 0x7))};
+    const std::uint16_t byteOff = static_cast<std::uint16_t>(
+        0x08u + 4u * (flag >> 5) + (3u - ((flag & 0x1Fu) >> 3)));
+    return {byteOff, static_cast<std::uint8_t>(1u << (flag & 0x7))};
 }
 
 QuestState readQuestState(std::span<const std::uint8_t> block,

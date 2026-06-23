@@ -102,7 +102,16 @@ QuestState readQuestState(std::span<const std::uint8_t> b, std::uint8_t currentN
 
     qs.portals.reserve(kPortalTable.size());
     for (const auto& p : kPortalTable) {
-        qs.portals.push_back({p.name, readGetItemFlag(b, p.itemId)});
+        // Primary signal: the per-region stage switch the map screen reads.
+        // Fallback: the get-item first-bit (covers pre-given start portals and
+        // the Ordon start portal, which has no stage switch). See kPortalTable.
+        bool unlocked = false;
+        if (p.node != kPortalNoNode) {
+            const auto [byteOff, mask] = decodeSwitchFlag(p.switchNo);
+            unlocked = (readRegionByte(b, p.node, currentNode, byteOff) & mask) != 0;
+        }
+        if (!unlocked) unlocked = readGetItemFlag(b, p.itemId);
+        qs.portals.push_back({p.name, unlocked});
     }
     qs.switchKeys.reserve(kSwitchKeyTable.size());
     for (const auto& s : kSwitchKeyTable) {

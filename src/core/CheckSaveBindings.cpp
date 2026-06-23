@@ -126,12 +126,13 @@ std::unordered_set<std::string> completedCheckSet(
         if (out.contains(name)) continue;
         if (readGetItemFlag(save, itemId)) out.insert(name);
     }
-    // Portal checks. The bindings read a per-region switch flag that the rando
-    // only writes when the portal is physically activated — NOT when the seed
-    // pre-gives the portal as a starting item ("Unlock Map Regions" on a
-    // pre-cleared province). The portal warp item's first-bit IS set in both
-    // cases (it's the signal the Midna warp menu reads), so it's the reliable
-    // completion signal. See kPortalTable in QuestState.h.
+    // Portal checks. The Region binding above reads the per-region stage switch
+    // flag — the same signal the map screen uses to draw the warp (see
+    // kPortalTable in QuestState.h). That switch is set both when the portal is
+    // opened in-world and when the rando hands out the portal item. The one
+    // case it misses is a seed pre-giving the portal as a starting item
+    // ("Unlock Map Regions" on a pre-cleared province): that sets only the
+    // item's get-item first-bit, so we OR it in here as a fallback.
     for (const auto& p : kPortalTable) {
         std::string name = std::string(p.name) + " Portal";
         if (!bindings.count(name)) continue;  // "Ordon Spring" has no check
