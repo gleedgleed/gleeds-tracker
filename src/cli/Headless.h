@@ -40,6 +40,7 @@ struct Options {
     std::uint8_t  writeValue = 0;  // for --mem-write
     std::string settingsString;    // for --settings=... and --next overlay
     bool   glitched = false;       // for --next
+    bool   dontLoadPrefs = false;  // skip auto-loading the saved settings string
     std::string parseError;        // non-empty -> bad args, print + exit 1
 };
 
@@ -48,7 +49,8 @@ Options parseArgs(int argc, char** argv);
 
 void printUsage(const char* progName);
 
-// Run the requested headless mode. Returns process exit code.
-int runHeadless(const Options& opts);
+// Run the requested headless mode. Returns process exit code. Takes `opts` by
+// value so it can resolve the settings string from prefs (see runHeadless).
+int runHeadless(Options opts);
 
 }  // namespace tpt::cli

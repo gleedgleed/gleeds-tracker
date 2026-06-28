@@ -30,6 +30,7 @@
 #include "core/SeedHeader.h"
 #include "core/SettingsString.h"
 #include "core/Stages.h"
+#include "core/UserPrefs.h"
 #include "core/logic/ContextBuilder.h"
 #include "core/logic/Evaluator.h"
 #include "core/logic/Parser.h"
@@ -1977,6 +1978,8 @@ void printUsage(const char* progName) {
         "  --wait=SECS                 max seconds to wait for Dolphin hook (default 5)\n"
         "  --settings-string=STRING    overlay seed-header settings with this web-gen string\n"
         "                              (more complete than seed-header alone — e.g. for --next)\n"
+        "  --dontLoadPrefs             don't auto-load the saved settings string from prefs\n"
+        "                              (by default --next/--placements use it, matching the GUI)\n"
         "\n"
         "Examples:\n"
         "  %s --items\n"
@@ -2029,6 +2032,7 @@ Options parseArgs(int argc, char** argv) {
             o.writeValue = static_cast<std::uint8_t>(valU32);
         }
         else if (a == "--glitched")     { o.glitched = true; }
+        else if (a == "--dontLoadPrefs") { o.dontLoadPrefs = true; }
         else if (startsWith(a, "--settings-string=")) {
             o.settingsString = std::string(a.substr(std::string_view{"--settings-string="}.size()));
             if (o.settingsString.empty()) {
@@ -2092,7 +2096,23 @@ Options parseArgs(int argc, char** argv) {
     return o;
 }
 
-int runHeadless(const Options& opts) {
+int runHeadless(Options opts) {
+    // Logic-deriving modes (--next, --placements) use the saved settings string
+    // from prefs by default, mirroring the GUI which loads it at startup — so a
+    // headless run reflects the same logic the user sees on screen. Precedence:
+    // an explicit --settings-string wins; --dontLoadPrefs disables the auto-load
+    // (falling back to seed-header + web-gen defaults only).
+    if (!opts.dontLoadPrefs && opts.settingsString.empty()) {
+        const auto root = tpt::prefs::loadJson();
+        const auto tp   = root.value("tp", nlohmann::json::object());
+        const auto saved = tp.value("settingsString", std::string{});
+        if (!saved.empty()) {
+            opts.settingsString = saved;
+            std::fprintf(stderr, "headless: using saved settings string from prefs "
+                                 "(pass --dontLoadPrefs to disable)\n");
+        }
+    }
+
     if (opts.mode == Mode::Help) {
         printUsage("tptracker");
         return 0;
