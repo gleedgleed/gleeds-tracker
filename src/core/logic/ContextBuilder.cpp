@@ -337,7 +337,13 @@ dslSettingsFromParsed(const ParsedSettings& s) {
 }
 
 std::vector<std::string>
-warpRoomsFromPortals(const std::vector<PortalState>& portals) {
+warpRoomsFromPortals(const std::vector<PortalState>& portals, const Context& ctx) {
+    // Warping needs wolf form. buildContext only inserts "Shadow_Crystal" once
+    // transforming is unlocked, so its presence is the right gate (mirrors the
+    // web-gen's CanWarp() == CanUse(Shadow_Crystal)). No wolf ⇒ no warps.
+    const auto sc = ctx.items.find("Shadow_Crystal");
+    if (sc == ctx.items.end() || sc->second <= 0) return {};
+
     static const std::array<std::pair<std::string_view, std::string_view>, 14> kMap{{
         {"South Faron",       "South Faron Woods"},
         {"North Faron",       "North Faron Woods"},

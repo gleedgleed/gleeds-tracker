@@ -39,8 +39,14 @@ std::unordered_map<std::string, std::string> dslSettingsFromParsed(const ParsedS
 // rather than the permissive fallback. See defaultParsedSettings().
 std::unordered_map<std::string, std::string> dslDefaultSettings();
 
-// Map portal-display-name -> destination room in the web-gen graph.
-// Returns the room names corresponding to currently-unlocked portals.
-std::vector<std::string> warpRoomsFromPortals(const std::vector<PortalState>& portals);
+// Rooms the player can warp to right now: destinations of currently-unlocked
+// portals — but ONLY if the player can actually warp, which needs wolf form
+// (Shadow Crystal; `ctx` only carries it once transforming is unlocked).
+// Portal switch flags can be set before the player can use them (e.g. a
+// seed-pre-cleared province sets its portal switches at game start), so the
+// wolf gate is required to avoid over-reporting reachability. Mirrors the
+// web-gen's CanWarp().
+std::vector<std::string> warpRoomsFromPortals(const std::vector<PortalState>& portals,
+                                              const Context& ctx);
 
 }  // namespace tpt::core::logic

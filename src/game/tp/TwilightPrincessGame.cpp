@@ -573,7 +573,8 @@ void TwilightPrincessGame::poll(tpt::memory::MemorySource& mem) {
     auto ctx = tpt::core::logic::buildContext(
         *state_.inv, *state_.qs, state_.eventFlags, state_.getItemFlags,
         state_.glitched, dslSettings);
-    const auto warps = tpt::core::logic::warpRoomsFromPortals(state_.qs->portals);
+    // warpRoomsFromPortals gates on wolf form (Shadow Crystal) internally.
+    const auto warps = tpt::core::logic::warpRoomsFromPortals(state_.qs->portals, ctx);
     state_.reachedRooms = tpt::core::logic::reach(
         state_.rooms, ctx, {tpt::core::logic::kDefaultStartRoom}, warps);
     const auto pending = tpt::core::logic::pendingInReach(

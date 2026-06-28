@@ -2302,7 +2302,7 @@ int runHeadless(const Options& opts) {
         auto ctx = tpt::core::logic::buildContext(
             inv, qs, efs, gifs, opts.glitched, dslSettings);
 
-        const auto warps = tpt::core::logic::warpRoomsFromPortals(qs.portals);
+        const auto warps = tpt::core::logic::warpRoomsFromPortals(qs.portals, ctx);
         const auto& reached = tpt::core::logic::reach(
             rooms, ctx, {tpt::core::logic::kDefaultStartRoom}, warps);
 
