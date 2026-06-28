@@ -3,6 +3,7 @@
 #include <array>
 #include <utility>
 
+#include "core/EventFlags.h"   // readGetItemFlag
 #include "core/SaveOffsets.h"
 
 namespace tpt::core {
@@ -13,25 +14,47 @@ inline bool bit(std::span<const std::uint8_t> b, std::size_t off, std::uint8_t m
     return (b[off] & mask) != 0;
 }
 
+// Get-item "first-bit" item IDs (vendor/libtp_rel/include/data/items.h plus the
+// custom rando IDs in Randomizer-master/.../customItems.h). Reading via
+// readGetItemFlag(b, id) expresses these in terms of the canonical item ID
+// rather than hand-computed (byte, mask) pairs into player_get_item — the
+// latter caused real off-by-one bugs (Slingshot / Fishing Rod / Gate Keys).
+namespace id {
+constexpr std::uint8_t Wooden_Sword = 0x3F, Ordon_Sword = 0x28,
+                       Master_Sword = 0x29, Master_Sword_Light = 0x49;
+constexpr std::uint8_t Heros_Bow = 0x43, Big_Quiver = 0x55, Giant_Quiver = 0x56;
+constexpr std::uint8_t Clawshot = 0x44, Double_Clawshots = 0x47;
+constexpr std::uint8_t Dominion_Rod_Uncharged = 0x46, Dominion_Rod = 0x4C;
+constexpr std::uint8_t Fishing_Rod = 0x4A, Coral_Earring = 0x3D;
+constexpr std::uint8_t Big_Wallet = 0x35, Giant_Wallet = 0x36;
+constexpr std::uint8_t Ordon_Shield = 0x2A, Hylian_Shield = 0x2C,
+                       Magic_Armor = 0x30, Zora_Armor = 0x31;
+constexpr std::uint8_t Shadow_Crystal = 0x32, Hawkeye = 0x3E, Lantern = 0x48;
+constexpr std::uint8_t Boomerang = 0x40, Spinner = 0x41, Ball_and_Chain = 0x42,
+                       Iron_Boots = 0x45, Slingshot = 0x4B;
+constexpr std::uint8_t Aurus_Memo = 0x90, Asheis_Sketch = 0x91, Horse_Call = 0x84;
+constexpr std::uint8_t Giant_Bomb_Bag = 0x4F, Gate_Keys = 0xF3;
+}  // namespace id
+
+// Golden bugs are also get-item flags: the 24 bugs occupy item IDs 0xC0..0xD7.
 struct GoldenBug {
     std::string_view name;
-    std::uint16_t    offset;
-    std::uint8_t     mask;
+    std::uint8_t     itemId;
 };
 
 constexpr std::array<GoldenBug, 24> kGoldenBugs{{
-    {"Male Beetle",        0xE7, 0x01}, {"Female Beetle",      0xE7, 0x02},
-    {"Male Butterfly",     0xE7, 0x04}, {"Female Butterfly",   0xE7, 0x08},
-    {"Male Stag Beetle",   0xE7, 0x10}, {"Female Stag Beetle", 0xE7, 0x20},
-    {"Male Grasshopper",   0xE7, 0x40}, {"Female Grasshopper", 0xE7, 0x80},
-    {"Male Phasmid",       0xE6, 0x01}, {"Female Phasmid",     0xE6, 0x02},
-    {"Male Pill Bug",      0xE6, 0x04}, {"Female Pill Bug",    0xE6, 0x08},
-    {"Male Mantis",        0xE6, 0x10}, {"Female Mantis",      0xE6, 0x20},
-    {"Male Ladybug",       0xE6, 0x40}, {"Female Ladybug",     0xE6, 0x80},
-    {"Male Snail",         0xE5, 0x01}, {"Female Snail",       0xE5, 0x02},
-    {"Male Dragonfly",     0xE5, 0x04}, {"Female Dragonfly",   0xE5, 0x08},
-    {"Male Ant",           0xE5, 0x10}, {"Female Ant",         0xE5, 0x20},
-    {"Male Dayfly",        0xE5, 0x40}, {"Female Dayfly",      0xE5, 0x80},
+    {"Male Beetle",      0xC0}, {"Female Beetle",      0xC1},
+    {"Male Butterfly",   0xC2}, {"Female Butterfly",   0xC3},
+    {"Male Stag Beetle", 0xC4}, {"Female Stag Beetle", 0xC5},
+    {"Male Grasshopper", 0xC6}, {"Female Grasshopper", 0xC7},
+    {"Male Phasmid",     0xC8}, {"Female Phasmid",     0xC9},
+    {"Male Pill Bug",    0xCA}, {"Female Pill Bug",    0xCB},
+    {"Male Mantis",      0xCC}, {"Female Mantis",      0xCD},
+    {"Male Ladybug",     0xCE}, {"Female Ladybug",     0xCF},
+    {"Male Snail",       0xD0}, {"Female Snail",       0xD1},
+    {"Male Dragonfly",   0xD2}, {"Female Dragonfly",   0xD3},
+    {"Male Ant",         0xD4}, {"Female Ant",         0xD5},
+    {"Male Dayfly",      0xD6}, {"Female Dayfly",      0xD7},
 }};
 
 struct DungeonNode {
@@ -54,41 +77,33 @@ Inventory readInventory(std::span<const std::uint8_t> b, std::uint8_t currentNod
     Inventory inv;
 
     // Progressive Master Sword.
-    if      (bit(b, 0xD6, 0x02)) inv.sword = 4;
-    else if (bit(b, 0xD2, 0x02)) inv.sword = 3;
-    else if (bit(b, 0xD2, 0x01)) inv.sword = 2;
-    else if (bit(b, 0xD0, 0x80)) inv.sword = 1;
+    if      (readGetItemFlag(b, id::Master_Sword_Light)) inv.sword = 4;
+    else if (readGetItemFlag(b, id::Master_Sword))       inv.sword = 3;
+    else if (readGetItemFlag(b, id::Ordon_Sword))        inv.sword = 2;
+    else if (readGetItemFlag(b, id::Wooden_Sword))       inv.sword = 1;
 
     // Progressive Hero's Bow.
-    if      (bit(b, 0xD5, 0x40)) inv.bow = 3;
-    else if (bit(b, 0xD5, 0x20)) inv.bow = 2;
-    else if (bit(b, 0xD7, 0x08)) inv.bow = 1;
+    if      (readGetItemFlag(b, id::Giant_Quiver)) inv.bow = 3;
+    else if (readGetItemFlag(b, id::Big_Quiver))   inv.bow = 2;
+    else if (readGetItemFlag(b, id::Heros_Bow))    inv.bow = 1;
 
     // Progressive Clawshot.
-    if      (bit(b, 0xD7, 0x80)) inv.clawshot = 2;
-    else if (bit(b, 0xD7, 0x10)) inv.clawshot = 1;
+    if      (readGetItemFlag(b, id::Double_Clawshots)) inv.clawshot = 2;
+    else if (readGetItemFlag(b, id::Clawshot))         inv.clawshot = 1;
 
-    // Progressive Dominion Rod. First-bits in mItemsFlags (SAVE+0x0CC) keyed by
-    // libtp item ID (see vendor/libtp_rel/include/data/items.h):
-    //   Dominion_Rod           id 0x4C → byte 0xD6 bit 0x10  ← tier 2 (revived)
-    //   Dominion_Rod_Uncharged id 0x46 → byte 0xD7 bit 0x40  ← tier 1 (powerless)
-    // The rando's _04_verifyItemFunctions intercepts any Dominion-Rod check and
-    // gives Uncharged on the first pickup, Powered on the second — so before the
-    // fix the very first rod pickup wrongly promoted to tier 2 (because the bits
-    // were assigned in reverse), claiming owl-statue checks reachable with only
-    // the red/unusable rod in hand.
-    if      (bit(b, 0xD6, 0x10)) inv.dominionRod = 2;
-    else if (bit(b, 0xD7, 0x40)) inv.dominionRod = 1;
+    // Progressive Dominion Rod. The rando's _04_verifyItemFunctions hands out
+    // Dominion_Rod_Uncharged (Powerless) on the first pickup and the charged
+    // Dominion_Rod on the second, so tier 2 must win the precedence.
+    if      (readGetItemFlag(b, id::Dominion_Rod))           inv.dominionRod = 2;
+    else if (readGetItemFlag(b, id::Dominion_Rod_Uncharged)) inv.dominionRod = 1;
 
-    // Progressive Fishing Rod. Tier 1 = Fishing_Rod (id 0x4A → 0xD6 bit 0x04);
-    // tier 2 = Coral_Earring (id 0x3D → 0xD0 bit 0x20). (0xD6 bit 0x08 is the
-    // Slingshot flag — see below — so tier 1 previously read the slingshot.)
-    if      (bit(b, 0xD0, 0x20)) inv.fishingRod = 2;
-    else if (bit(b, 0xD6, 0x04)) inv.fishingRod = 1;
+    // Progressive Fishing Rod (tier 2 = the Coral Earring upgrade).
+    if      (readGetItemFlag(b, id::Coral_Earring)) inv.fishingRod = 2;
+    else if (readGetItemFlag(b, id::Fishing_Rod))   inv.fishingRod = 1;
 
     // Progressive Wallet.
-    if      (bit(b, 0xD1, 0x40)) inv.wallet = 2;
-    else if (bit(b, 0xD1, 0x20)) inv.wallet = 1;
+    if      (readGetItemFlag(b, id::Giant_Wallet)) inv.wallet = 2;
+    else if (readGetItemFlag(b, id::Big_Wallet))   inv.wallet = 1;
 
     // Hidden Skills — count distinct bits set so the number reflects total
     // skills learned (apworld picks the highest, which doesn't reflect total).
@@ -113,23 +128,23 @@ Inventory readInventory(std::span<const std::uint8_t> b, std::uint8_t currentNod
     else if (bit(b, 0x10A, 0x01)) inv.mirrorShards = 1;
 
     // Single-flag items.
-    inv.ordonShield   = bit(b, 0xD2, 0x04);
-    inv.hylianShield  = bit(b, 0xD2, 0x10);
-    inv.magicArmor    = bit(b, 0xD1, 0x01);
-    inv.zoraArmor     = bit(b, 0xD1, 0x02);
-    inv.shadowCrystal = bit(b, 0xD1, 0x04);
-    inv.hawkeye       = bit(b, 0xD0, 0x40);
-    inv.lantern       = bit(b, 0xD6, 0x01);
-    inv.galeBoomerang = bit(b, 0xD7, 0x01);
-    inv.spinner       = bit(b, 0xD7, 0x02);
-    inv.ballAndChain  = bit(b, 0xD7, 0x04);
-    inv.ironBoots     = bit(b, 0xD7, 0x20);
-    inv.slingshot     = bit(b, 0xD6, 0x08);   // Slingshot id 0x4B
-    inv.auruMemo      = bit(b, 0xDD, 0x01);
-    inv.asheiSketch   = bit(b, 0xDD, 0x02);
-    inv.horseCall     = bit(b, 0xDF, 0x10);
-    inv.giantBombBag  = bit(b, 0xD6, 0x80);
-    inv.gateKeys      = bit(b, 0xE9, 0x08);   // Gate_Keys id 0xF3 (0xE8/0x08 was Key_Shard_3)
+    inv.ordonShield   = readGetItemFlag(b, id::Ordon_Shield);
+    inv.hylianShield  = readGetItemFlag(b, id::Hylian_Shield);
+    inv.magicArmor    = readGetItemFlag(b, id::Magic_Armor);
+    inv.zoraArmor     = readGetItemFlag(b, id::Zora_Armor);
+    inv.shadowCrystal = readGetItemFlag(b, id::Shadow_Crystal);
+    inv.hawkeye       = readGetItemFlag(b, id::Hawkeye);
+    inv.lantern       = readGetItemFlag(b, id::Lantern);
+    inv.galeBoomerang = readGetItemFlag(b, id::Boomerang);
+    inv.spinner       = readGetItemFlag(b, id::Spinner);
+    inv.ballAndChain  = readGetItemFlag(b, id::Ball_and_Chain);
+    inv.ironBoots     = readGetItemFlag(b, id::Iron_Boots);
+    inv.slingshot     = readGetItemFlag(b, id::Slingshot);
+    inv.auruMemo      = readGetItemFlag(b, id::Aurus_Memo);
+    inv.asheiSketch   = readGetItemFlag(b, id::Asheis_Sketch);
+    inv.horseCall     = readGetItemFlag(b, id::Horse_Call);
+    inv.giantBombBag  = readGetItemFlag(b, id::Giant_Bomb_Bag);
+    inv.gateKeys      = readGetItemFlag(b, id::Gate_Keys);
 
     // Bomb-bag slots: 3 bytes, 0xFF = empty.
     for (auto off : {0xAB, 0xAC, 0xAD}) {
@@ -144,7 +159,7 @@ Inventory readInventory(std::span<const std::uint8_t> b, std::uint8_t currentNod
 
     // Golden bugs.
     for (const auto& g : kGoldenBugs) {
-        if (bit(b, g.offset, g.mask)) inv.bugs.emplace(g.name);
+        if (readGetItemFlag(b, g.itemId)) inv.bugs.emplace(g.name);
     }
 
     // Per-dungeon items: each node has a 32-byte block, with the active
