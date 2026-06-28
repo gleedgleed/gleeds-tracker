@@ -80,9 +80,11 @@ Inventory readInventory(std::span<const std::uint8_t> b, std::uint8_t currentNod
     if      (bit(b, 0xD6, 0x10)) inv.dominionRod = 2;
     else if (bit(b, 0xD7, 0x40)) inv.dominionRod = 1;
 
-    // Progressive Fishing Rod.
+    // Progressive Fishing Rod. Tier 1 = Fishing_Rod (id 0x4A → 0xD6 bit 0x04);
+    // tier 2 = Coral_Earring (id 0x3D → 0xD0 bit 0x20). (0xD6 bit 0x08 is the
+    // Slingshot flag — see below — so tier 1 previously read the slingshot.)
     if      (bit(b, 0xD0, 0x20)) inv.fishingRod = 2;
-    else if (bit(b, 0xD6, 0x08)) inv.fishingRod = 1;
+    else if (bit(b, 0xD6, 0x04)) inv.fishingRod = 1;
 
     // Progressive Wallet.
     if      (bit(b, 0xD1, 0x40)) inv.wallet = 2;
@@ -122,12 +124,12 @@ Inventory readInventory(std::span<const std::uint8_t> b, std::uint8_t currentNod
     inv.spinner       = bit(b, 0xD7, 0x02);
     inv.ballAndChain  = bit(b, 0xD7, 0x04);
     inv.ironBoots     = bit(b, 0xD7, 0x20);
-    inv.slingshot     = bit(b, 0xD8, 0x01);
+    inv.slingshot     = bit(b, 0xD6, 0x08);   // Slingshot id 0x4B
     inv.auruMemo      = bit(b, 0xDD, 0x01);
     inv.asheiSketch   = bit(b, 0xDD, 0x02);
     inv.horseCall     = bit(b, 0xDF, 0x10);
     inv.giantBombBag  = bit(b, 0xD6, 0x80);
-    inv.gateKeys      = bit(b, 0xE8, 0x08);
+    inv.gateKeys      = bit(b, 0xE9, 0x08);   // Gate_Keys id 0xF3 (0xE8/0x08 was Key_Shard_3)
 
     // Bomb-bag slots: 3 bytes, 0xFF = empty.
     for (auto off : {0xAB, 0xAC, 0xAD}) {
