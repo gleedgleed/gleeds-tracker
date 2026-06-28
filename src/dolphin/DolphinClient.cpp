@@ -25,7 +25,14 @@ Client::Client() {
 }
 
 Client::~Client() {
-    DolphinComm::DolphinAccessor::free();
+    // NOT DolphinAccessor::free(): upstream's free() does `delete m_instance`
+    // but leaves the pointer dangling (non-null). Because the app recreates the
+    // memory source on hook-retry ticks, the next Client's init() then sees a
+    // non-null m_instance and calls reset()/readFromRAM through the freed
+    // object — an intermittent use-after-free that crashes with RIP=0 when the
+    // heap has reused the memory. unHook() deletes *and* nulls the pointer, so
+    // the next init() allocates a fresh instance instead.
+    DolphinComm::DolphinAccessor::unHook();
 }
 
 bool Client::connect() {

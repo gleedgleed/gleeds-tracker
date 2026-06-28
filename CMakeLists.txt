@@ -32,6 +32,7 @@ include(OoTRSubmodule)
 
 add_executable(tptracker
     src/main.cpp
+    src/util/CrashHandler.cpp
     src/dolphin/DolphinClient.cpp
     src/dusk/DuskSource.cpp
     src/p64/Project64Source.cpp

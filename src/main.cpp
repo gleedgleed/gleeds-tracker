@@ -18,6 +18,7 @@
 #include "ui/Render.h"
 #include "ui/Style.h"
 #include "ui/UIState.h"
+#include "util/CrashHandler.h"
 
 namespace {
 
@@ -56,6 +57,7 @@ void resetGameSpecificState(tpt::ui::State& state) {
 }  // namespace
 
 int main(int argc, char** argv) {
+    tpt::util::installCrashHandler();
     const auto opts = tpt::cli::parseArgs(argc, argv);
     if (!opts.parseError.empty()) {
         std::fprintf(stderr, "error: %s\n\n", opts.parseError.c_str());
